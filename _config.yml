@@ -28,7 +28,8 @@ navbar-links:
     - Paaby Lab: "http://genaamics.org/"
     - Department Site: "http://biosci.gatech.edu/"
     - Old Website: "http://www.msu.edu/~testanic
-    - GitHub: "https://github.com/testanick"  
+    - GitHub: "https://github.com/testanick"
+    - BrewToad: "https://www.brewtoad.com/users/30291"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
