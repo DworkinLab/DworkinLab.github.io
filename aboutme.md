@@ -15,13 +15,13 @@ Right now I'm a postdoc in <a href= "http://genaamics.org/">Annalise Paaby's lab
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span> 
-I mostly write/code in <strong>R</strong> and <strong>BASH</strong>, but sometimes dabble in <strong>python</strong> and/or <strong>html</strong>, and whatever else seems interesting at the time. I used to use just about every flavor of linux (except redhat distros... gross), but ultimately settled down on an apple machine.
+I mostly write/code in <strong>R</strong> and <strong>BASH</strong>, and I've recently taken to playing around with Arduinos (which use <strong>C++</strong>). I've also been known to dabble in other languages like <strong>python</strong> and/or <strong>html</strong>, when necessary or interesting. I used to use just about every flavor of linux (except redhat distros... gross), but ultimately settled down on an apple machine... I've gotta have that sweet unix(-like OS) under the hood.
 </p>
 
 <p class="about-text">
 
 <span class="fa fa-graduation-cap about-icon"></span>
-I have a dual Ph.D. in <a href="https://integrativebiology.natsci.msu.edu/">Integrative Biology</a> and <a href="https://eebb.msu.edu/">Ecology and Evolutionary Biology and Behavior</a> (EEBB) from <a href="http://www.msu.edu/">Michigan State University</a>, where I was lucky (cursed?) enough to be a part of two labs: <a href="https://www.lakeforest.edu/academics/faculty/shingleton/">Alex Shingleton</a> and <a href="http://www.biology.mcmaster.ca/dworkin/">Ian Dworkin</a>. There I worked on uncovering the developmental and molecular-genetic mechanisms of sexual size and shape dimorphism in <i>Drosophila melanogaster</i>. I also got my B.A. in Biological Anthropology from <a href="www.pitt.edu">University of Pittsburgh</a>.
+I have a dual Ph.D. in <a href="https://integrativebiology.natsci.msu.edu/">Integrative Biology</a> and <a href="https://eebb.msu.edu/">Ecology and Evolutionary Biology and Behavior</a> (EEBB) from <a href="http://www.msu.edu/">Michigan State University</a>, where I was lucky (cursed?) enough to be a part of two labs: <a href="https://www.lakeforest.edu/academics/faculty/shingleton/">Alex Shingleton</a> and <a href="http://www.biology.mcmaster.ca/dworkin/">Ian Dworkin</a>. There I worked on uncovering the developmental and molecular-genetic mechanisms of sexual size and shape dimorphism in <i>Drosophila melanogaster</i>. Before all this, I also got my B.A. in Biological Anthropology from <a href="www.pitt.edu">University of Pittsburgh</a>.
 </p>
 
 <p class="about-text">
