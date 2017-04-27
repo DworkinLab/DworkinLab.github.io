@@ -24,6 +24,7 @@ description: a work in progress...
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Current Research: "https://testanick.shinyapps.io/dsd_data/"
   Resources:
     - Paaby Lab: "http://genaamics.org/"
     - Department Site: "http://biosci.gatech.edu/"
