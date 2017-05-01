@@ -16,8 +16,9 @@ To answer these questions, I'm using about a dozen nematode species within the g
 To see the types of analyses I've been able to do with these embryos, you can play around with some of my preliminary data. Also, you can read a more scientific explanation of my research below the data section. Have fun!
 </p>
 
-<iframe src="https://testanick.shinyapps.io/dsd_data/" style="border: none; width: 500px; height: 750px"></iframe>
+<iframe src="https://testanick.shinyapps.io/dsd_data/" style="border: none; width: 500px; height: 1500px"></iframe>
 
+<br><br>
 <p class="about-text">
 Developmental System Drift (DSD) occurs when developmental mechanisms, including genes, pathways, and cellular and sub-cellular processes diverge over evolutionary time while the basic developmental phenotype remains static. Development of multi-cellular organisms requires the successful coordination of an extraordinary number of interactions, at the biochemical level and above, and natural selection imposes intense pressure to maintain successful development; hence we observe the maintenance of basic developmental homology across vast taxonomic groups. But how, then, can the genetic and biochemical mechanisms that govern these processes change, if near-perfect development is so critical to the success of a phylogenetic lineage? This fundamental question motivates the research we propose here.   
 <br><br>
