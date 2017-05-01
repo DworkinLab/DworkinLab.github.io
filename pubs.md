@@ -8,7 +8,7 @@ css: "/css/aboutme.css"
   
 
 <p class="about-text">
-<span class="fa fa-venus-mars about-icon"></span> 
+<span class="fa fa-venus-mars pull-left about-icon"></span> 
 <span class="fa fa-hourglass-half about-icon"></span> 
 <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0058936">Testa, N. D., Ghosh, S. M., & Shingleton, A. W. (2013). Sex-Specific Weight Loss Mediates Sexual Size Dimorphism in Drosophila melanogaster. PLoS ONE, 8(3), e58936.</a>
 </p>
