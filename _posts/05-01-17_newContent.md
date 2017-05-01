@@ -1,7 +1,7 @@
 ---
 layout: post
-title: New Content
-tags: [random, exciting-stuff]
+title: New Content Added
+tags: [updates, exciting-stuff]
 ---
 
 As you can see, I've made some significant contributions to the website. Just about everything is new and shiny... including the new R-shiny app I wrote for the Current Research section. 
