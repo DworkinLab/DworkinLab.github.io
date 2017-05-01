@@ -25,6 +25,7 @@ description: a work in progress...
 navbar-links:
   About Me: "aboutme"
   Current Research: "currentResearch"
+  CV: "CV"
   Resources:
     - Paaby Lab: "http://genaamics.org/"
     - Department Site: "http://biosci.gatech.edu/"
