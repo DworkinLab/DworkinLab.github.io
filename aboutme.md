@@ -32,5 +32,5 @@ I have a dual Ph.D. in <a href="https://integrativebiology.natsci.msu.edu/">Inte
 <p class="about-text">
 
 <span class="fa fa-camera-retro about-icon"></span> 
-I also like to spend time with my <a href="/_freya">family</a>, see live shows (mostly metal), and recently I've been more politically active. See what I'm listening to, <a href="http://www.last.fm/user/Thorwegian">here</a>!
+I also like to spend time with my <a href="/_freya">family</a>, read, play games (both video and board), see live shows (mostly metal), and recently I've been more politically active. See what I'm listening to, <a href="http://www.last.fm/user/Thorwegian">here</a>!
 
