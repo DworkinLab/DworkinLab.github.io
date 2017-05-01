@@ -10,12 +10,12 @@ I'm a father, scientist, nerd, teacher, metalhead, gamer, etc...
 
 <p class="about-text">
 <span class="fa fa-flask about-icon"></span> 
-Right now I'm a postdoc in <a href= "http://genaamics.org/">Annalise Paaby's lab</a> at <a href= "http://www.gatech.edu/">Georgia Tech</a>  where I am studying <a href="http://lmgtfy.com/?q=developmental+system+drift">Developmental System Drift</a> in nematodes within the Caenorhabditis genus. Ultimately, my goal is to understand how two species can achieve the same (conserved) phenotype even though their developmental mechanisms vary wildly. 
+Right now I'm a postdoc in <a href= "http://genaamics.org/">Annalise Paaby's lab</a> at <a href= "http://www.gatech.edu/">Georgia Tech</a>  where I am studying <a href="http://lmgtfy.com/?q=developmental+system+drift">Developmental System Drift</a> in nematodes within the Caenorhabditis genus. Ultimately, my goal is to understand how two species can achieve the same (conserved) phenotype even though their developmental mechanisms vary wildly. (See Current Research tab for more info)
 </p>
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span> 
-I mostly write/code in <strong>R</strong> and <strong>BASH</strong>, and I've recently taken to playing around with Arduinos (which use <strong>C++</strong>). I've also been known to dabble in other languages like <strong>python</strong> and/or <strong>html</strong>, when necessary or interesting. I used to use just about every flavor of linux (except redhat distros... gross), but ultimately settled down on an apple machine... I've gotta have that sweet unix(-like OS) under the hood.
+I mostly write/code in <strong>R</strong> (including R-Shiny) and <strong>BASH</strong>, and I've recently taken to playing around with Arduinos (which use <strong>C++</strong>). I've also been known to dabble in other languages like <strong>python</strong> and/or <strong>html</strong>, when necessary or interesting. I used to use just about every flavor of linux (except redhat distros... gross), but ultimately settled down on an apple machine... I've gotta have that sweet unix(-like OS) under the hood.
 </p>
 
 <p class="about-text">
@@ -32,5 +32,5 @@ I have a dual Ph.D. in <a href="https://integrativebiology.natsci.msu.edu/">Inte
 <p class="about-text">
 
 <span class="fa fa-camera-retro about-icon"></span> 
-I also like to spend time with my <a href="/_freya">family</a>, and see live shows (mostly metal). See what I'm listening to, <a href="http://www.last.fm/user/Thorwegian">here</a>!
+I also like to spend time with my <a href="/_freya">family</a>, see live shows (mostly metal), and recently I've been more politically active. See what I'm listening to, <a href="http://www.last.fm/user/Thorwegian">here</a>!
 
