@@ -1,14 +1,11 @@
 ---
 layout: page
 title: Curriculum Vitae
-css: "/css/aboutme.css"
+css: "/css/CV.css"
 ---
 
-<div id="aboutme-section">
   
-Curriculum Vitae
 
-<p class="about-text">
 
 
 <div class=3DWordSection1>
@@ -732,5 +729,3 @@ study of cranial synostosis in rabbits.<o:p></o:p></span></p>
 </div>
 
 
-
-</p>
