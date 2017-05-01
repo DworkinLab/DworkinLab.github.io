@@ -25,6 +25,7 @@ description: a work in progress...
 navbar-links:
   About Me: "aboutme"
   Current Research: "currentResearch"
+  Publications: "pubs"
   CV: "CV"
   Resources:
     - Paaby Lab: "http://genaamics.org/"
