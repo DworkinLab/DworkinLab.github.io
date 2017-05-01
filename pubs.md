@@ -15,13 +15,13 @@ css: "/css/aboutme.css"
 
 <p class="about-text">
 <span class="fa fa-hourglass-half about-icon"></span> 
-<span class="fa fa-fire pull-right about-icon"></span> 
+<span class="fa fa-fire pull-right"></span> 
 <a href="http://rspb.royalsocietypublishing.org/content/280/1760/20130174.full.pdf">Ghosh, S. M., Testa, N. D., & Shingleton, A. W. (2013). Temperature-size rule is mediated by thermal plasticity of critical size in Drosophila melanogaster Temperature-size rule is mediated by thermal plasticity of critical size in Drosophila melanogaster. Proceedings of the Royal Society B: Biological Science, 280 (April).</a>
 </p>
 
 <p class="about-text">
-<span class="fa fa-venus-mars about-icon"></span> 
-<span class="fa fa-volume-up about-icon"></span> 
+<span class="fa fa-venus-mars fa-pull-left about-icon"></span> 
+<span class="fa fa-volume-up fa-pull-right about-icon"></span> 
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4567875/">Weigel, E. G.*, Testa, N. D.*, Peer, A., & Garnett, S. C. (2015). Context matters: sexual signaling loss in digital organisms. Ecology and Evolution, n/a–n/a.</a>
 </p>
 
