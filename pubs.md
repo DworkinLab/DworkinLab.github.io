@@ -13,7 +13,7 @@ css: "/css/aboutme.css"
 </p>
 
 <p class="about-text">
-<span class="fa fa-thermometer-half about-icon"></span> 
+<span class="fa fa-thermometer-2 about-icon"></span> 
 <a href="http://rspb.royalsocietypublishing.org/content/280/1760/20130174.full.pdf">Ghosh, S. M., Testa, N. D., & Shingleton, A. W. (2013). Temperature-size rule is mediated by thermal plasticity of critical size in Drosophila melanogaster Temperature-size rule is mediated by thermal plasticity of critical size in Drosophila melanogaster. Proceedings of the Royal Society B: Biological Science, 280 (April).</a>
 </p>
 
