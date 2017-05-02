@@ -14,11 +14,11 @@ Postdoc with dual PhD in Integrative Biology and Ecology and Evolutionary Biolog
 </div>
 
 
-## Currently
+### Currently
 
 I'm a Postdoctoral Researcher in [Annalise Paaby](http://genaamics.org)'s lab in [Georgia Tech](http://www.gatech.edu/)'s Biological Sciences department. My work here concentrates on elicudating the genetic mechanisms that allow the development of stable phenotypes to drift over evolutionary time (a.k.a. Developmental System Drift).
 
-## Employment
+### Employment
 
 `2016-present`
 __Georgia Tech__ Postdoctoral Researcher
