@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nick Testa's CV
+title: Curriculum Vitae
 ---
 # Nicholas D. Testa
 Postdoc with dual PhD in Integrative Biology and Ecology and Evolutionary Biology and Behavior
