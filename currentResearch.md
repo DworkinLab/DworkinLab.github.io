@@ -15,7 +15,7 @@ To answer these questions, I'm using about a dozen nematode species within the g
 To see the types of analyses I've been able to do with these embryos, you can play around with some of my preliminary data. Also, you can read a more scientific explanation of my research below the data section. Have fun!
 </p>
 
-<iframe src="https://testanick.shinyapps.io/dsd_data/" style="border: none; width: 500px; height: 1500px"></iframe>
+<iframe src="https://testanick.shinyapps.io/dsd_data/" style="border: none; width: 500px; height: 1250px"></iframe>
 
 <br><br>
 <p class="about-text">
