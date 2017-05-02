@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 title: Nick Testa's CV
 ---
 # Nicholas D. Testa
