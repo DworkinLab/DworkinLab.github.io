@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Current Research: "currentResearch"
   Publications: "pubs"
-  CV: "testanick/md-cv/blob/master/index"
+  CV: "CV"
   Resources:
     - Paaby Lab: "http://genaamics.org/"
     - Department Site: "http://biosci.gatech.edu/"
