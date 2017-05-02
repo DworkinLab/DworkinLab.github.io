@@ -6,7 +6,7 @@ title: Curriculum Vitae
 Postdoc with dual PhD in Integrative Biology and Ecology and Evolutionary Biology and Behavior
 
 <div id="webaddress">
-<a href="mailto:ntesta3@gatech.edu">ntesta3@gatech.edu</a>
+<i class="fa fa-envelope"></i><a href="mailto:ntesta3@gatech.edu">ntesta3@gatech.edu</a>
 |
 <i class="fa fa-github"></i> <a href="http://github.com/testanick">testanick</a>
 |
