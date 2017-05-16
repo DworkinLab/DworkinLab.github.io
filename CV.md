@@ -45,6 +45,10 @@ __University of Pittsburgh__ BA in Anthropology (_Distinction_)
 
 ## Conference Presentations
 
+* Testa, N (May, 2017). The Shape of Things to Come: Developmental System Drift in Caenorhabditis Nematode Embryos. Talk, Atlanta Worm Club (Emory, Atlanta).
+
+* Testa, N (January, 2017). The Developmental and Molecular-Genetic Mechanisms of Sexual Size and Shape Dimorphism in _Drosophila melanogaster_. Talk, Center for Integrated Genomics Seminar Series (Georgia Tech, Atlanta).
+
 * Testa, N (May, 2014). The Effects of Sex and Genetic Background on Sexual Size Dimorphism (SSD) and Sexual Shape Dimorphism (SShD) of Drosophila Wings. Talk, ForBio Course on Geometric Morphometrics (University of Tromsø, Norway). 
 
 * Testa, N (April, 2013). Keeping Males and Females the Right Size: The Developmental Basis of Sexual Size Dimorphism. Talk, EEBB Colloquium Series.  
