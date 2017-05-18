@@ -89,7 +89,7 @@ url-pretty: "testanick/testanick.github.io"  # eg. "deanattali.com/beautiful-jek
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-22123361-2"
 
 # Facebook App ID
 # fb_app_id: ""
