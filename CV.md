@@ -157,6 +157,7 @@ Graduate Affairs Committee
 * Genome-Wide Association Studies
 * big data analysis
 * cloud computing
+* Python
 * Arduino coding (C++) and circuit design
 * Phylogenetic Analysis by Maximum Likelihood (PAML)
 * Molecular Evolutionary Genetics Analysis (MEGA5) software
