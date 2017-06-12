@@ -156,7 +156,7 @@ Graduate Affairs Committee
 * geometric morphometrics (analysis of shape)
 * Genome-Wide Association Studies
 * big data analysis
-* cloud computing
+* High-Performance Computing / cloud computing
 * Python
 * Arduino coding (C++) and circuit design
 * Phylogenetic Analysis by Maximum Likelihood (PAML)
@@ -179,6 +179,7 @@ Graduate Affairs Committee
 * Chick embryo basic developmental manipulation 
 
 ## Research Experience
+
 ### Postdoctoral Research:  
 Department of Biological Sciences, Georgia Institute of Technology, 2016-present (research advisor: Annalise Paaby) 
 * Elucidating the genetic mechanisms of Developmental System Drift (in Caenorhabditid nematodes). 
