@@ -2,6 +2,7 @@
 layout: page
 title: Worm Meeting Topics
 css: "/css/aboutme.css"
+tags: [updates, data, fun]
 ---
 
 <div id="aboutme-section">
