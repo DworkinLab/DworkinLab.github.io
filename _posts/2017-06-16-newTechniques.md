@@ -16,7 +16,12 @@ Thankfully, there are tons of resources online for teaching yourself about machi
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
 Before I start with the new stuff, I just want to take a second to remind you what my data look like. I'm using a combination of 18 landmarks and semi-landmarks to describe the shape of a 4-cell embryo. <img src="/img/ML_post/4-cell_lms.pdf"/>
-One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). <img src="/img/ML_post/PC1-12.pdf"/> This gives you a pretty good idea of essentially every type of variation in shape that we see. In fact, the first 12 PCs describe 93% of the total cumulative variation. Pretty cool, huh? 
+One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). 
+<img src="/img/ML_post/PC1-12.pdf" /> 
+<img src="../img/ML_post/PC1-12.pdf" /> 
+<embed src="/img/ML_post/PC1-12.pdf" />
+<embed src="../img/ML_post/PC1-12.pdf" />
+This gives you a pretty good idea of essentially every type of variation in shape that we see. In fact, the first 12 PCs describe 93% of the total cumulative variation. Pretty cool, huh? 
 <br><br>
 Now on the the new stuff.
 <br><br>
