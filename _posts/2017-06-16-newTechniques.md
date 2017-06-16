@@ -2,6 +2,7 @@
 layout: page
 title: New Tools for Shape Analysis
 css: "/css/aboutme.css"
+tags: [cool papers, new techniques, data]
 ---
 
 <div id="aboutme-section">
