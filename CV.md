@@ -158,6 +158,7 @@ Graduate Affairs Committee
 * big data analysis
 * High-Performance Computing / cloud computing
 * Python
+* Machine Learning Techniques
 * Arduino coding (C++) and circuit design
 * Phylogenetic Analysis by Maximum Likelihood (PAML)
 * Molecular Evolutionary Genetics Analysis (MEGA5) software
