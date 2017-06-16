@@ -5,9 +5,6 @@ css: "/css/aboutme.css"
 tags: [updates, data, fun]
 ---
 
-<div id="aboutme-section">
-
-
 <p class="about-text">
 
 As the annual <i>C. elegans</i> meeting rapidly approaches, I've been starting to think more about what it means to be a "worm person." A shift in model organism always comes with a shift in the sorts of questions people ask with said organisms. I've heard a lot about how different worm meetings are from other meetings I usually go to in terms of content, but really had no concrete idea of what to expect.  In my experience, worm people tend to be a lot more medically and biochemically oriented than I'm used to. 
