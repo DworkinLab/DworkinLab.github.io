@@ -5,8 +5,6 @@ css: "/css/aboutme.css"
 tags: [cool papers, new techniques, data]
 ---
 
-<div id="aboutme-section">
-
 
 <p class="about-text">
 
