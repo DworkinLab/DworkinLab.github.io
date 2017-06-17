@@ -12,7 +12,7 @@ Thankfully, there are tons of resources online for teaching yourself about machi
 <br><br>
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
-<div class='embed-responsive' style='padding-bottom:100%'>
+<div class='embed-responsive' style='padding-bottom:90%'>
 <embed src="/img/ML_post/4-cell_lms.pdf" width="50%" height="50%" align= "right"/> 
 </div>
 
