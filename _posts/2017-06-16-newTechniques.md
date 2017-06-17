@@ -4,7 +4,12 @@ title: New Tools for Shape Analysis
 css: "/css/aboutme.css"
 tags: [cool papers, new techniques, data]
 ---
-
+<style>
+html, body, iframe
+          {
+             height:100%;width:100%;
+          }
+</style>
 <body>
 So, recently I've been interested in looking for new methods to help me analyze my data. Since I got to Georgia Tech almost a year ago, I've been surrounded by all sorts of interesting new models and algorithms. The most interesting buzz-word (get it... because GT?) has been machine learning. One of the undergrads in our lab has been using supervised machine learning along with computer vision to help solve some pretty cool problems with data we have. Basically, he's been trying to train a computer to pick out spots that correspond to single molecule fluorescent in situ hybridization (smFISH) sites in developing embryos. That's a mouthfull, but the gist is that there are lots of little white blips on a screen, each one is a glowing tag (presumably) attached to a single transcript molecule for a gene. So basically, he's teaching computers to count individual gene expression data. After hearing him talk about it enough times at lab meeting, I decided that this is something I should look into for my own data. It sounded reasonable, and the structure of my data seemed to fit. My only problem was that I had no idea where to start. 
 <br><br>
