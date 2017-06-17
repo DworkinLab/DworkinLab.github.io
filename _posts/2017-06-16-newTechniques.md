@@ -23,7 +23,7 @@ Thankfully, there are tons of resources online for teaching yourself about machi
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
 embed
-<div style="width: 33%; height: 33%">
+<div class='embed-responsive' style='padding-bottom:150%'>
 <embed src="/img/ML_post/4-cell_lms.pdf" width="100%" height="100%" align= "right"/> 
 </div>
 iframe
