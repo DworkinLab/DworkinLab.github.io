@@ -32,7 +32,7 @@ As it turns out, Linear Discriminant Analysis (LDA) performs really well on the 
 </div>
 <br><br>
 Other machine learning techniques like Support Vector Machines (SVM), Random Forrest Classification, and Neural Networks how a little more potential. Overall, it seems like Neural Networks do the best job of actually predicting treatment groups, but Random Forests also show some promise (looks like accuracy is best with 500 trees). Below are some of the confusion matrices from these methods. The Neural Network had a precision of ~70%, while SVM was only ~58%.  
-<div class='embed-responsive' style='padding-bottom:100%'>
+<div class='embed-responsive' style='padding-bottom:60%'>
 <embed src="/img/ML_post/ConfusionMatrices.pdf" width="100%" height="100%"/>
 </div>
 <br><br>
