@@ -15,7 +15,7 @@ In any case, I've been working through the code and reading up on how each of th
 <div style="width: 33%; height: 33%">
 <embed src="/img/ML_post/4-cell_lms.pdf" width="100%" height="100%" align= "right"/> 
 </div>
-50
+
 <object data="/img/ML_post/4-cell_lms.pdf" type="application/pdf" width="33%" height="50%"></object>
 
 Before I start with the new stuff, I just want to take a second to remind you what my data look like. I'm using a combination of 18 landmarks and semi-landmarks to describe the shape of a 4-cell embryo. One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). 
