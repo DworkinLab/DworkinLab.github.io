@@ -5,9 +5,14 @@ css: "/css/aboutme.css"
 tags: [cool papers, new techniques, data]
 ---
 <style>
-html, body, iframe
+ html, body
           {
              height:100%;width:100%;
+             overflow:hidden;
+          }
+          iframe
+          {
+             height:90%;width:90%;
           }
 </style>
 <body>
