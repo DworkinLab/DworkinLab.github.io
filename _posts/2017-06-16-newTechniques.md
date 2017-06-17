@@ -11,17 +11,19 @@ html, body, iframe
           }
 </style>
 <body>
-So, recently I've been interested in looking for new methods to help me analyze my data. Since I got to Georgia Tech almost a year ago, I've been surrounded by all sorts of interesting new models and algorithms. The most interesting buzz-word (get it... because GT?) has been machine learning. One of the undergrads in our lab has been using supervised machine learning along with computer vision to help solve some pretty cool problems with data we have. Basically, he's been trying to train a computer to pick out spots that correspond to single molecule fluorescent in situ hybridization (smFISH) sites in developing embryos. That's a mouthfull, but the gist is that there are lots of little white blips on a screen, each one is a glowing tag (presumably) attached to a single transcript molecule for a gene. So basically, he's teaching computers to count individual gene expression data. After hearing him talk about it enough times at lab meeting, I decided that this is something I should look into for my own data. It sounded reasonable, and the structure of my data seemed to fit. My only problem was that I had no idea where to start. 
+So, recently I've been interested in looking for new methods to help me analyze my data. Since I got to Georgia Tech almost a year ago, I've been surrounded by all sorts of interesting new models and algorithms. The most interesting buzz-word (get it... because GT?) has been machine learning. One of the undergrads in our lab has been using supervised machine learning along with computer vision to help solve some pretty cool problems with data we have. Basically, he's been trying to train a computer to pick out spots that correspond to single molecule fluorescent in situ hybridization (smFISH) sites in developing embryos. That's a mouthfull, but the gist is that there are lots of little white blips on a screen, each one is a glowing tag (presumably) attached to a single transcript molecule for a gene. So basically, he's teaching computers to count individual gene expression data. After hearing him talk about it enough times at lab meeting, I decided that this is something I should look into for my own data (Thanks for the idea, Diptodip!). It sounded reasonable, and the structure of my data seemed to fit. My only problem was that I had no idea where to start. 
 <br><br>
 Thankfully, there are tons of resources online for teaching yourself about machine learning. For a while, I had this idea on the backburner as something that might be cool, but I had no real idea how to implement it. THEN, I ran into <a href= "https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0065-6">this paper</a>, that basically solved this issue for me. This was a particularly cool find, because I know all of the authors (which tells me I should have paid more attention while I was a graduate student with them). Also, a big thank you to you guys for keeping the code up on GitHub (I ended up cannibalizing a lot of it. Thank you!). 
 <br><br>
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
+embed
 <div style="width: 33%; height: 33%">
 <embed src="/img/ML_post/4-cell_lms.pdf" width="100%" height="100%" align= "right"/> 
 </div>
- <iframe src="/img/ML_post/4-cell_lms.pdf">
-   </iframe>
+iframe
+<iframe src="/img/ML_post/4-cell_lms.pdf"></iframe>
+object
 <object data="/img/ML_post/4-cell_lms.pdf" type="application/pdf" width="100%" height="100%"></object>
 
 Before I start with the new stuff, I just want to take a second to remind you what my data look like. I'm using a combination of 18 landmarks and semi-landmarks to describe the shape of a 4-cell embryo. One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). 
