@@ -12,7 +12,7 @@ Thankfully, there are tons of resources online for teaching yourself about machi
 <br><br>
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
-<embed src="/img/ML_post/4-cell_lms.pdf" width="33% height="33%" align= "right"/> 
+<embed src="/img/ML_post/4-cell_lms.pdf" width="33%" height="33%" align= "right"/> 
 Before I start with the new stuff, I just want to take a second to remind you what my data look like. I'm using a combination of 18 landmarks and semi-landmarks to describe the shape of a 4-cell embryo. One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). 
 <br><br>
 <embed src="/img/ML_post/PC1-12.pdf" width="600px" height="850px"/>
@@ -25,6 +25,6 @@ As it turns out, Linear Discriminant Analysis (LDA) performs really well on the 
 <embed src="/img/ML_post/LDAplots.pdf" width="100%" height="515px"/>
 <br><br>
 Other machine learning techniques like Support Vector Machines (SVM), Random Forrest Classification, and Neural Networks how a little more potential. Overall, it seems like Neural Networks do the best job of actually predicting treatment groups, but Random Forests also show some promise (looks like accuracy is best with 500 trees). Below are some of the confusion matrices from these methods. The Neural Network had a precision of ~70%, while SVM was only ~58%.  
-<embed src="/img/ML_post/ConfusionMatrices.pdf" width="100%" height="5%"/>
+<embed src="/img/ML_post/ConfusionMatrices.pdf" width="100%" height="500%"/>
 <br><br>
 Overall, this was a really informative look into some powerful new techniques. I'm always on the lookout to improve my game and I think this is a really cool direction. I'm looking forward to using these again once I have more data.
