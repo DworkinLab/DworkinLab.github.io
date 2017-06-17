@@ -12,7 +12,11 @@ Thankfully, there are tons of resources online for teaching yourself about machi
 <br><br>
 In any case, I've been working through the code and reading up on how each of these models work. At this point, I've got a pretty firm grasp on how most of these work. Unfortunately, I don't have a ton of data like they did, but what I found was still pretty informative. 
 <br><br>
-<embed src="/img/ML_post/4-cell_lms.pdf" width="33%" height="33%" align= "right"/> 
+<div style="width: 100%; height: 100%">
+<embed src="/img/ML_post/4-cell_lms.pdf" width="100%" height="100%" align= "right"/> 
+</div>
+<object data="/img/ML_post/4-cell_lms.pdf" type="application/pdf" width="100%" height="100%"></object>
+
 Before I start with the new stuff, I just want to take a second to remind you what my data look like. I'm using a combination of 18 landmarks and semi-landmarks to describe the shape of a 4-cell embryo. One cool new thing I've been able to do recently is pick apart the first 12 Principal Components from a Principal Components Analysis (PCA, a dimension reduction technique), and plot the minimum for each dimension (gray) against the maxixmum for each (black). 
 <br><br>
 <embed src="/img/ML_post/PC1-12.pdf" width="600px" height="850px"/>
