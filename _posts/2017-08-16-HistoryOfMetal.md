@@ -12,7 +12,7 @@ tags: [data, fun]
   I ended up finding a lot of interesting trends, and some that were super obvious. I'll let you check out the data for yourself (below). I have things kind of annotated, so try to stick to the "History of Metal" tab. Also, I apologize for the slow loading times... bear with me 
   <br>
   <br>
-<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?:showVizHome=no&:embed=true" style="width:1000px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center" scrolling="no"></iframe>
+<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?:showVizHome=no&:embed=true" style="width:1000px; height:900px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center" scrolling="no"></iframe>
  
 </body> 
    
