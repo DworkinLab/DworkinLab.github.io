@@ -14,7 +14,7 @@ tags: [data, fun]
   <br>
 </body>
 
-<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?:showVizHome=no&:embed=true" style="width:1200px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center"></iframe>  
+<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?:showVizHome=no&:embed=true" style="width:1200px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center" scrolling="no"></iframe>  
    
   <br>
   <br>
