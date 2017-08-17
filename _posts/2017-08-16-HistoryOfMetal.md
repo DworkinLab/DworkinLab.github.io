@@ -12,7 +12,9 @@ So, I've been playing around with some data that I've been wanting to get my han
 I ended up finding a lot of interesting trends, and some that were super obvious. I'll let you check out the data for yourself (below). I have things kind of annotated, so try to stick to the "History of Metal" tab. 
 <br>
 <br>
-<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?publish=yes&:showVizHome=no&:embed=true" style="width:1200px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center"></iframe>  
+<iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?embed=y&:display_count=no&:show" VizHome=no" style="width:1200px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center " scrolling="no"></iframe>  
+<!><iframe src="https://public.tableau.com/profile/nick.testa#!/vizhome/MetalData/HistoryofMetalpart1?publish=yes&:showVizHome=no&:embed=true" style="width:1200px; height:1000px; box-shadow:10px 10px 20px 5px gray; border-style:hidden; text-align: center"></iframe>  </!>
+
 </body>
  
  <br>
