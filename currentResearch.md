@@ -1,8 +1,7 @@
-```
 ---
 title: Current Research
 ---
-```
+
 
 
 ## Overview
