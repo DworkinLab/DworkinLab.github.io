@@ -1,0 +1,29 @@
+a:link      { color: #99ccff; font-weight: bold; text-decoration: none; }
+a:visited   { color: #99ccff; font-weight: bold; text-decoration: none; }
+a:active    { color: #99ccff; font-weight: bold; text-decoration: none; }
+a:hover     { color: #ffffff; font-weight: bold; text-decoration: none; }
+
+body
+{
+	color: #ffffff; 
+	background-color: #000000;
+	font-family: Verdana, MSMincho, MSGothic;
+	font-size: 10pt;
+	border: 0px; margin: 0px; padding: 0px;
+	// 
+	height:100%; overflow-y:auto;
+	position: relative;
+}
+
+* html #menu { position: absolute; }
+
+td
+{
+	color: #ffffff; 
+	font-family: Verdana, MSMincho, MSGothic;
+	font-size: 10pt;
+}
+
+.header { font-size: 16pt; }
+
+

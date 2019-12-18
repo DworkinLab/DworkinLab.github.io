@@ -1,0 +1,4554 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Article View
+Date: Tue, 28 Sep 2004 13:00:23 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C4A55B.1DE83260"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/pqdweb?index=59&did=000000435091591&SrchMode=3&sid=2&Fmt=3&VInst=PROD&VType=PQD&RQT=309&VName=PQD&TS=1096390760&clientId=15092
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Article View</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><LINK=20
+href=3D"http://proquest.umi.com/html/en/pq5.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<SCRIPT language=3DJavaScript1.2=20
+src=3D"http://proquest.umi.com/js/retrieve.js"></SCRIPT>
+
+<SCRIPT language=3DJavaScript src=3D"http://proquest.umi.com/js/wave.js" =
+
+type=3Dtext/javascript></SCRIPT>
+<LINK href=3D"http://proquest.umi.com/html/en/pq5.css" type=3Dtext/css=20
+rel=3Dstylesheet>
+<SCRIPT language=3DJavaScript1.2 type=3Dtext/javascript>=0A=
+//*********************=0A=
+// Generic stuff=0A=
+//    - could live in a "generic.js" file but everybody already includes =
+banner.js=0A=
+//    - still a ways to go (NS6/DOM for ex.) but it's a start=0A=
+//    - specific MENU STUFF at bottom of file=0A=
+//*********************=0A=
+=0A=
+// Hmmm - client side v srvr/hgen vars - the latter probably more =
+efficient....=0A=
+BR_DOM  =3D (document.getElementById) ? true : false;=0A=
+BR_NS4  =3D (document.layers) ? true : false;=0A=
+BR_IE   =3D (document.all) ? true : false;=0A=
+BR_IE4  =3D  BR_IE && !BR_DOM;=0A=
+BR_Mac  =3D (navigator.appVersion.indexOf("Mac") !=3D -1);=0A=
+BR_IE4M =3D  BR_IE4 && BR_Mac;=0A=
+BR_NS6  =3D  BR_DOM && !BR_IE;=0A=
+=0A=
+// Following vars are intended to make life generic betw. NS and IE.  If =
+we need to=0A=
+// break this down further we may be better off having independent .js =
+includes for each.=0A=
+var szSty  =3D BR_IE ? ".style"  : "";=0A=
+var szHide =3D BR_IE ? "hidden"  : "hide";=0A=
+var szShow =3D BR_IE ? "visible" : "show";=0A=
+var szObjPref =3D BR_IE ? "" : "document.";=0A=
+=0A=
+// Global vars=0A=
+var nTimerID;=0A=
+var nStdDelay =3D 10;=0A=
+=0A=
+=0A=
+// -----------------------------=0A=
+// NS4 DHTML resize fix=0A=
+// -----------------------------=0A=
+if (BR_NS4)=0A=
+  {=0A=
+  nCurWidth  =3D innerWidth;=0A=
+  nCurHeight =3D innerHeight;=0A=
+  onresize   =3D doReload;=0A=
+  //alert("resize handler installed");=0A=
+  }=0A=
+=0A=
+function doReload()=0A=
+{=0A=
+  if (innerWidth !=3D nCurWidth || innerHeight !=3D nCurHeight)=0A=
+    {=0A=
+    //alert("reload");=0A=
+    location.reload();=0A=
+    }=0A=
+}=0A=
+// End of the big fix=0A=
+=0A=
+function timerClear()=0A=
+{=0A=
+  clearTimeout(nTimerID);=0A=
+}=0A=
+=0A=
+function timerOff(szObj, nMs)=0A=
+{=0A=
+  var szTmp=3D"toggleVis('" + szObj + "',0)";=0A=
+  //alert(szTmp);=0A=
+  if (nMs)=0A=
+    nTimerID =3D setTimeout(szTmp, nMs);=0A=
+  else=0A=
+    nTimerID =3D setTimeout(szTmp, 50);=0A=
+}=0A=
+=0A=
+function helpWindow(helpUrl)=0A=
+{=0A=
+  // alert("helpUrl ["+helpUrl+"]");=0A=
+  var handle =3D window.open(helpUrl, "pqhelp", =
+"resizable=3Dyes,height=3D520,width=3D500,top=3D0,left=3D75,scrollbars=3D=
+yes,location=3Dno,menubar=3Dno,toolbar=3Dyes");=0A=
+  handle.focus();  =0A=
+}=0A=
+=0A=
+function getw()=0A=
+{ =0A=
+  var w;=0A=
+  if((navigator.appName =3D=3D =
+"Netscape")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    w =3D window.innerWidth;=0A=
+  } =0A=
+  else if((navigator.appName=3D=3D "Microsoft Internet =
+Explorer")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    w =3D document.body.clientWidth;=0A=
+  }=0A=
+  else=0A=
+  { =0A=
+    w=3D1 ;=0A=
+  }=0A=
+  return w;=0A=
+}=0A=
+=0A=
+function geth()=0A=
+{ =0A=
+  var h;=0A=
+  if((navigator.appName =3D=3D =
+"Netscape")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    h  =3D window.innerHeight;=0A=
+  } =0A=
+  else if ((navigator.appName=3D=3D "Microsoft Internet =
+Explorer")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    h =3D document.body.clientHeight;=0A=
+  }=0A=
+  else=0A=
+  { =0A=
+    h=3D1;=0A=
+  }=0A=
+  return h;=0A=
+}=0A=
+=0A=
+function getx()=0A=
+{=0A=
+  var xMax;=0A=
+  if((navigator.appName =3D=3D =
+"Netscape")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    xMax=3Dscreen.width;=0A=
+  }=0A=
+  else if((navigator.appName=3D=3D "Microsoft Internet =
+Explorer")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    xMax=3Dscreen.width;=0A=
+  }=0A=
+  else=0A=
+  { =0A=
+    xMax=3D1;=0A=
+  }=0A=
+  return xMax;=0A=
+}=0A=
+=0A=
+function gety()=0A=
+{ =0A=
+  var yMax;=0A=
+  if((navigator.appName =3D=3D =
+"Netscape")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    yMax=3Dscreen.height;=0A=
+  }=0A=
+  else if((navigator.appName=3D=3D "Microsoft Internet =
+Explorer")&&(navigator.userAgent.indexOf("4.") !=3D -1))=0A=
+  { =0A=
+    yMax=3Dscreen.height;=0A=
+  }=0A=
+  else =0A=
+  { =0A=
+    yMax=3D1;=0A=
+  }=0A=
+  return yMax;=0A=
+}=0A=
+</SCRIPT>
+
+<SCRIPT language=3DJavaScript1.2 =
+src=3D"http://proquest.umi.com/code/dyn-help.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY><A name=3Dtop>
+<SCRIPT language=3Djavascript>=0A=
+function setMarkedListCookie(){   =0A=
+   document.cookie=3D"mlpage=3D" + escape("no");  =0A=
+}=0A=
+</SCRIPT>
+
+<SCRIPT language=3DJavaScript1.2=20
+src=3D"http://proquest.umi.com/js/overlib.js"></SCRIPT>
+
+<DIV id=3DoverDiv=20
+style=3D"Z-INDEX: 1000; VISIBILITY: hidden; POSITION: absolute"></DIV>
+<SCRIPT language=3DJavascript1.2>=0A=
+<!--=0A=
+=0A=
+function checkMarkedList(){=0A=
+    if(getMarkedListCookie() !=3D null){=0A=
+       var mcookie=3DgetMarkedListCookie();=0A=
+       if(mcookie =3D=3D "no"){=0A=
+        document.markedBut.alt=3D"Marked List";=0A=
+        return overlib("Email articles, export citations, or create a =
+bibliography.");=0A=
+    }else{=0A=
+        document.markedBut.alt=3D"Marked List";=0A=
+        return;=0A=
+    }=0A=
+    }=0A=
+}=0A=
+=0A=
+function chooseLang() {=0A=
+			var origLocation =3D =
+"/pqdweb?index=3D59&did=3D000000435091591&TS=3D1096390760&SrchMode=3D3&si=
+d=3D2&Fmt=3D3&VInst=3DPROD&VType=3DPQD&clientId=3D15092&RQT=3D309&VName=3D=
+PQD";=0A=
+	var newLocation =3D origLocation;=0A=
+	=0A=
+	if(origLocation.match(/RQT=3D305/i) || =
+origLocation.match(/RQT=3D512/i)) {=0A=
+      newLocation =3D =
+"/pqdweb?sid=3D0&firstIndex=3D0&RQT=3D511&TS=3D1096390773&clientId=3D1509=
+2";=0A=
+    }=0A=
+	=0A=
+		if(newLocation.match(/lang=3D/))=0A=
+	{=0A=
+		    newLocation =3D newLocation.replace(/lang=3D(.*)/, "lang=3D" + =
+document.languageForm.lang.options[document.languageForm.lang.selectedInd=
+ex].value);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+	    newLocation =3D newLocation + "&" + "lang" + "=3D" + =
+document.languageForm.lang.options[document.languageForm.lang.selectedInd=
+ex].value;=0A=
+	}=0A=
+=0A=
+   	window.location =3D newLocation;=0A=
+}=0A=
+=0A=
+var M_SEARCH =3D 0,=0A=
+	M_ADVANCED =3D 1,=0A=
+	M_PUB =3D 2,=0A=
+	M_MARKED =3D 3 ,=0A=
+	M_MARKED_CORNER =3D 4,=0A=
+	M_RESULTS =3D 5,=0A=
+	M_TOPIC =3D 6;=0A=
+	=0A=
+=0A=
+var arrList =3D new Array( "basic", "advanced", "pubsearch" , "marked" =
+,"marked_corner","results","topic") ;=0A=
+=0A=
+//toggle images on omouseover and onmouseout=0A=
+function doBut(nItem, bOn)=0A=
+{=0A=
+=0A=
+  var szId =3D arrList[nItem]; =0A=
+  var szBut =3D szId + "But";=0A=
+  obj =3D eval("document."+szBut);=0A=
+  =0A=
+  if (typeof (obj) =3D=3D "undefined")=0A=
+        return;=0A=
+  =0A=
+  if (bOn)=0A=
+    {=0A=
+    if(nItem =3D=3D M_MARKED_CORNER){=0A=
+    obj.src =3D "/images/common/nav_" + szId + "_on.gif";=0A=
+    }else{=0A=
+    obj.src =3D "/images/en/nav_" + szId + "_on.gif";=0A=
+    }=0A=
+    mouseOverButton =3D nItem;=0A=
+    }=0A=
+  else=0A=
+    {=0A=
+    if (nItem !=3D nCurMenu)=0A=
+    if(nItem =3D=3D M_MARKED_CORNER){=0A=
+           obj.src =3D "/images/common/nav_" + szId + "_off.gif";=0A=
+    }else{=0A=
+          obj.src =3D "/images/en/nav_" + szId + "_off.gif";=0A=
+    }=0A=
+    mouseOverButton =3D -1;=0A=
+    }=0A=
+  return;=0A=
+}=0A=
+=0A=
+function encodeUriComponent(str) {=0A=
+    var re =3D /\s/g;=0A=
+    str =3D str.replace(re, "%20");=0A=
+    var re =3D /\"/g;=0A=
+    str =3D str.replace(re, "&quot;");=0A=
+    re =3D /\#/g;=0A=
+    str =3D str.replace(re, "%23");=0A=
+    re =3D /&/g;=0A=
+    str =3D str.replace(re, "%26");=0A=
+    re =3D /\//g;=0A=
+    str =3D str.replace(re, "%2F");=0A=
+    re =3D /:/g;=0A=
+    str =3D str.replace(re, "%3A");=0A=
+    return str;=0A=
+}=0A=
+=0A=
+function chooseDB(element,lastSrchMode, prevIndex) {=0A=
+			var origLocation =3D window.location.href;=0A=
+		// alert("origLocation [" + origLocation + "]");	=0A=
+	var newLocation =3D origLocation;=0A=
+	var xsq =3D "";=0A=
+    var savingParams =3D 0;=0A=
+    =0A=
+    if(origLocation.match(/RQT=3D305/i) || =
+origLocation.match(/RQT=3D512/i)) {=0A=
+      newLocation =3D =
+"/pqdweb?sid=3D0&firstIndex=3D0&RQT=3D511&TS=3D1096390773&clientId=3D1509=
+2";=0A=
+    }=0A=
+    =0A=
+	// if there was no ?, we need to add one=0A=
+	if(!(origLocation.match(/\?/)))=0A=
+	{=0A=
+								newLocation =3D origLocation + "?RQT=3D306&TS=3D1096390773";=0A=
+	}=0A=
+=0A=
+    var internalLocation =3D "http://proquest.umi.com/pqdweb";=0A=
+    var qs =3D =
+"index=3D59&did=3D000000435091591&SrchMode=3D3&sid=3D2&Fmt=3D3&VInst=3DPR=
+OD&VType=3DPQD&RQT=3D309&VName=3DPQD&TS=3D1096390760&clientId=3D15092";=0A=
+    if ( qs !=3D "" ) {=0A=
+        internalLocation =3D internalLocation + "?" + qs;=0A=
+    }=0A=
+    if ( internalLocation.match(/RQT=3D301/i) ||=0A=
+         internalLocation.match(/RQT=3D302/i) ||=0A=
+         internalLocation.match(/RQT=3D304/i) ||=0A=
+         internalLocation.match(/RQT=3D504/i) ) {=0A=
+        switch ( lastSrchMode ) {=0A=
+                                    case 2:=0A=
+            newLocation =3D internalLocation.replace(/RQT=3D\d+/i, =
+"RQT=3D403");=0A=
+            break;=0A=
+            case 1:=0A=
+            default:=0A=
+            newLocation =3D internalLocation.replace(/RQT=3D\d+/i, =
+"RQT=3D306");=0A=
+            break;=0A=
+        }=0A=
+                newLocation =3D newLocation.replace(/UserId=3D([^&]+)/i, =
+"");=0A=
+        newLocation =3D newLocation.replace(/Passwd=3D([^&]+)/i, "");=0A=
+    }=0A=
+=0A=
+		if(newLocation.match(/DBId=3D/))=0A=
+	{=0A=
+	newLocation =3D newLocation.replace(/DBId=3D([^&]+)/, "DBId=3D" + =
+element.options[element.selectedIndex].value);    =0A=
+	if(newLocation.match(/TpLogin/))=0A=
+	  {=0A=
+	    newLocation =3D newLocation.replace(/DBId=3D[^&]*&/, "");=0A=
+	    	  }=0A=
+	=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+	    	    newLocation =3D newLocation + "&" + "DBId" + "=3D" + =
+element.options[element.selectedIndex].value;=0A=
+	}=0A=
+	if(newLocation.match(/TpLogin%3D/))=0A=
+	{   var redirUrl;=0A=
+	    redirUrl =3D element.options[element.selectedIndex].value;=0A=
+	    	    element.options[prevIndex].selected =3D 1;  	    =
+popupNewWindow(unescape(redirUrl));=0A=
+	    return;  	}=0A=
+	else=0A=
+	{=0A=
+	   	}=0A=
+	=0A=
+	// If Multiple databases is selected from the drop down=0A=
+	// then take to the Collections page=0A=
+	if(element.options[element.selectedIndex].value =3D=3D "-1"){=0A=
+	newLocation =3D "/pqdweb?RQT=3D573&LASTSRCHMODE=3D"+lastSrchMode;=0A=
+	}=0A=
+=0A=
+    newLocation =3D newLocation.replace(/#sform/, "");=0A=
+    newLocation =3D newLocation.replace(/#more/, "");=0A=
+    newLocation =3D newLocation.replace(/saved=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq1=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq2=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq3=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq4=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq5=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xsq6=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO1=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO2=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO3=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO4=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO5=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xFO6=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP1=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP2=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP3=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP4=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP5=3D[^&]*/,"");=0A=
+    newLocation =3D newLocation.replace(/xOP6=3D[^&]*/,"");=0A=
+    =0A=
+    if(document.frmBasicSrch)=0A=
+    {=0A=
+      xsq =3D document.frmBasicSrch.SQ.value;=0A=
+      // alert("xsq [" + xsq + "]");=0A=
+=0A=
+      if (xsq !=3D "") {=0A=
+        xsq =3D encodeUriComponent(xsq);=0A=
+        // alert("encoded xsq [" + xsq + "]");=0A=
+=0A=
+        savingParams =3D 1;=0A=
+        newLocation =3D newLocation + "&xsq=3D" + xsq;=0A=
+      }=0A=
+    }=0A=
+  else if(document.frmAdvancedSrch)=0A=
+  {=0A=
+    var xsqArray =3D new Array(10);  =0A=
+    var xfoArray =3D new Array(10);  =0A=
+    var xopArray =3D new Array(10);  =0A=
+    xsqArray[0] =3D document.frmAdvancedSrch.SQ.value;=0A=
+    xsqArray[1] =3D document.frmAdvancedSrch.SQ1.value;=0A=
+    xsqArray[2] =3D document.frmAdvancedSrch.SQ2.value;=0A=
+    if(document.frmAdvancedSrch.SQ3) {=0A=
+        xsqArray[3] =3D document.frmAdvancedSrch.SQ3.value;=0A=
+    } else {xsqArray[3] =3D "";}=0A=
+    if(document.frmAdvancedSrch.SQ4) {=0A=
+        xsqArray[4] =3D document.frmAdvancedSrch.SQ4.value;=0A=
+    } else {xsqArray[4] =3D "";}=0A=
+    if(document.frmAdvancedSrch.SQ5) {=0A=
+        xsqArray[5] =3D document.frmAdvancedSrch.SQ5.value;=0A=
+    } else {xsqArray[5] =3D "";}=0A=
+    if(document.frmAdvancedSrch.SQ6) {=0A=
+        xsqArray[6] =3D document.frmAdvancedSrch.SQ6.value;=0A=
+    } else {xsqArray[6] =3D "";}=0A=
+            xfoArray[0] =3D =
+document.frmAdvancedSrch.FO.options[document.frmAdvancedSrch.FO.selectedI=
+ndex].value;=0A=
+    xfoArray[1] =3D =
+document.frmAdvancedSrch.FO1.options[document.frmAdvancedSrch.FO1.selecte=
+dIndex].value;=0A=
+    xfoArray[2] =3D =
+document.frmAdvancedSrch.FO2.options[document.frmAdvancedSrch.FO2.selecte=
+dIndex].value;=0A=
+    if(document.frmAdvancedSrch.OP3) {=0A=
+        xfoArray[3] =3D =
+document.frmAdvancedSrch.OP3.options[document.frmAdvancedSrch.FO3.selecte=
+dIndex].value;=0A=
+    } else { xfoArray[3] =3D ""; }=0A=
+    if(document.frmAdvancedSrch.OP4) {=0A=
+        xfoArray[4] =3D =
+document.frmAdvancedSrch.OP4.options[document.frmAdvancedSrch.FO4.selecte=
+dIndex].value;=0A=
+    } else { xfoArray[4] =3D ""; }=0A=
+    if(document.frmAdvancedSrch.OP5) {=0A=
+        xfoArray[5] =3D =
+document.frmAdvancedSrch.OP5.options[document.frmAdvancedSrch.FO5.selecte=
+dIndex].value;=0A=
+    } else { xfoArray[5] =3D ""; }=0A=
+    if(document.frmAdvancedSrch.OP6) {=0A=
+        xfoArray[6] =3D =
+document.frmAdvancedSrch.OP6.options[document.frmAdvancedSrch.FO6.selecte=
+dIndex].value;=0A=
+    } else { xfoArray[6] =3D ""; }=0A=
+            xopArray[0] =3D "";=0A=
+    xopArray[1] =3D =
+document.frmAdvancedSrch.OP1.options[document.frmAdvancedSrch.OP1.selecte=
+dIndex].value;=0A=
+    xopArray[2] =3D =
+document.frmAdvancedSrch.OP2.options[document.frmAdvancedSrch.OP2.selecte=
+dIndex].value;=0A=
+    if(document.frmAdvancedSrch.OP3) {=0A=
+      xopArray[3] =3D =
+document.frmAdvancedSrch.OP3.options[document.frmAdvancedSrch.OP3.selecte=
+dIndex].value;=0A=
+    } else {xopArray[3] =3D "";}=0A=
+    if(document.frmAdvancedSrch.OP3) {=0A=
+      xopArray[4] =3D =
+document.frmAdvancedSrch.OP4.options[document.frmAdvancedSrch.OP4.selecte=
+dIndex].value;=0A=
+    } else {xopArray[4] =3D "";}=0A=
+    if(document.frmAdvancedSrch.OP3) {=0A=
+      xopArray[5] =3D =
+document.frmAdvancedSrch.OP5.options[document.frmAdvancedSrch.OP5.selecte=
+dIndex].value;=0A=
+    } else {xopArray[5] =3D "";}=0A=
+    if(document.frmAdvancedSrch.OP3) {=0A=
+      xopArray[6] =3D =
+document.frmAdvancedSrch.OP6.options[document.frmAdvancedSrch.OP6.selecte=
+dIndex].value;=0A=
+    } else {xopArray[6] =3D "";}=0A=
+    =0A=
+	for(i =3D 0; i < 7; i++) {=0A=
+	  if(xsqArray[i] !=3D null && xsqArray[i] !=3D "") {=0A=
+      =0A=
+        savingParams =3D 1;=0A=
+        xsqArray[i] =3D encodeUriComponent(xsqArray[i]);=0A=
+        xopArray[i] =3D encodeUriComponent(xopArray[i]);=0A=
+=0A=
+        switch(i) {=0A=
+          case 0:     =0A=
+            newLocation =3D newLocation + "&xsq=3D" + xsqArray[i] + =
+"&xFO=3D" + xfoArray[i]; =0A=
+            break;=0A=
+          case 1:=0A=
+            newLocation =3D newLocation + "&xsq1=3D" + xsqArray[i] + =
+"&xFO1=3D" + xfoArray[i] + "&xOP1=3D" + xopArray[i]; =0A=
+            break;=0A=
+          case 2:=0A=
+            newLocation =3D newLocation + "&xsq2=3D" + xsqArray[i] + =
+"&xFO2=3D" + xfoArray[i] + "&xOP2=3D" + xopArray[i]; =0A=
+            break;=0A=
+          case 3:=0A=
+            newLocation =3D newLocation + "&xsq3=3D" + xsqArray[i] + =
+"&xFO3=3D" + xfoArray[i] + "&xOP3=3D" + xopArray[i]; =0A=
+            break;=0A=
+          case 4:=0A=
+            newLocation =3D newLocation + "&xsq4=3D" + xsqArray[i] + =
+"&xFO4=3D" + xfoArray[i] + "&xOP4=3D" + xopArray[i]; =0A=
+            break;=0A=
+          case 5:=0A=
+            newLocation =3D newLocation + "&xsq5=3D" + xsqArray[i] + =
+"&xFO5=3D" + xfoArray[i] + "&xOP5=3D" + xopArray[i]; =0A=
+            break;=0A=
+          case 6:=0A=
+            newLocation =3D newLocation + "&xsq6=3D" + xsqArray[i] + =
+"&xFO6=3D" + xfoArray[i] + "&xOP6=3D" + xopArray[i];       =0A=
+            break;=0A=
+        }=0A=
+         =0A=
+	  } 	} 	 =0A=
+=0A=
+     =0A=
+  }    if(savingParams !=3D 0) {=0A=
+     newLocation =3D newLocation + "&saved=3D1";=0A=
+   }=0A=
+=0A=
+    newLocation =3D newLocation.replace(/&+/g, "&");=0A=
+	// alert("newLocation [" + newLocation + "]");=0A=
+	var sformRegExp =3D /sform$/;=0A=
+	if(newLocation.match(sformRegExp) || newLocation.match(/more$/)) {=0A=
+	    window.location =3D newLocation;=0A=
+	}=0A=
+	else {=0A=
+    	window.location =3D newLocation+"#sform";=0A=
+    }=0A=
+}=0A=
+=0A=
+//Set on the button state=0A=
+function bannerInit() {=0A=
+  setMarkedListCookie();=0A=
+      nCurMenu =3D M_PUB;=0A=
+    doBut(nCurMenu, 1);=0A=
+  }=0A=
+=0A=
+function highlightMarkButton() {=0A=
+     var docId=3D(document.getElementById)?true:false;    =0A=
+     if(docId){      =0A=
+          var markedlistBut=3Ddocument.getElementById("markedlist");     =0A=
+          if(markedlistBut){=0A=
+                markedlistBut.style.backgroundColor=3D'#FF9900';   =0A=
+           }=0A=
+          var markedlistBut2=3Ddocument.getElementById("markedlist2");   =
+  =0A=
+          if(markedlistBut2){=0A=
+                 markedlistBut2.style.backgroundColor=3D'#FF9900';=0A=
+          }=0A=
+          doBut(M_MARKED,1);=0A=
+          doBut(M_MARKED_CORNER,1);=0A=
+     }=0A=
+}=0A=
+=0A=
+function unhighlightMark(){=0A=
+     setMarkedListCookie();=0A=
+     if(getMarkedListCookie() !=3D null){=0A=
+       var mcookie=3DgetMarkedListCookie();=0A=
+       if(mcookie =3D=3D "no"){=0A=
+       var docId=3D(document.getElementById)?true:false;    =0A=
+      if(docId){      =0A=
+          markedlistBut2=3Ddocument.getElementById("markedlist2");  =0A=
+          if(markedlistBut2){=0A=
+                markedlistBut2.style.backgroundColor=3D'#C3DC79';=0A=
+          }=0A=
+          doBut(M_MARKED,0);=0A=
+          doBut(M_MARKED_CORNER,0);=0A=
+        }  =0A=
+        }    =0A=
+      }=0A=
+}=0A=
+=0A=
+=0A=
+function getMarkedListCookie(){=0A=
+      var cookies=3Ddocument.cookie.split(';');=0A=
+=0A=
+      for(var i=3D0;i<cookies.length;i++){=0A=
+           var cookie=3Dcookies[i].split('=3D');=0A=
+           if(cookie[0].indexOf("mlpage") !=3D -1){                      =
+     =0A=
+               return unescape(cookie[1]);=0A=
+            }=0A=
+      }           =0A=
+      return null;=0A=
+}=0A=
+function displayLink(mypage, isWarnUser, isNewWindow) {=0A=
+   if ( isWarnUser ) {=0A=
+       =
+NewWindow('/pqdweb?RQT=3D323&popup=3D1&link=3D'+mypage+'&nw=3D'+isNewWind=
+ow, 350, 150, mypage, isNewWindow);=0A=
+       return;=0A=
+    }=0A=
+    if ( isNewWindow ) { =0A=
+      //window.location.href=3D"/pqdweb?RQT=3D323";=0A=
+      popupNewWindow(mypage);=0A=
+   } else {=0A=
+      //window.location.href=3D"/pqdweb?RQT=3D323";=0A=
+      window.location.href=3Dmypage; =0A=
+   }=0A=
+   return false;=0A=
+}=0A=
+=0A=
+function NewWindow(mypage, w, h, link, bool) {=0A=
+   if ( w !=3D0 && h !=3D 0 ) {=0A=
+      LeftPosition =3D (screen.width) ? (screen.width-w)/2 : 0;=0A=
+      TopPosition =3D (screen.height) ? (screen.height-h)/2 : 0;=0A=
+      settings =3D =
+'height=3D'+h+',width=3D'+w+',top=3D'+TopPosition+',left=3D'+LeftPosition=
++',scrollbars=3D'+scroll+',resizable'=0A=
+      win =3D window.open(mypage,"LogoutAlert",settings)=0A=
+   } else {=0A=
+      win =3D window.open(mypage,"LibraryLink")=0A=
+   }=0A=
+   win.opener =3D self;=0A=
+}=0A=
+var winW;			// window width=0A=
+var winH;			// window height=0A=
+=0A=
+function popupNewWindow(URL_string) {=0A=
+	// Get window width and height=0A=
+	if (parseInt(navigator.appVersion)>3) {=0A=
+		if (navigator.appName=3D=3D"Netscape") {=0A=
+			winW =3D window.innerWidth - 60;=0A=
+			winH =3D window.innerHeight - 80;=0A=
+		}=0A=
+		if (navigator.appName.indexOf("Microsoft")!=3D-1) {=0A=
+			winW =3D document.body.offsetWidth - 60;=0A=
+			winH =3D document.body.offsetHeight - 80;=0A=
+		}=0A=
+	}=0A=
+	newWindow =3D =
+window.open(URL_string,'newWindow','menubar=3Dyes,toolbar=3Dyes,location=3D=
+yes,status=3Dyes,scrollbars=3Dyes,resizable=3Dyes,height=3D' + winH + =
+',width=3D' + winW + ',left=3D50,top=3D50');=0A=
+}=0A=
+// -->=0A=
+</SCRIPT>
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dleft width=3D"30%"><A=20
+      href=3D"http://www.il.proquest.com/proquest" target=3D_blank><IMG =
+height=3D27=20
+      alt=3DProQuest =
+src=3D"http://proquest.umi.com/images/common/logo_proquest.gif"=20
+      width=3D178 border=3D0></A> </TD>
+    <TD><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;did=3D0000004350915=
+91&amp;TS=3D1096390760&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D3&amp;VInst=
+=3DPROD&amp;VType=3DPQD&amp;clientId=3D15092&amp;RQT=3D309&amp;VName=3DPQ=
+D&amp;int=3D1"><IMG=20
+      title=3D"Text Only Interface" height=3D1 alt=3D"Text Only =
+Interface"=20
+      src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+
+      border=3D0></A></TD>
+    <TD class=3DtextSmall vAlign=3Dtop align=3Dright><A=20
+      onclick=3D"return displayLink('http://www.lib.ncsu.edu/libref', =
+false, false);"=20
+      href=3D"javascript:void(0);" name=3DLibraryLink>Ask a Librarian at =
+NC State=20
+      </A>&nbsp;|&nbsp; <SPAN class=3Dbold><A class=3Dhelp=20
+      =
+onclick=3D'helpWindow("/i-std/en/help/article/artdisplay.htm?db=3Dpri");'=
+=20
+      href=3D"javascript:void(0);" =
+name=3DHelpLink>Help</A></SPAN>&nbsp;&nbsp;=20
+</TD></TR>
+  <TR>
+    <TD colSpan=3D3><IMG height=3D5=20
+      src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+
+  border=3D0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D1 cellPadding=3D0 width=3D"100%" border=3D0>
+  <FORM name=3Dmarked><INPUT type=3Dhidden value=3D0 name=3DnumMarked> =
+</FORM>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=3D1 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dbottom align=3Dleft><A =
+onmouseover=3D"doBut(M_SEARCH, 1)"=20
+            onmouseout=3D"doBut(M_SEARCH, 0)"=20
+            =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D306&amp;TS=3D1096390773&amp;=
+clientId=3D15092"><IMG=20
+            id=3DbasicBut height=3D36 alt=3D"Basic Search"=20
+            src=3D"http://proquest.umi.com/images/en/nav_basic_off.gif" =
+width=3D88=20
+            border=3D0 name=3DbasicBut></A></TD>
+          <TD vAlign=3Dbottom align=3Dleft><A =
+onmouseover=3D"doBut(M_ADVANCED, 1)"=20
+            onmouseout=3D"doBut(M_ADVANCED, 0)"=20
+            =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D403&amp;TS=3D1096390773&amp;=
+clientId=3D15092"><IMG=20
+            id=3DadvancedBut height=3D36 alt=3D"Advanced Search"=20
+            =
+src=3D"http://proquest.umi.com/images/en/nav_advanced_off.gif"=20
+            width=3D107 border=3D0 name=3DadvancedBut></A></TD><!-- =
+TOPIC GUIDE TAB -->
+          <TD vAlign=3Dbottom align=3Dleft><A =
+onmouseover=3D"doBut(M_TOPIC, 1)"=20
+            onmouseout=3D"doBut(M_TOPIC, 0)"=20
+            =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D460&amp;TS=3D1096390773&amp;=
+clientId=3D15092"><IMG=20
+            id=3DtopicBut height=3D36 alt=3D"Topic Guide"=20
+            src=3D"http://proquest.umi.com/images/en/nav_topic_off.gif" =
+width=3D85=20
+            border=3D0 name=3DtopicBut></A></TD>
+          <TD vAlign=3Dbottom align=3Dleft><A =
+onmouseover=3D"doBut(M_PUB, 1)"=20
+            onmouseout=3D"doBut(M_PUB, 0)"=20
+            =
+href=3D"http://proquest.umi.com/pqdweb?TS=3D1096390773&amp;clientId=3D150=
+92&amp;RQT=3D317"><IMG=20
+            id=3DpubsearchBut height=3D36 alt=3D"Publication Search"=20
+            =
+src=3D"http://proquest.umi.com/images/en/nav_pubsearch_off.gif"=20
+            width=3D111 border=3D0 name=3DpubsearchBut></A></TD>
+          <TD vAlign=3Dbottom align=3Dleft>
+            <TABLE onmouseover=3D"return checkMarkedList()"=20
+            onmouseout=3D"return nd()" cellSpacing=3D0 cellPadding=3D0 =
+border=3D0>
+              <TBODY>
+              <TR id=3Dmarkedlist onmouseover=3DhighlightMarkButton()=20
+              onmouseout=3DunhighlightMark() bgColor=3D#c3dc79>
+                <TD vAlign=3Dtop><A=20
+                  =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D532&amp;TS=3D1096390773&amp;=
+clientId=3D15092"><IMG=20
+                  id=3DmarkedBut height=3D23 alt=3D""=20
+                  =
+src=3D"http://proquest.umi.com/images/en/nav_marked_off.gif"=20
+                  width=3D81 border=3D0 name=3DmarkedBut></A></TD>
+                <TD class=3DtextSmall id=3Dmarkedlist2=20
+                onmouseover=3DhighlightMarkButton() =
+onmouseout=3DunhighlightMark()=20
+                noWrap>
+                  <DIV id=3Dcounter>: 0 articles</DIV></TD>
+                <TD vAlign=3Dtop><IMG id=3Dmarked_cornerBut alt=3D""=20
+                  =
+src=3D"http://proquest.umi.com/images/common/nav_marked_corner_off.gif"=20
+                  name=3Dmarked_cornerBut=20
+        =
+DMCORNER></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+    <FORM name=3DlanguageForm action=3D# method=3Dpost>
+    <TD vAlign=3Dbottom align=3Dright>
+      <TABLE cellSpacing=3D1 cellPadding=3D0 align=3Dright border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3DtextSmall vAlign=3Dbottom noWrap><SPAN=20
+            style=3D"FONT-SIZE: 0.85em; COLOR: #808080; FONT-FAMILY: =
+Verdana, Geneva, Arial, Helvetica, sans-serif">Interface=20
+            language:</SPAN><BR><SELECT id=3Dlang =
+onchange=3DchooseLang();=20
+              name=3Dlang> <OPTION value=3Dzh-CN>Chinese =
+(Simplified)</OPTION>=20
+              <OPTION value=3Dzh-TW>Chinese (Traditional)</OPTION> =
+<OPTION=20
+              value=3Dde>Deutsch</OPTION> <OPTION value=3Den=20
+              selected>English</OPTION> <OPTION =
+value=3Des>Espa=F1ol</OPTION>=20
+              <OPTION value=3Dfr>Fran=E7ais</OPTION> <OPTION=20
+              value=3Dja>Japanese</OPTION> <OPTION =
+value=3Dko>Korean</OPTION>=20
+              <OPTION value=3Dpt>Portugu=EAs</OPTION> <OPTION=20
+              value=3Dtr>T=FCrk=E7e</OPTION></SELECT>=20
+  </TD></TR></TBODY></TABLE></TD></FORM></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD bgColor=3D#ff9900><IMG height=3D1 alt=3D""=20
+      src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+
+  border=3D0></TD></TR></TBODY></TABLE>
+<SCRIPT language=3DJavascript>=0A=
+<!--=0A=
+bannerInit();=0A=
+// -->=0A=
+</SCRIPT>
+<IMG height=3D3 src=3D"http://proquest.umi.com/images/common/spacer.gif" =
+width=3D1=20
+border=3D0><BR>
+<TABLE cellSpacing=3D1 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall><A=20
+      onmouseover=3D"return overlib('Select a different combination of =
+databases to search.');"=20
+      onmouseout=3D"return nd();"=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D573&amp;TS=3D1096390773&amp;=
+clientId=3D15092&amp;LASTSRCHMODE=3D1">Databases=20
+      selected:</A>&nbsp; Multiple databases... </TD>
+    <TD class=3Dtextsmall align=3Dright><A=20
+      href=3D"http://www.il.proquest.com/proquest/temppages/whatsnew/"=20
+      target=3DPQWhatsNew>What's New</A></TD></TR></TBODY></TABLE><IMG =
+height=3D3=20
+src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+border=3D0><BR>
+<TABLE cellSpacing=3D1 cellPadding=3D2 width=3D"100%" border=3D0>
+  <FORM name=3Darticle>
+  <TBODY>
+  <TR>
+    <TD class=3Dheader>Article View</TD>
+    <SCRIPT language=3Djavascript>=0A=
+<!--=0A=
+function displaySelection(selectElement) {=0A=
+    for (var i=3D0; i < selectElement.options.length; i++) =0A=
+        if (selectElement.options[i].selected)=0A=
+            url =3D selectElement.options[i].value;=0A=
+=0A=
+    if (url !=3D "dummy")=0A=
+        top.location.href=3Durl;=0A=
+}=0A=
+=0A=
+=0A=
+function MarkList(whichchk)=0A=
+    {=0A=
+     var markedsofar=3DparseInt(document.marked.numMarked.value,10);=0A=
+    if (whichchk.checked)=0A=
+        {=0A=
+        if (0 =3D=3D 50)=0A=
+            {=0A=
+            alert("There are already 50 articles marked.");=0A=
+            whichchk.checked =3D false;=0A=
+=0A=
+            return;             =0A=
+            }=0A=
+        chk =3D 1;=0A=
+        markedsofar=3Dmarkedsofar+1;=0A=
+        whichchk.checked =3D true;=0A=
+        //to make sure if another checkbox is checked as well=0A=
+         for(var i=3D0;i<document.article.marked.length;i++){=0A=
+            if(!document.article.marked[i].checked){=0A=
+                document.article.marked[i].checked=3Dtrue;=0A=
+            }=0A=
+         }=0A=
+        }=0A=
+    else {=0A=
+        chk =3D 0;=0A=
+        markedsofar=3Dmarkedsofar - 1;=0A=
+        whichchk.checked =3D false;=0A=
+         for(var i=3D0;i<document.article.marked.length;i++){=0A=
+            if(document.article.marked[i].checked){=0A=
+                document.article.marked[i].checked=3Dfalse;=0A=
+            }=0A=
+         }=0A=
+=0A=
+    }=0A=
+    document.marked.numMarked.value=3Dmarkedsofar;=0A=
+=0A=
+    var timeNow =3D new Date();=0A=
+        var qrystring =3D "/pqdweb?RQT=3D530&markedListInfo=3D";=0A=
+    var markedInfo =3D =
+"key%3Ddid%253D000000435091591%26retrieveGroup%3D0%26VType%3DPQD%26VInst%=
+3DPROD%26VName%3DPQD%26mark%3D"+chk;=0A=
+    qrystring +=3D markedInfo + "&";=0A=
+    qrystring +=3D "a=3D"+timeNow.getTime();=0A=
+=0A=
+    if(whichchk.checked){=0A=
+    x =3D new Image();    =0A=
+    x.src =3D qrystring;=0A=
+   } else{=0A=
+    y =3D new Image();    =0A=
+    y.src =3D qrystring;=0A=
+   }=0A=
+     if(document.all){=0A=
+             count =3D document.all["counter"];=0A=
+        }else if(document.getElementById){=0A=
+            count =3D document.getElementById("counter");=0A=
+        }=0A=
+    var artString=3D"article";=0A=
+        if(markedsofar > 1){=0A=
+           artString=3D"articles";=0A=
+        }=0A=
+      count.innerHTML=3D ": " + markedsofar + " " + artString;=0A=
+    }=0A=
+function changePage(index) {=0A=
+    var temp =3D =
+'/pqdweb?RQT=3D309&Fmt=3D3&VType=3DPQD&VName=3DPQD&VInst=3DPROD&TS=3D1096=
+390773&clientId=3D15092&did=3D000000435091591&SrchMode=3D3&sid=3D2&index=3D=
+59&startPage=3D'+index;=0A=
+  //alert(temp);=0A=
+  window.parent.location.href =3D temp;=0A=
+  return false;=0A=
+}=0A=
+function NewRefWin(link) {=0A=
+  parent.refWindow=3Dwindow.open(link, "_REFPAGE", =0A=
+                               =
+'toolbar=3Dno,location=3Dno,directories=3Dno,status=3Dno,scrollbars=3Dyes=
+,resizable=3D1,width=3D760,height=3D450');=0A=
+  parent.refWindow.focus();=0A=
+}=0A=
+=0A=
+//-->=0A=
+</SCRIPT>
+
+    <TD class=3DtextSmall><FONT =
+face=3DVerdana,Geneva,Arial,Helvetica,sans-serif=20
+      color=3D#666666 size=3D2><STRONG>=AB</STRONG> </FONT><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D572&amp;VType=3DPQD&amp;VNam=
+e=3DPQD&amp;VInst=3DPROD&amp;pmid=3D28390&amp;pcid=3D6441381&amp;SrchMode=
+=3D3&amp;firstIndex=3D50&amp;TS=3D1096390773&amp;clientId=3D15092">Back=20
+      to Results</A> </TD>
+    <TD class=3DtextSmall align=3Dmiddle><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D58&amp;did=3D0000004365539=
+91&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D7&amp;retrieveGroup=3D0&amp;VTy=
+pe=3DPQD&amp;VInst=3DPROD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D10963907=
+73&amp;clientId=3D15092">&lt;=20
+      Previous</A> &nbsp;Article 60 of 79&nbsp; <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D60&amp;did=3D0000004350916=
+11&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D7&amp;retrieveGroup=3D0&amp;VTy=
+pe=3DPQD&amp;VInst=3DPROD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D10963907=
+73&amp;clientId=3D15092">Next=20
+      &gt;</A> </TD>
+    <TD class=3DtextSmall align=3Dright><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D318&amp;pmid=3D28390&amp;Tab=
+=3D3&amp;TS=3D1096390773&amp;clientId=3D15092&amp;VType=3DPQD&amp;VName=3D=
+PQD&amp;VInst=3DPROD">Publisher=20
+      Information</A> &nbsp; </TD></TR>
+  <TR>
+    <TD class=3DtextSmall><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D3&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092&amp;cc=3D1&amp;TS=3D1096390773"><IMG=20
+      alt=3DPrint =
+src=3D"http://proquest.umi.com/images/en/button_print.gif"=20
+      border=3D0></A> &nbsp;&nbsp;&nbsp; <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D563&amp;VInst=3DPROD&amp;VNa=
+me=3DPQD&amp;VType=3DPQD&amp;Fmt=3D3&amp;did=3D000000435091591&amp;otherF=
+mt=3D2|3"><IMG=20
+      alt=3DEmail =
+src=3D"http://proquest.umi.com/images/en/button_email.gif"=20
+      border=3D0></A> </TD>
+    <TD class=3DtextSmall><INPUT onclick=3DMarkList(this); =
+type=3Dcheckbox=20
+      =
+value=3Dkey%3Ddid%253D000000435091591%26retrieveGroup%3D0%26VType%3DPQD%2=
+6VInst%3DPROD%26VName%3DPQD%26mark%3D=20
+      name=3Dmarked> Mark Article </TD>
+    <TD class=3DtextSmall align=3Dright colSpan=3D2><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D2&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092"><IMG=20
+      alt=3DAbstract =
+src=3D"http://proquest.umi.com/images/common/ab.gif"=20
+      align=3DabsMiddle border=3D0></A>&nbsp;<A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D2&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092">Abstract</A>=20
+      ,&nbsp; <IMG alt=3D"Full Text"=20
+      src=3D"http://proquest.umi.com/images/common/ft.gif" =
+align=3DabsMiddle=20
+      border=3D0>&nbsp;Full Text </TD>
+    <TD></TD></TR></TBODY></TABLE>
+<HR width=3D"100%" noShade SIZE=3D1>
+<SPAN class=3DtextMedium>
+<SCRIPT>setRequestString("pqdweb?RQT=3D305");</SCRIPT>
+
+<TABLE cellSpacing=3D0 cellPadding=3D2 border=3D0><!--Start =
+PUBLISHER_LOGO-->
+  <TBODY>
+  <TR>
+    <TD><A =
+href=3D"javascript:popupNewWindow('http://www.economist.com/')"><IMG=20
+      alt=3D"Publication Image" =
+src=3D"http://proquest.umi.com/i/pub/28390.gif"=20
+      border=3D0></A></TD></TR><!--End PUBLISHER_LOGO--><!--Start =
+CITATION--></A><A=20
+  name=3Dcitation></A>
+  <TR>
+    <TD class=3DheaderBlack><STRONG>Science and Technology: A blistering =
+
+      challenge; Genetics</STRONG></TD></TR>
+  <TR>
+    <TD class=3DtextMedium><!--Start AUTHORS--><!--End =
+AUTHORS--><!--Start PUB_TITLE--><B><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D318&amp;pmid=3D28390&amp;TS=3D=
+1096390773&amp;clientId=3D15092&amp;VType=3DPQD&amp;VName=3DPQD&amp;VInst=
+=3DPROD">The=20
+      Economist</A></B><!--End PUB_TITLE-->.&nbsp;<!--Start =
+PM_QUAL-->London: <!--End PM_QUAL--><!--Start ISSUE_URL--><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D572&amp;VType=3DPQD&amp;VNam=
+e=3DPQD&amp;VInst=3DPROD&amp;pmid=3D28390&amp;pcid=3D6441381&amp;SrchMode=
+=3D3">Nov=20
+      1, 2003</A><!--End ISSUE_URL-->.<!--Start =
+PCVOLUME-->Vol.369<!--End PCVOLUME--><!--Start =
+PCISSUE-->,&nbsp;Iss.&nbsp;8348;&nbsp;<!--End PCISSUE--><!--Start =
+STARTPG-->&nbsp;pg.&nbsp;101<!--End STARTPG--></TD></TR><!--End =
+CITATION--></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D10 border=3D0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=3D1 cellPadding=3D2 border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3DtextSmall>&nbsp;<FONT=20
+            face=3DVerdana,Geneva,Arial,Helvetica,sans-serif =
+color=3D#cc0000=20
+            size=3D2><STRONG>=BB</STRONG></FONT></TD>
+          <TD class=3DtextSmall><A=20
+            =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;did=3D0000004350915=
+91&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D3&amp;VInst=3DPROD&amp;VType=3D=
+PQD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D1096390760&amp;clientId=3D1509=
+2#fulltext"><STRONG>Jump=20
+            to full text</STRONG></A> &nbsp;<IMG height=3D14 alt=3D"Full =
+text"=20
+            src=3D"http://proquest.umi.com/images/common/ft.gif" =
+width=3D13=20
+            align=3DabsMiddle=20
+border=3D0></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><INPUT =
+type=3Dhidden=20
+value=3D305 name=3DRQT><INPUT type=3Dhidden name=3DSQ><INPUT =
+type=3Dhidden value=3DPQ=20
+name=3DquerySyntax> <INPUT type=3Dhidden value=3D1096390773 =
+name=3DTS><FONT size=3D4>
+<TABLE cellSpacing=3D1 cellPadding=3D2 border=3D0><!--Start INDEX =
+TERMS-->
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Subjects:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>
+      <SCRIPT>addSubject("Insects")</SCRIPT>
+
+      <SCRIPT>addSubject("Genetics")</SCRIPT>
+
+      <SCRIPT>addSubject("Research")</SCRIPT>
+
+      <SCRIPT>addSubject("Mutation")</SCRIPT>
+
+      <SCRIPT>generateSubjectTerms()</SCRIPT>
+    </TD></TR><!--End INDEX TERMS--><!--Start CLASSCODES-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Classification Codes</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><A=20
+      onclick=3D'return searchSideWays("CC","5400");'=20
+      href=3D"javascript:void(0);">5400&nbsp;Research &amp;=20
+      development</A>,&nbsp;&nbsp;<A=20
+      onclick=3D'return searchSideWays("CC","9190");'=20
+      href=3D"javascript:void(0);">9190&nbsp;United =
+States</A>,&nbsp;&nbsp;<A=20
+      onclick=3D'return searchSideWays("CC","9000");'=20
+      href=3D"javascript:void(0);">9000&nbsp;Short =
+article</A></TD></TR><!--End CLASSCODES--><!--Start GEOGRAPHIC-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Locations:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><A=20
+      onclick=3D'return searchSideWays("GEO","United States");'=20
+      href=3D"javascript:void(0);">United States</A>,&nbsp;&nbsp;<A=20
+      onclick=3D'return searchSideWays("GEO","US");'=20
+      href=3D"javascript:void(0);">US</A></TD></TR><!--End =
+GEOGRAPHIC--><!--Start PEOPLE NAMES-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>People:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><A=20
+      onclick=3D'return searchSideWays("PER","Gibson, Greg");'=20
+      href=3D"javascript:void(0);">Gibson, Greg</A>,&nbsp;&nbsp;<A=20
+      onclick=3D'return searchSideWays("PER","Dworkin, Ian");'=20
+      href=3D"javascript:void(0);">Dworkin, Ian</A></TD></TR><!--End =
+PEOPLE NAMES--><!--Start COMPANIES-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Companies:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><A=20
+      onclick=3D'return searchSideWays("CO","North Carolina State =
+University");'=20
+      href=3D"javascript:void(0);">North Carolina State University</A>=20
+      (NAICS:&nbsp;<A onclick=3D'return =
+searchSideWays("NAICS","611310");'=20
+      href=3D"javascript:void(0);">611310</A>
+      <SCRIPT>addNaic('611310')</SCRIPT>
+       ) </TD></TR><!--End COMPANIES--><!--Start ARTICLE TYPE-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Article types:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>Feature</TD></TR><!--End ARTICLE =
+TYPE--><!--Start SECTION-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Section:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><I>Science and =
+Technology</I></TD></TR><!--End SECTION--><!--Start DOCUMENT =
+LANGUAGE--><!--End DOCUMENT LANGUAGE--><!--Start PUB TITLE-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Publication title:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D318&amp;pmid=3D28390&amp;TS=3D=
+1096390773&amp;clientId=3D15092&amp;VType=3DPQD&amp;VName=3DPQD&amp;VInst=
+=3DPROD">The=20
+      Economist</A>.&nbsp;London:&nbsp;<A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D572&amp;VType=3DPQD&amp;VNam=
+e=3DPQD&amp;VInst=3DPROD&amp;pmid=3D28390&amp;pcid=3D6441381&amp;SrchMode=
+=3D3">Nov=20
+      1,=20
+      =
+2003</A>.&nbsp;Vol.&nbsp;369,&nbsp;Iss.&nbsp;8348;&nbsp;&nbsp;pg.&nbsp;10=
+1</TD></TR><!--End PUB TITLE--><!--Start SOURCE TYPE-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Source Type:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>Periodical</TD></TR><!--End =
+SOURCE TYPE--><!--Start ISSN-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>ISSN/ISBN:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>00130613</TD></TR><!--End =
+ISSN--><!--Start DOCID-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>ProQuest document ID:</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>435091591</TD></TR><!--End =
+DOCID--><!--Start WORD COUNT-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Text Word Count</TD>
+    <TD class=3DtextSmall vAlign=3Dtop>703</TD></TR><!--End WORD =
+COUNT--><!--Start ARTICLE URL-->
+  <TR>
+    <TD class=3DtextSmall vAlign=3Dtop noWrap>Article URL:</TD>
+    <TD class=3DtextSmall=20
+      =
+vAlign=3Dtop>http://gateway.proquest.com/openurl?url_ver=3DZ39.88-2004&am=
+p;res_dat=3Dxri:pqd&amp;rft_val_fmt=3Dinfo:ofi/fmt:kev:mtx:journal&amp;ge=
+nre=3Darticle&amp;rft_dat=3Dxri:pqd:did=3D000000435091591&amp;svc_dat=3Dx=
+ri:pqil:fmt=3Dtext&amp;req_dat=3Dxri:pqil:pq_clntid=3D15092</TD></TR><!--=
+End ARTICLE URL--></TBODY></TABLE></FONT><A=20
+name=3Dmore></A><IMG height=3D5 alt=3D""=20
+src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+border=3D0>
+<TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%" bgColor=3D#ffcc66 =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall bgColor=3D#ffcc66>&nbsp;<STRONG>More Like=20
+      This</STRONG>&nbsp;&nbsp;<FONT=20
+      face=3DVerdana,Geneva,Arial,Helvetica,sans-serif color=3D#cc0000=20
+      size=3D2><STRONG>=BB</STRONG></FONT><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D3&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092&amp;mlt=3Dtrue#more">Show=20
+      Options for finding similar articles =
+</A></TD></TR></TBODY></TABLE><IMG=20
+height=3D10 src=3D"http://proquest.umi.com/images/common/spacer.gif" =
+width=3D1=20
+border=3D0><BR><!--Start ABSTRACT--><A name=3Dabstract></A>
+<TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall bgColor=3D#e6e6e6><STRONG>Abstract</STRONG> =
+(Article=20
+      Summary)</TD></TR>
+  <TR>
+    <TD class=3DtextMedium>
+      <P>Scientists at Norht Carolina State University have pinpointed a =
+series=20
+      of so-called cryptic variations that have no effect on a protein's =
+
+      structure, but can nevertheless, if the circumstances are right, =
+have a=20
+      significant effect on the individual they belong to. One of the =
+genes in=20
+      Drosophila is called Egfr. When this goes wrong, the wonky protein =
+that=20
+      results causes a fly's eyes to blister up, because too many =
+photoreceptor=20
+      cells are produced in them. In this case the blistering happens =
+even if=20
+      the other copy of the gene is =
+healthy.</P></TD></TR></TBODY></TABLE><!--End ABSTRACT--><A =
+name=3Dfulltext></A><!--Start FULL TEXT--><IMG height=3D5 alt=3D""=20
+src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+border=3D0>
+<TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall bgColor=3D#e6e6e6><STRONG>Full =
+Text</STRONG>&nbsp;(703=20
+      &nbsp; words)</TD></TR>
+  <TR>
+    <TD class=3DtextMedium><I>(Copyright 2003 The Economist Newspaper =
+Ltd. All=20
+      rights reserved.)</I>
+      <P>Genetics gets more complicated</P>
+      <P>THE official version of genetics is fairly straightforward. =
+Genes are=20
+      encoded in a molecule called DNA. This molecule is a =
+double-stranded helix=20
+      made from four different types of sub-molecule. These types are=20
+      interchangeable, and can thus appear in any order in a strand. =
+Reading the=20
+      sub-molecules in groups of three (essentially, genetic "words") =
+yields a=20
+      message. The machinery of a cell can translate this message into a =
+
+      protein. And proteins are the molecules that do most of the work =
+in a=20
+      cell. Hence genes control cells. Hence, also, changing the order =
+of the=20
+      sub-molecules means that the message gets changed, and with it the =
+
+      protein. </P>
+      <P>Such changes are called mutations. Not all are detrimental. =
+Some have=20
+      no real effect, and are known as silent mutations. This is either =
+because=20
+      they cause no change in the composition of the protein that the =
+gene=20
+      encodes (some apparently different genetic words actually have the =
+same=20
+      meaning to the protein-making apparatus), or because the change =
+they make=20
+      has no effect on the protein's function. But if an effect is =
+there, it=20
+      will always be there unless it is masked by a second, undamaged =
+copy of=20
+      the gene in question. (There are two versions of most genes in an=20
+      individual, one inherited from each parent.) That, at least, is =
+the=20
+      received wisdom. However, a study by Greg Gibson, Ian Dworkin and =
+their=20
+      colleagues at <A=20
+      onclick=3D"return =
+NewRefWin('/pqdweb?RQT=3D501&amp;idlqry=3DNORTH+CAROLINA+STATE+UNIVERSITY=
+&amp;idltype=3Dfacility&amp;idlkbase=3D2&amp;idlmode=3D1');"=20
+      href=3D"javascript:void(0);"><IMG=20
+      src=3D"http://proquest.umi.com/images/common/circlei3.gif" =
+border=3D0>North=20
+      Carolina State University</A>, in Raleigh, suggests things may be =
+more=20
+      complicated and subtle than that. Working with the geneticists' =
+favourite=20
+      animal, the fruit fly Drosophila, Dr Gibson has pinpointed a =
+series of=20
+      so-called cryptic variations that have no effect on a protein's =
+structure,=20
+      but can nevertheless, if the circumstances are right, have a =
+significant=20
+      effect on the individual they belong to.</P>
+      <P>One of the genes in Drosophila is called Egfr. When this goes =
+wrong,=20
+      the wonky protein that results causes a fly's eyes to blister up, =
+because=20
+      too many photoreceptor cells are produced in them. In this case =
+the=20
+      blistering happens even if the other copy of the gene is healthy. =
+In other=20
+      words, a healthy gene cannot mask the blistering. That much is =
+familiar to=20
+      fly geneticists. However, the degree of blistering varies. Such=20
+      variability could be due to environmental factors, but Dr Gibson =
+suspected=20
+      it might actually be due to minor variations in the healthy copy =
+of the=20
+      Egfr gene.</P>
+      <P>So much is known about fly genetics that a lot of these minor=20
+      variations have already been identified, and lines of flies with=20
+      particular versions of them bred routinely. The versions in =
+question are=20
+      called single-nucleotide polymorphisms (SNPs), because they =
+involve=20
+      substitutions of individual sub-molecules (nucleotides, as they =
+are known=20
+      technically) in the helix. In healthy flies, these substitutions =
+have no=20
+      perceptible effect. But when Dr Dworkin crossbred a range of fly =
+lines=20
+      each carrying a different silent SNP in the Egfr gene, with flies =
+from a=20
+      line that had a damaged Egfr gene, he found that the amount of =
+blistering=20
+      in the offspring varied significantly. More to the point, the =
+variation=20
+      was between lines, rather than within them, showing that the SNPs =
+were=20
+      somehow modifying the effect of the Egfr protein without modifying =
+the=20
+      protein itself.</P>
+      <P>How this happens is unclear. Probably, the SNPs are changing =
+the amount=20
+      of Egfr protein produced, by fine-tuning the way the gene's =
+message is=20
+      broadcast to the cell's protein-making apparatus. But whatever its =
+cause,=20
+      it is a significant finding. A number of human diseases caused by =
+damaged=20
+      genes, such as cystic fibrosis and a range of cancers, have a =
+similarly=20
+      variable expression. It has long been suspected that in these =
+cases, too,=20
+      some sort of "cryptic" variation is to blame. But, before Dr =
+Gibson's=20
+      work, the existence of such variation was hypothetical. Now that =
+the=20
+      phenomenon has been exposed, it should be possible to find out how =
+it=20
+      works. That, in turn, may suggest ways of ameliorating these =
+diseases by=20
+      "turning down" some of the biochemical switches involved. And =
+regardless=20
+      of the practical consequences, Dr Gibson's work has shown that =
+even=20
+      genetic determinism is not the simple process that some of its =
+proponents=20
+      would have you believe. That alone is a lesson worth learning.</P>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3DtextSmall noWrap><B>[Illustration]</B></TD></TR>
+        <TR>
+          <TD class=3DtextSmall>Caption: Who are you calling=20
+        blistered?</TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY></TBODY></TABLE><BR></TD></TR></TBODY></TABLE><!--End =
+FULL TEXT-->
+<HR color=3D#333333 noShade SIZE=3D1>
+
+<TABLE cellSpacing=3D1 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DtextSmall><SPAN class=3Dbold>^</SPAN> <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;did=3D0000004350915=
+91&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D3&amp;VInst=3DPROD&amp;VType=3D=
+PQD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D1096390760&amp;clientId=3D1509=
+2#top">Back=20
+      to Top</A></TD>
+    <SCRIPT language=3Djavascript>=0A=
+<!--=0A=
+function displaySelection(selectElement) {=0A=
+    for (var i=3D0; i < selectElement.options.length; i++) =0A=
+        if (selectElement.options[i].selected)=0A=
+            url =3D selectElement.options[i].value;=0A=
+=0A=
+    if (url !=3D "dummy")=0A=
+        top.location.href=3Durl;=0A=
+}=0A=
+=0A=
+=0A=
+function MarkList(whichchk)=0A=
+    {=0A=
+     var markedsofar=3DparseInt(document.marked.numMarked.value,10);=0A=
+    if (whichchk.checked)=0A=
+        {=0A=
+        if (0 =3D=3D 50)=0A=
+            {=0A=
+            alert("There are already 50 articles marked.");=0A=
+            whichchk.checked =3D false;=0A=
+=0A=
+            return;             =0A=
+            }=0A=
+        chk =3D 1;=0A=
+        markedsofar=3Dmarkedsofar+1;=0A=
+        whichchk.checked =3D true;=0A=
+        //to make sure if another checkbox is checked as well=0A=
+         for(var i=3D0;i<document.article.marked.length;i++){=0A=
+            if(!document.article.marked[i].checked){=0A=
+                document.article.marked[i].checked=3Dtrue;=0A=
+            }=0A=
+         }=0A=
+        }=0A=
+    else {=0A=
+        chk =3D 0;=0A=
+        markedsofar=3Dmarkedsofar - 1;=0A=
+        whichchk.checked =3D false;=0A=
+         for(var i=3D0;i<document.article.marked.length;i++){=0A=
+            if(document.article.marked[i].checked){=0A=
+                document.article.marked[i].checked=3Dfalse;=0A=
+            }=0A=
+         }=0A=
+=0A=
+    }=0A=
+    document.marked.numMarked.value=3Dmarkedsofar;=0A=
+=0A=
+    var timeNow =3D new Date();=0A=
+        var qrystring =3D "/pqdweb?RQT=3D530&markedListInfo=3D";=0A=
+    var markedInfo =3D =
+"key%3Ddid%253D000000435091591%26retrieveGroup%3D0%26VType%3DPQD%26VInst%=
+3DPROD%26VName%3DPQD%26mark%3D"+chk;=0A=
+    qrystring +=3D markedInfo + "&";=0A=
+    qrystring +=3D "a=3D"+timeNow.getTime();=0A=
+=0A=
+    if(whichchk.checked){=0A=
+    x =3D new Image();    =0A=
+    x.src =3D qrystring;=0A=
+   } else{=0A=
+    y =3D new Image();    =0A=
+    y.src =3D qrystring;=0A=
+   }=0A=
+     if(document.all){=0A=
+             count =3D document.all["counter"];=0A=
+        }else if(document.getElementById){=0A=
+            count =3D document.getElementById("counter");=0A=
+        }=0A=
+    var artString=3D"article";=0A=
+        if(markedsofar > 1){=0A=
+           artString=3D"articles";=0A=
+        }=0A=
+      count.innerHTML=3D ": " + markedsofar + " " + artString;=0A=
+    }=0A=
+function changePage(index) {=0A=
+    var temp =3D =
+'/pqdweb?RQT=3D309&Fmt=3D3&VType=3DPQD&VName=3DPQD&VInst=3DPROD&TS=3D1096=
+390773&clientId=3D15092&did=3D000000435091591&SrchMode=3D3&sid=3D2&index=3D=
+59&startPage=3D'+index;=0A=
+  //alert(temp);=0A=
+  window.parent.location.href =3D temp;=0A=
+  return false;=0A=
+}=0A=
+function NewRefWin(link) {=0A=
+  parent.refWindow=3Dwindow.open(link, "_REFPAGE", =0A=
+                               =
+'toolbar=3Dno,location=3Dno,directories=3Dno,status=3Dno,scrollbars=3Dyes=
+,resizable=3D1,width=3D760,height=3D450');=0A=
+  parent.refWindow.focus();=0A=
+}=0A=
+=0A=
+//-->=0A=
+</SCRIPT>
+
+    <TD class=3DtextSmall><FONT =
+face=3DVerdana,Geneva,Arial,Helvetica,sans-serif=20
+      color=3D#666666 size=3D2><STRONG>=AB</STRONG> </FONT><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D572&amp;VType=3DPQD&amp;VNam=
+e=3DPQD&amp;VInst=3DPROD&amp;pmid=3D28390&amp;pcid=3D6441381&amp;SrchMode=
+=3D3&amp;firstIndex=3D50&amp;TS=3D1096390773&amp;clientId=3D15092">Back=20
+      to Results</A> </TD>
+    <TD class=3DtextSmall align=3Dmiddle><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D58&amp;did=3D0000004365539=
+91&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D7&amp;retrieveGroup=3D0&amp;VTy=
+pe=3DPQD&amp;VInst=3DPROD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D10963907=
+73&amp;clientId=3D15092">&lt;=20
+      Previous</A> &nbsp;Article 60 of 79&nbsp; <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D60&amp;did=3D0000004350916=
+11&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D7&amp;retrieveGroup=3D0&amp;VTy=
+pe=3DPQD&amp;VInst=3DPROD&amp;RQT=3D309&amp;VName=3DPQD&amp;TS=3D10963907=
+73&amp;clientId=3D15092">Next=20
+      &gt;</A> </TD>
+    <TD class=3DtextSmall align=3Dright><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D318&amp;pmid=3D28390&amp;Tab=
+=3D3&amp;TS=3D1096390773&amp;clientId=3D15092&amp;VType=3DPQD&amp;VName=3D=
+PQD&amp;VInst=3DPROD">Publisher=20
+      Information</A> &nbsp; </TD></TR>
+  <TR>
+    <TD class=3DtextSmall><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D3&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092&amp;cc=3D1&amp;TS=3D1096390773"><IMG=20
+      alt=3DPrint =
+src=3D"http://proquest.umi.com/images/en/button_print.gif"=20
+      border=3D0></A> &nbsp;&nbsp;&nbsp; <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D563&amp;VInst=3DPROD&amp;VNa=
+me=3DPQD&amp;VType=3DPQD&amp;Fmt=3D3&amp;did=3D000000435091591&amp;otherF=
+mt=3D2|3"><IMG=20
+      alt=3DEmail =
+src=3D"http://proquest.umi.com/images/en/button_email.gif"=20
+      border=3D0></A> </TD>
+    <TD class=3DtextSmall><INPUT onclick=3DMarkList(this); =
+type=3Dcheckbox=20
+      =
+value=3Dkey%3Ddid%253D000000435091591%26retrieveGroup%3D0%26VType%3DPQD%2=
+6VInst%3DPROD%26VName%3DPQD%26mark%3D=20
+      name=3Dmarked> Mark Article </TD>
+    <TD class=3DtextSmall align=3Dright colSpan=3D2><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D2&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092"><IMG=20
+      alt=3DAbstract =
+src=3D"http://proquest.umi.com/images/common/ab.gif"=20
+      align=3DabsMiddle border=3D0></A>&nbsp;<A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;sid=3D2&amp;srchmod=
+e=3D3&amp;vinst=3DPROD&amp;fmt=3D2&amp;startpage=3D-1&amp;clientid=3D1509=
+2&amp;vname=3DPQD&amp;did=3D000000435091591&amp;scaling=3DFULL&amp;ts=3D1=
+096390760&amp;vtype=3DPQD&amp;rqt=3D309&amp;TS=3D1096390773&amp;clientId=3D=
+15092">Abstract</A>=20
+      ,&nbsp; <IMG alt=3D"Full Text"=20
+      src=3D"http://proquest.umi.com/images/common/ft.gif" =
+align=3DabsMiddle=20
+      border=3D0>&nbsp;Full Text </TD>
+    <TD></TD></TR></TBODY></TABLE></SPAN></FORM>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD bgColor=3D#ff9900><IMG height=3D1 alt=3D""=20
+      src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+
+  border=3D0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" align=3Dcenter =
+border=3D0>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TD class=3DtextSmall vAlign=3Dtop>Copyright =A9 2004 ProQuest =
+Information and=20
+      Learning Company. All rights reserved. <A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?RQT=3D428&amp;TS=3D1096390773&amp;=
+clientId=3D15092">Terms=20
+      and Conditions </A></TD></TR>
+  <TR class=3DtextSmall align=3Dmiddle>
+    <TD><A=20
+      =
+href=3D"http://proquest.umi.com/pqdweb?index=3D59&amp;did=3D0000004350915=
+91&amp;TS=3D1096390760&amp;SrchMode=3D3&amp;sid=3D2&amp;Fmt=3D3&amp;VInst=
+=3DPROD&amp;VType=3DPQD&amp;int=3D1&amp;clientId=3D15092&amp;RQT=3D309&am=
+p;VName=3DPQD">Text-only=20
+      interface</A></TD></TR></TBODY></TABLE><IMG height=3D5 alt=3D""=20
+src=3D"http://proquest.umi.com/images/common/spacer.gif" width=3D1 =
+border=3D0><BR>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle><A href=3D"http://www.proquestcompany.com/"=20
+      target=3D_blank><IMG height=3D40 alt=3D"From ProQuest Company"=20
+      src=3D"http://proquest.umi.com/images/common/logo_frompq.gif" =
+width=3D150=20
+      border=3D0></A> =
+</TD></TR></TBODY></TABLE><BR></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/logo_proquest.gif
+
+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
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/spacer.gif
+
+R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/nav_basic_off.gif
+
+R0lGODlhWAAkAPcAAObxyJujg+Puv4qaXdfoprvSWjk8MbzRfhsdFrXRTK21lsHOnXB2XNvqrtHk
+mZWmYr/XaMnTrmZqWr3VYZGebVRZRdzqsKOvgKrMN8jfhWVwRNniu7fBmqG0aXR5ZqaxiOnyzuXw
+xN/suNfnpazBbm92W8DOm7vQebrDobnUWjM5JA4PC5KYgigrHp2sc1liPG11VZqqbZSmXmBnTFtk
+QUxVNTs9NVFXPbXSUE9WOXN4Yjg7Lo+WfEFHLiksIu301ObvvU9XMkBCNNDjXMPcesrdfdLlm9rn
+oMDaccTdfJOtLLbPL9noemd1Lsbef8Tde9/rkoSfI87jksfegVxkMZ69KcXdfsnfhsXdfcHaRMzh
+jTMzM6arg8Tce8rgibHOQcfegr7Za8begLbUWKrKLsvhjHGELs7UrLjVXdXnosrgiGptUdPmnrPS
+UN7stqmyjrLRTNTmntTmn9Hkl7HEMs/jlLnPds3ij8vgis3ikMzhjrLRS/f67e312Nbno8ndfNPl
+nfH339nnn9zrstnpq4KHZuDtudjop9Xgtt3rs87ikdfmm87iktrprKzNPXR/UldbTLrQd9PlnCst
+JtDkl8jdfGtzUdLlmuPvwLrWX6jKMc3bpdDjlbHQSNXlmK3CcN7stMXQpcngh9LerdXmocnZmsfR
+qquzk9blmbzTXrDEds/jlczhjMvhitXnoXyEZkNJNN3rtHF+TKXJKuTvw6awhoCNWqO2bpSfch0e
+GqiyjFNYQ3qDYNDkltXmoNDdqm52WcLVisTWj+Luvcffg4iRa9Tfsam4eZipaUhLPqeyi36FaaCt
+e6SvgrjUWHuKUH2MVIqTb+XwxnB8SCwuJ8zbosvhi8/jk+fxyYKHcdrpq6GnkdbneoSPYT9GK87V
+uaW3co2cZMXXkJWgdLXAlDU6KGhySq+2m6Ovf7vRfbrVXY+caEZKOnd7bVlcUdjoqLzEpbnCn0pM
+Qt/st9rjwqiyi5eoZr7WZ6q6frTRS7zWK7LQKcfdLP///wAAAMPceSH5BAAAAAAALAAAAABYACQA
+AAj/APsJHNiH0JR/CBMqXMiwocOHECMqnEKoz8CLA/m4OSixo8ePIBNOccMHo8BAaUKqXMlSYZpA
+GAMZiYgEDY4J3AQJWlQpRSYkLYN6NAJTIJ+UD8O0mXDkh1MgUJ3+QAUhjNCrD9OU7OcG4pgEQH4A
+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
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/nav_advanced_off.gif
+
+R0lGODlhawAkAOYAANLlnOLujlVYSdjodTc5L+nxy+301dPmZtvqguLuvpqobM3hbcXdfXyFUMfa
+afD23NrprNDkarbHg8jSqqOzad3rspioXs7jksrgcHB2XEhKPeXvw2ZpVtHkl6SvgYyYV2BnR8rg
+iRQVENXmobnPdsHNnLjKZsfegKq4Xv///210VczhjcnfhYCMVqiyjOjxuq21loyTa4eNY/L3ybvR
+e3yCY8Tce1xfTNrpZWdwRdvqbpKXgba+lXR3ZKq3eU1TOsfYlJyjg9nop/H34NbnY9DaqeHtqlRY
+QKCteIyScpGdaoKHcKapk1phPuDtfvL33bvDonN9Tdnlka3CcO/11ZOfVpKWcsvVjPr85fz97vT4
+5N3qksHTiM/igtjomvb61u7x4tfopYmTUIWOULDBZLS+fb/QZdboa9niuyksIczWg8Pcesvhi9Xg
+tvf67dPfr0JIMc7VuT5AONPdgt/st/j71vD2vtjoYNvfx/f72urw2dTifs3Wf8nTdwAAAMPceSH5
+BAAAAAAALAAAAABrACQAAAf/gCmCgwYQJ3+IiYqLjI2Oj5CRkpEnEAaDmINudIeTnp+goaEndG6Z
+gkMjoqusrasjQ5lDAJMnXkYvL0ZeLK6+v48AsYJuqpFGBU9PVDMzVA/LFQzA1MAjpil0kV7QLwhE
+4EQHBwgv0BDV6a10KQadji9aLzpEd/bh4uNGWgXTkWskLFCwoWjNlBz+1C0yiPDRiUKQkn2zdweH
+RRzhxh0YQIXKO0cMWvgR0SsRAwV+QihkdDIlJEOPkumgqEOHkz1znDjRcSZfhAhUDERicUSEHx8E
+EZ1A4qfDykVLm0L6uKiClgHgcNjkU+PGDQ4+AuzU+PPBBkgrROzwU+OEwR8E/zj4GdGkBQMGH6Kc
+sAA3BwkbU35MaULgAwOAhKP8pQC3CYk1b+P6oSXqhJYrY5o0GdOHghwCAqzI0FBDDYIB434i0HIB
+pBI/ceSkCXEiTZoMcvxAgJOGBQsRICSIOJJBhN4LI0FoIFn7NpwQNIa7SPPjRHPck1dtwCOniZgq
+IH7IIZ2BdIkfGkCoaCEmSoMFL4Q2IioiwRI/El5DSQBDdxL8PvjBwwhF0JEAASqwAIAfQfDXlH50
+hLGCDH68UUEQIqygn4OUgcICGDWgQAQOTiBwAwFJ2DFDERz04IEcMUQBQhMgEGDBHrM0ktZtArCV
+gR8VdOCCH2FUIEINIIggxP8FKhjlRwYhLOgCAEOGoQKQF4QQwpV+dDnXlUEO2eEnFRgQATg2zSGA
+BkHMUEceBfRQwg1hIXBGBGMc4UABZy3CwGtpECCHCBr04AcQLHgwGQACEJDGEgCIFEQBckC5oAds
+KArBjwAQFEINfhSQgKgj/IioomN6UsALB9RjkxoC3LBEHVhkgUUBdtRQQwCnRWCGBlUYYUBCiLCQ
+pAGj3uBHfzV8OtkKQ/pRApMVVnBblH54EIKiQvDghxIMWBBCCWyNAIAPF3jbLKipTkKFEa0SYZMU
+N/QgQAFZpJBFHjMkwQGvA/wkxg8rPKCSImkJAMEFIwThxw5yjXQoCxCIIMf/CGyUIMLGBGR46bZz
+hSGACGmIwMUIa5X8XBgRGwXEGqE8sEW8NgWQQQ0c7FArFl/0+2+vETjwgxIPtIZwBRWw8QcLQiRg
+4AQwiHoBAxckkMAFJ4zQBgwTbFDCChdUMAILI1RwwQoVTOACBCuwAUEbLpQwQghoQy01zKA8gMA4
+8joRQBkCwKABE3n0bAcHMfB6ZwQLfPCDAU4pckLb0zAQwtkMhwEA1mtMvoJbLHRgbgdYn8AGCwyw
+wMYJDKwAwAhYW/46AJ+3PoLmnMe8d6tn+B0AByrwIEAPPExghQZX8PoT4w4coUfkkqxxV1KMSM+6
+DTbgXf30iFh/WPfcryKz/0Z9ByCFABx4wMF4BMgA8E8LLICBD3oYzYgNAlHvCgMNTKH9U4h4VwQ0
+0ju/SSEDoAGNDG6wh4DBT35SMBhLWuAkEQzEFyHwgwKIBcBV/YSAvpOCBhRQhh8g4QZNaEAVUGAC
+BzjABG8wgP7+sIboaAANE8gAFzgoig74AQlUeQoEHrA8jZihCu45QgNkQAAxoIAATTgCejRARTwk
+gCVM4QAEhCAhBjAGio/BX1/+MhgFwMECNEgMCRaUBMIYBoB/YMAQtrA8MzQADkeIQhQ0AMU8Na8K
+viIDBSxQhiGsgCVAMMoRPsCCE0TnCNOpzhSGUxy9rGAkKgCCbTLwnAWJgP8DyykJAOlABcZVQQNH
+QMECxmGGDzggAhqwQBX0FD8MYKAABWgEAzoAhdz4IQ00oJCFMAS2Ah0oQT7cQQUgFAZsMcFB9nuK
+DR5QBOV8YHkouCbjogDFXzUhByAAgQe0IMqCsCAMG4iDskDwIy81ZUtOspQfpvQjs9FGSlTKDhz/
+MAIwBMEMC3AACnLARxDkQIof0AAKGiCHMYxBCWBAhyNscIILCKEAfiDAfUQlNUlRSp4euACnknKp
+TOlznxDQAhcaoIEf5ICFUciBGAAqIwtoAANdGEKfGsGQKbAgBg+bQLnOtYIrWehal0rXt8Jlg4+h
+ap+JoAMYmFAFE8TvqrW9JMN4QAAALexUl0pwkh84QAcIpEwEcFiBxjjmsWyFQGQkEwENnHpSqI5A
+CwaQgi3lZ8u+osAHG9BCBSjRATpAAQZoMNsK3ha3EaxAa1zzGtjENrm0rW2yYytbNKEaggIM4V1d
+6CtOhWCAIRhgs7oMXRiEAAA23CVK5vpc6EZXutPZoHWvqy3qVBdEqFbtAUN4gHCBaxboTeK2rMOb
+92DmPez9j4bhg+ondnk7APRWutjNrna3y93ueve76QgEADs=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/nav_topic_off.gif
+
+R0lGODlhVQAkAOYAANTlYszhi8XTZFRXRnuCXN7rtEpOOuPsjtLlmzc6LnZ0bMDacqexiqe0Y8Xd
+fdXmobjCm52rcam2W+PuvOryyvb56qOvgWJnTdrprPb55efn1Nrmd7vQem91WLnFY8jfhM7ika+r
+pO3z1nN3WKy0lfL34PL048fegISLV5ikXtPlWqajlrPGfvP2x9zoXo2UW6i5esfRqPn669Dklf78
+9djnY+btxvH01eDrgujvnc7OwsHOW5GbXPP1uYWQZurwrsTcexMUD8nGt1xgSLC3nsLOY93rqPTz
+6tTlVr/KlYWDeu7zuX+Fafz72WhnX8rgh/X427K9isfYlY2VeNDhWZSQi9HZe2lwTHF8S9jmXaKu
+ftXmSKCqYPf54eLqWsK9t6zBbdfoppGebrG9X9roYNbft9XkbNznq4B7eZ2kgiksIMPceMLbdq3C
+cNzpcNrnbcDFeezp5EVEQNPXlNXWpcrTsD9EMc7dZMLOn7e6evL0rMPcetblY////wAAAMPceSH5
+BAAAAAAALAAAAABVACQAAAf/gH2CgyIYJ3+IiYqLjI2Oj5CRfycYIoOXgzIFh5Kdnp+gJwUymIIl
+D6CpqquLDyWYJQiIe7S1e2y4HyBGSy0UFAUzDri2tazHiwivgjKos8W4ARNQGRlQIhoiJhklFCAL
+bMXI44gPpH0FisULJxNdGS1wKFcDQygpVj3vFH8LQMbkxhXoI4LTM1oLQNyQ0UPChQEXUvDxUqPI
+mDEe6HB74o9WQEUOsHDY8+lEoUW1FgSA0sUKlgEdPHi5w+PKhSFXcl4YoaFCgI6NTiTwQ5RoAyCS
+gMDwc8UBKEMogahk6aFeAy9FRtS7ck+CVwk8GkCp8CFcoydRSAxRQ4IBCKeR/xzMYCLFYCe7s9ic
+uJGhgQECd2oQGHCFhwcyLgAc6NEih5ktbrqUwBUUQQEFCSY8eOKgjYEEV0Y6MMDDjp0GDkBcgHGC
+w5AEIkmmYlMgQxQDL1xUHcCFJgoXbpg4oXGkCokcW/IcmbCgEZDUHRIgOOGAQ5ABDNTYORHAT5AO
+BoJwAOEnwhM1ajrYeSL7E5uVZUi74GJgRBEXLl4M2aEHc5U4aITQxAZDCJEBXooEEB0Ifzgghh8x
+FDCFHxzM4AcJE8Tghw8I+GHBgxBMEAZ7sxlhQgcEePGCHC/wUYOLRXTARRNooDHACkqEQEMSV8BR
+QTqOKJgAgx904AcGMzBQXv+HDMyAgR8dhOEHA0YWAMITCEpygg06XOGCXy/wUAQZfJRJxQZNKBBC
+CHI4EUIfP1ABwA0lPCIkg08w4QcCH1jgRxQPeHhCh0w8ycAIeyK1SgAarCBAEQagQIZWHrzIBwBv
+pLlCH2gk8OYPSACQQwVwMXLnHx9A4IcYT1wQRBiB+vABiFIyoKoYDqSgKCgzmBBBFjYFdscIKFgK
+gAotVBHCF18o8IUMB6gAAA4VzBDkgpOEoUAQCQSRxgwdBqGGHwPAOiUGA4grXnuePJABGTwMMIYL
+LtZwR5llTmvDEU4o0ccRPwAgcA0yYODIB2FgEMAfQASAQQwMlBHGBx0SQQL/BFbOUMADGkOsMLud
+nJHBHUOkaGkNlpZZgwo4LCHHEI1deikAPzriwBMBcOJAAAhwzFmHJMD6FncfcNfzDCeALInIDQyQ
+Ahc1kInv1Hyo4IEdBpgh7YsC1+zJHg5QRxICaiTxgQO7zuIA2qvMkAEKHRTxENQpT11DaXKMkTIA
+blRgsCN7gJECGEr/AQIGBIw0SxtNjROACUzwQIYHL+hNNb41jJBAAjzsfYBPjezBgR1FbcfICUs1
+3mAEfiyMDKMhVEpG3ZfXgMIQQ0CNLwBLVODICXYEQYINMfjwBCNy0cXJCVr4YS0yDpShARIqX273
+HQSgAMDUAHQhQugs+OHE/8YP8BlSGw40gEJqq53gWQIXJOpXAkMo/skCD1SAQxaz107G/y4gAwpe
+8L//IWFUYWiEA3xwobeE7Wbl+cAVEqCL8pxHDZrbk3WwowYDZOkRernBDSTQAAHUrQYCaIAKVXiF
+EaywAR6AwmQaUSQPBSAIREmBhbQAggVZ6EN+CBER/PAABpahAGkIguu+tgAEmGAFQ2hA3cjQgAtY
+0YoGMMAVh7CCCoSBDWeZkAVAEAU9RSBQY1wQk6qUJD+EwUhFcR4o9rAGNkzAJ1Q44R0eVYRHjYAA
+j9rBHCpAgQUU7gNR8AMBAvAAEngIjT0cEpMQJYU+HUlPFJhAJhn0CVqAUf8E0JKW3VBGSgK8IAsH
+lEEJFrCGwp0gDN2CwRPS8MhVzWAAkpySqgjwBAK4EQ9+YEL5YPCBOe5BKg4A5Q9UoALr1QAA2atB
+70pQR48wAgggKMNQiBKEJDygW2rolhSYhAEncNMPUnjAhNQQBNN1khZSAcIdoXAAgdnTnlQgQBqg
+IINChsOap0PABOpAgjpMAAEgKMDFJoAHECSUYwUgaCZn4LAyMAAPDyjmO+GJC4XIoAtLOMAbBLaB
+AyxBBBUoQRjAYQvAnQAEDxDaCV76gPKBoGgBwGlMEUqdJ/QMATkzpi3W4A8EUCADFaiADGSQ1AyI
+4Iv/bOkjwCY2RACBOmgeYxfY2Ka2qn4EEXLZ6fG+StaymvWsaE2rWtfK1kAAADs=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/nav_pubsearch_off.gif
+
+R0lGODlhbwAkAPcAAHyLUaK0aVliPOLuvs/jlMXQptfopjk8MZGebjM4JH6FaomSbRsdFaaxiNvq
+r+fxybrQd8zhjePvwMnSrp6sdXB2XMHOnY+We292W0xVNJqpbdzqsKuzktfnpZ+mi7fBmtLerZWm
+YqawhrzRflRZQ9/suENJM2VwRMLVi9niuzU6KLrDoZagdZykhTg7LiksIV9mSsjdgw4PC6CzZnB8
+SIKHcXJ4YZSmXrHEd5KYgm11Vq21l3R5ZigrHuHuvdTfssfYlmdrW6y0laCte0FHL4SPYRweGGJo
+UWFnTistJk1QPtnoYM3ibV5kRtPlZtLlm////+Xvusvgc8PcenmHTcfegaOvgKy5WcTdfM7jkrTF
+ZcnfhsXdfTY2NMXTWpWkW+LulMbef3h6ZsXdfsTde8vhjMPUY9nopMTce8vgisbegNTmn8rgidPm
+noOPWNHkmdvqe9PlnLnPdtLkkcfegp2wYdzrstPlnamyjsjfhc3ij83ikKCijd7sttXnotXmnNHk
+l8rgiNnpq87ecs/jk8ngh9fdq87ikszhjs7ikcjfhO312NXmodLlmuDtuTs9Na3CcNbnn+TuuMvh
+i9npqr3EhPH338nSeczdi/f67djop9TmnsnZmt3rs2hySqiyi9Dkl93rtNHkmFdbTNXgttbno63C
+b7vRfdXmoHF+TNXnoXR/UtDklqe5bNrprNDjlaOvf+Tvw4CNWnuDY2tzUdjoo251WKOvgaGtfKey
+i8/ijKW3cs3bpcvhinB3XcrdhkZKOtvqsKSvgsffg4mZW5ujgqq6fsfRqs7ii6zBbp2sc252WV1l
+RqzBbdPlmd3rsqm4ecrdiNTmoJmpanN4ZKiyjN7stM7VucjdhFlcUTw+N1pkQL3SgOnyzuXwxYua
+X9/srtDjjsXXkEhLPqGnkY2cZK+8iD9GK3V6aaSvhLnJi05WOJeoZsrTsNjoqLzEo6/DdCwuJ7zE
+pcfedlBXPOHtsrvQecDUh7O/kKqyj7C3nsPOobXAlPD22QAAAMPceSH5BAAAAAAALAAAAABvACQA
+AAj/AKEIHLhIUJV/CBMqXMiwocOHECNKnIiwiqBFAzMOzNTnIMWPIEOKBFmlTyaNAi35GcmypcuR
+fixptPRk4jxkkSRJqucsxsufQCE+kSkw08qIf/opXcoUnM+gUIP6OQmlT0RdSqOAWcKVqxM4UZSC
+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
+u/rVsI61rGcN64AAADs=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/nav_marked_off.gif
+
+R0lGODlhUQAXAOYAANrprVdbS8fYljk8MsTde8begGZxR9zrsWBnTSwtJquzk9DklrvRe211VXuD
+YtjoqdPlnWRpVnN5ZI2VeM3bpMfegdLlm6GtfMTce6exiaq5fMrgiV1lRuLuvt7stqa3dHB9Ssvg
+iuTvwsjfhNTmoK7CcXB3XRweF9HerNTmnm51WJGebJqqbU1VNVliPX6FaZ2sdMHOnefxydfoptHk
+mKmyjn2LUjM5JLnJipykg2ptYzY7K6awhqSvg3R/U6zBbs/jlLnPdqK0ac/cqLO4pa62mg4PC0FH
+LigrH8Pcev///87jksbef8XdfcvhjMzhjaOvgMnfhs3ikM3ij8zhjtbno87ikdXnos/jk9XgtpWm
+YM7ikoKHcbvDotbnpPf67e312OnyzvH33+XwxDg7L77MlbfBmbXAlHWAVcDUhuDtuT0+OcTPoz9G
+K7DEdlJYQYCNWkRJNdTfsZeoZpGXgcngh6Gnj8rTr8XQpd3rs4+cZrO/kIOPYcTWjwAAAMPceSH5
+BAAAAAAALAAAAABRABcAAAf/gEqCg2AAFX+IiYqLjI2Oj5CRjINKXx6Hkpmam5yJg2JXnaKjpIiC
+YhalqquRlaGssLGmHrK1rGCYsklBNj9JmUklBk2PTSBBv5oAxSB+N0xJDH5+JcmOSSF+LMSSTSx+
+IYlMN89/GB9+w4vGQhiMuYwjDdNpTSvTMNzXC34XBZkFLvhZkMjJjh1O/hCg8UIAvD8btOnLtMFE
+Aj8r6iC4CKUAAS0tbhgIgqGEizltBEIZAQJEEwxCQrpAFiwkAj+pEC0ZMGCJOSsINIywcUQkAw5+
+kKjT5ITMmhMIFpzQ4cfBCDdG3pgw4qPAFD9GGgzx0wONEQ0VGGTNgKQFkwpI/5CYGIAz0c6eiL7C
++PaCxxsge/xwwfEQkpQBAXScKOOHiB8TG6RQUCNiQIMoNPzQAQDAzwsjEyCM4ONHTp4cRqbo8dOl
+Q5G6Onn6/MOvhwo/NQBcsdJZwQImm7AkkGDHjwQjMhKYCLGhwYlpkC3gXkLCz4ATQ5xEuT1tGol5
+B2hkgP3n7mzpGdgYActhRAqyI6xJAmK8g58TATwMIDMFjp8cMgywnHQ9VCAdEQnEMcIGL/gRRgcy
+dECCCX4IMAIU5JmHiHQ8zDBGERH44cN7UBQGSWYmAEDXBA/wZME8KOShXAjSlShdEV2IuEEMnqUA
+gQZWnFHVBg5kOEACMGihBf8EZH3QBwBjJODADH6UuEkSOPiRAQlc+DEEBAEkQEIMRpxwwnVP1Gig
+lgdI4McHVUyQ1AlHbDBDiPf50UcyO3V3ApU8GODHDickQIEX17kwESQELOBBFVMA0IEFVABwABYp
+ZKEAHiLE8MQSB5DABKgkYHGAB0A8AUAWNcRQxQZU5HGHAhECkYwTHoQhgwgAVHHAAzOgkIEZHiyA
+hQc1WKhJEiM8EQUTsFbARAhOVDACDVWkQMMSFVSgHQHePhuCFCM0sYEFV0BABRNNPEGCFxBsUUEy
+TFBBgwUWSLGBEyGkeQUJ8hZgBQRSAAdLEgSwSwAB8l2TcBPJJNFEEwQs+7ATOwpR3LAtHHfs8ccg
+hyzyyLIEAgA7
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/nav_marked_corner_off.gif
+
+R0lGODlhCgAXALMAAMfegfH339npq+312NXnovf67d7sttLlm////8PceQAAAAAAAAAAAAAAAAAA
+AAAAACH5BAAAAAAALAAAAAAKABcAAAQnMAExkL0pA1MuyiARYGB2jF+ZEZ0KGqkLDC4o1Bqu73zv
+/8CgEBgBADs=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/button_print.gif
+
+R0lGODlhJwAUAMQAAKGTa//lmMilPf/rsVdRP8qwZoZ5UuS4OGVgT8m/oruuifHDON3Hhe7cpEE/
+OtawP/HGRf/aa//RScipTf/PQf/fgMm6j//NOtmyLP3hi7GPJ/7SU//MNf///wAAADMzMyH5BAAA
+AAAALAAAAAAnABQAAAX/YNd9ZGmeaHp6njhmcCzPdE1v37vtfO//wB9GQ8psOMikcim4XJZQ5bB4
+5GiumgcFSgRsntHDAsyZfozIDwFB+Bi+ygeCUdlCBZ8JvEw8Vz8AAwEGHwwbCxwHBxIFDBEUBxcL
+TU9dBRJPZmgcgAMRAB8WE26AowURRAgkBBsUbQgAj3xUaQABEAQOAwVqFhm8FhGjBg0KoRujCZ5b
+mn8lDgq7H9EVoxbVH8rA2AkBcM1pBgkWAwPYFt5419YZ1ud1SOCcgRkVERLqdfnu/KHws35qeaPw
+JB+Fff76KfgnD1AACUkMIlznT0IbArLkbQhQASISChECPAIpUkLIeycpS2yw0KAjwE0qMSW5IGED
+Jpo2cWKqiUllhIx9NiG5QMGOEidHkS5xAsYMhqdQo0qdSpXqlRwfsGjdyrWrVw2EXLAYS7as2bNm
+SYgIAQA7
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/en/button_email.gif
+
+R0lGODlhKgAUAMQAAJ+KTPHYjLOQJP7SU8iqUf/pqGliTcm7kf7OQv/YZf7hif/cdVlURv/MNf/l
+mP/RS//OO862bf/wwu7cpol4SOa6OsmmP9avPENAOjMzM9myLAAAAP///6OYdujHZOHLiSH5BAAA
+AAAALAAAAAAqABQAAAX/IMdlZGmeaJpurDgqcCzPdG0rQ/YOfO//wKBwoBGQcI2kcslsNi0QZUVZ
+PA6SgGz2gnB6sRnA4JIhPKLVDLKRwRjekUH027wYPgtLJrLoptcZBhIFDgoJUxUXUReKUhYVUQgE
+eHoHCn5Galdsggs8AIEkFAwkZhakJAAPehEJlZcNf5ttbxSrYROgHQUMBn0UH7wGCgQZB3nGsLJJ
+GQwdzwvFBwWgEg5vDjweEb0F0gqvmFbMgoUJ39ULbwUeBm5u3snhsZmAggkPCK+gBQnrFBkCXDMQ
+z9K8ZWwYHCDwaF+Gfv8yTAiAgUFBcMnEaWJmAgC6h/4IRsCQCsOEbwgqcip4QG9cgwEFBhFasMCB
+p5o8YCRYcGBCgQ8OdtpE4OFAgCsIEQxIwDTBgAdPIUBFAIEHggc7mT6FegYBU5YIk0BA0IUJhDlm
+x5ZdchZNJg1w48qdS7euXbgCjIzIy7ev37+AA+cF6IKF4cOIEyteXEJECAA7
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/ab.gif
+
+R0lGODlhFgASAJH/AP///4CAgAD/AAAAACH5BAEAAAIALAAAAAAWABIAQAIslI+pO+A/xpq02tsi
+CDwAeYXimDVeFFnouo7uC6tsGjaPk2H3DlL2josJKwUAO0XEGTGUJNC0iOoMBQA7
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/ft.gif
+
+R0lGODlhDQAOAPcAAP///4CAgAD/AAAAAFAAUgBPAFQATwBUAFkAUABFAFMAXABJAFwARgBUAC4A
+RwBJAEYAAAADAAAAh3NAAAbwVgAw7VYAX4H7vwSU0YEAAgAAAAAAAAAAAAAAAAAApu1WAGztVgAS
+P/e/AwAAAPdB97+QlPy/+c33v5CU/L+o8VYAo+1WAAAAAABM7VYAAAAAAGaiWAA/ANGB4hP3v2cB
+AADFEve/AGlWAADAOdfGL/m/4hP3v2cBAADFEve/oHEAAAgAAAAoUfe/A0MAAKjxVgAAAAAA/CZp
+AAAAAABkolgAAwAARkFUMzIAAABDOlwAABDwVgDbFPJ/AABAAAAAAACEc0AACBXyfwzg/H+Ec0AA
+cRXyf4RzQAAKdPR/hHNAAAAAAAAEAQAAsXP0fwDwVgBk9FYAAAAAAEgAAAAUaQIA4AMojkc41xYA
+AAAAAAB6B0cAAADr9kAA8vRWAEzuVgBfgfu/BJTRgQACAADy9FYA6/ZAAEcAAAA/ANGBgO5WAASU
+0YE/ANGBZPRWAKD2QAA090AAiO5WAEHR978ElNGBZPRWAPT0VgCk9kAAkAAAAD8A0YGA7lYAAAIA
+AJAAAABk9FYAAAAAAJTuVgAAAgAAsO5WAJ8o9H8AAAAAyO5WAJS8iIGg9kAAAMA518juVgAOofe/
+JrP3vwAAQAAAAAAARwAAAKT2QAA48lYAoPZAAAzwVgDbFPJ/AABAAAAAAACk9kAACBXyfwzg/H+k
+9kAAcRXyf6T2QABrc/R/pPZAAGT0VgAAAAAASAAAAEM6XE15IERvY3VtZW50c1wDAAAAAAAAgEH/
+97+R8FYATFBUAAMAAAAAAAAAAQAAAKD2QAC8o/e/EAQAAP////9AAAAADABAAAAAQACg9kAAAAAA
+AAAAAACUvIiBDABAAADAOdeM71YADqH3v2el978AAEAAAAAAAPQsQQAw8FYAAwAAAAAAAAABAAAA
+xI34vwAAQAD////nDEqFgbyj979VGAgA/////0AAAAAM4ICBAOCAgSH5BAEAAAIALAAAAAANAA4A
+AAhHAAUMGEhwoICDBwcAWMjQIEKFDBcqHPAQQICLAQAUTBixI0WBFjFi1MixY0OOIkd+hGiSJMiU
+F12yNLkyZEqZLSUmLMiTYkAAOw==
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/i/pub/28390.gif
+
+R0lGODlhZwA0ALP/AP/////O0P+c0P9joP9jZ8yc0MycoMxjoMxjZ8wxoMwxZ8wxM8wAZ8wAM8wA
+AAAAACwAAAAAZwA0AAAE/7DJSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bd943ji74/s7nfBiCAQK
+gsJRYFAYDcMoAKCcAgLTRuHKi+oAwSnCF2ggqLyuF8ebHrqOA0CgpvAU65kY6DgbrUEOSgZXC3kv
+bnBnAAgNiWaMDgpXhyxtAANpDglckgAGPlkSopUqC3sSfWieoI5zf2WlKQ4MjzxndKyXQbItjztn
+BTuTrVMKfL0ol5mpk7nEPgJcElDJJk5WeJJYAHjceK5XAAfW1wYHBwaNDQrnTQ3nB408RQXH5Sc/
+FUCpdWkfdfDlELCOBSErVgoKlAOmhYODCBScaSXQU8MN4D5MAuNDAbl8gf8u/LPwz98IVSAs3rug
+QIGhCXcQGAoIDpyaOwde1qmZip22Ci+DSKxAqoMqjpL6TQpwMJUcAwfvYWNqJZYPOUyuSOV28FO4
+bjwWcON15alFK0ExulkwacJGYBzfWuxxsMwiqZ0Y9lgkbFGARlOgXBXlQNoOJjwYRvRwFhCZT12q
+YRmzA0suvaHGZb7nIPCwLJlzEQqQRm4DLG9guuLVYdGEWK6Y/TOWZgtHAlOAoL7EWVpc0KchP6T0
+ueFwSqWLcpjL7xLlZqji5JYOIM1klWmaMneAJdPwMh2BN/ANYEFY8cvf9hwFmbWtAaAZ6sbEO43v
+4kGwgHIA36ppHwflUsurRR7IxYMAlZFiXXvDFeCDazzsFlttwpmmH4C54XeTXKYZBV83ErTFziMB
+HGPgFDN9mEYizK0Gl3GBYeggfjt0ggZ7GXHA0BTccAQPQsJQU5Y0W7kxolY7QIRFTb69sQgYG40j
+ATcCGLKFAdLoRGWOGuV4y0eqISDPCB79JEFaHwS1wJgVSMQlQBgEpBoJcspQp0B45qnnnnz26eef
+gAYq6KCEFmrooYgmCmgEADs=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/circlei3.gif
+
+R0lGODlhDAAMANUAAP78//38//j2/fXz//f2/Pn4//Tz/Pj3//Hw/PLx/PHw+/Dv/e7t++Tk+u3t
+/+vr/Ozs/Ovr++7u/O3t+93d6vLy/9zc6PT0//Ly/Onq+8jM987R99bZ+drb6c3O2tvc6EhZ5VRk
+54SP7aSs8qev8sPI9sfM9s3R9+Xn+zlN5Elb5lJj53uI7Ly+xqmstqeqtLi7xIuOlZOXn6Klq4WJ
+j6KmrHuAh5qfpnyBh3+DiKKmq4WKj3uAhAAAAAAAAAAAACwAAAAADAAMAEAGe0DIpeO67Wg3V+cC
+cekAi01Ig5gEZsVOJaIwjVCRSufWwbUClQzHAWjhOrTDY4JaiQyRx4E28OBqFAUFHzo2HgN9fx8F
+ARY1OIdOABMJJSAnCwA6LjtyERgsKg0TejtkFQwcKSQEYWNlZwMCEhUBMDYdQh0vMTw5MkpMQQA7
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://proquest.umi.com/images/common/logo_frompq.gif
+
+R0lGODlhlgApAPcAAO64udVnbPCsrd9QWdnZ2fPz8/3x8dusrZGRkVtbW1FRUU5OTtokMuXa2s3N
+zezs7I2NjeZ0d6mpqfX5+bq6uv729fT09PO8vIqKiuyRkvv7+2trazQ0NKGhofnd3dxKU4GBgdpV
+Xe6gofzu7Ts7O/rl5bS0tOnq6mJiYtiFiNm/v+iJivfR0YiIiAcHB3x8fNN5fLKystHR0fPr6yMj
+I/b29piYmHV1de3//fTBwfnh4eLi4nh4eCkpKd7e3r6+vvfU1MjIyNxDTRwcHOd9gejo6K6urkZG
+Rvja2uDg4NTd3Nzc3OXl5dgeLfjX1/77+/vq6qSkpNosOPbKysTExJaWluePku/v79gTI/Hw8Nzl
+5PL29ry8vObNzPfOz7CwsJ6envTFxdjFxPH6+ebm5vz//5ubm7a2tuVsctPNzMLCwtTU1OeChvGz
+s+319eXv7tLS0pycnO6mqP76+t4+SMbGxuFaYMDAwN3U0tooNqenp/X9/YWFhf74+NccK8vLy/nv
+7xAQEJSUlO2Zmu+lpu2anNw2Qfzp6KysrNs5ROru7nJyctqOkfn7+9syPfr8/NkaKvrz8uXy8vrg
+3+bp6ddcY+qZnNTh39fX1++io9YVJunz8tclM/f8/PLKyuyWmPCnquLl5dmcn/XDxP308//d3uBj
+aPbP0NkgLvzw7+r39u7z8vK4uO+eoPj4+Pz8/P39/f7+/v/+/vn5+f7//+v08/z9/d3p6fj5+f//
+/vT29v/8/Pr///r5+fXHyPCpqv75+dWRk/j//9g+SP/+/+6cnvXBv/7+/8HCwtgcLNkcK+iZmeTr
+7Pr29ePp6O2xsdiRlPrf3/z4+NLX1fHx8fLc3fL8+/X19fT29ens62hoaPCvsNPZ2Pzr6/vs6vTo
+5vHh4NgXJ+7j4ubo5tgvOvS/wNUqN+fs692WmdVudOSenebg3uGtruzBwdCkpPCnqN7o5tfh4P39
+/P38/P/j5OXw79/JyNDGxvfMzPPNzvfT0+3U1PPR0fvj4wAAAP///yH5BAAAAAAALAAAAACWACkA
+AAj/AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+FUlNAqLPQyqYOFnOCUNkgJBEhugMYOPEZa8CSJMWsBCL5SsKgmzY6GBiySuOT6agydOkSTJIYMNp
+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
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/html/en/pq5.css
+
+BODY {
+	BACKGROUND: #ffffff; MARGIN: 5px; COLOR: #000000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+A {
+	COLOR: #003399
+}
+A:visited {
+	COLOR: #003399
+}
+A:active {
+	COLOR: #ff9933
+}
+A.help {
+	COLOR: #cc0000
+}
+A.help:visited {
+	COLOR: #cc0000
+}
+A.help:active {
+	COLOR: #cc0000
+}
+.rowUnMarked TD {
+	BORDER-BOTTOM: 2px solid
+}
+.rowMarked TD {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: #ffcc66 2px solid
+}
+.rowWhite TD {
+	BORDER-BOTTOM: medium none
+}
+.rowSaved TD {
+	BACKGROUND: #ffffff
+}
+.rowUnSaved TD {
+	BACKGROUND: #ffffff
+}
+.rowMarked DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #cc0000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowUnMarked DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #ffffff; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowSaved DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #cc0000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowUnSaved DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #ffffff; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.desirable {
+	FONT-SIZE: 75%; COLOR: #ff00ff; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.buttonSearch {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; BACKGROUND-COLOR: #ffcc33
+}
+.buttonClear {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; BACKGROUND-COLOR: #ffffcc
+}
+.login {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #999966; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.linkStd {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; TEXT-DECORATION: none
+}
+.redLink {
+	COLOR: #cc0000
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #990000; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.headerBlack {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif
+}
+.textMedium {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textMediumBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.textMediumItalic {
+	FONT-SIZE: 80%; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.textSmall {
+	FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textReallySmall {
+	FONT-SIZE: 40%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.alerts {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: =
+Helvetica, sans-serif
+}
+P.collections {
+	FONT-SIZE: 80%; MARGIN: 8px 0px; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif
+}
+UL {
+	LINE-HEIGHT: 150%
+}
+UL.none {
+	MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+.rowColored {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: medium none
+}
+.italic {
+	FONT-STYLE: italic
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.legal {
+	FONT-SIZE: 75%; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; TEXT-DECORATION: none
+}
+.small {
+	FONT-SIZE: 90%; MARGIN: 8px 0px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.subtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 200%
+}
+.hangingIndent {
+	MARGIN: 0px 0cm 0px 1cm; TEXT-INDENT: -1cm
+}
+.printbib {
+	MARGIN-LEFT: 2em; TEXT-INDENT: -2em; LINE-HEIGHT: 2.1
+}
+P.example {
+	MARGIN-LEFT: 2em
+}
+.articletype {
+	COLOR: #ff0000; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.manual {
+	COLOR: #ff0000; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.rowNone TD {
+	BORDER-BOTTOM: medium none
+}
+P.NSForm {
+	MARGIN-TOP: -1em
+}
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/html/en/pq5.css
+
+BODY {
+	BACKGROUND: #ffffff; MARGIN: 5px; COLOR: #000000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+A {
+	COLOR: #003399
+}
+A:visited {
+	COLOR: #003399
+}
+A:active {
+	COLOR: #ff9933
+}
+A.help {
+	COLOR: #cc0000
+}
+A.help:visited {
+	COLOR: #cc0000
+}
+A.help:active {
+	COLOR: #cc0000
+}
+.rowUnMarked TD {
+	BORDER-BOTTOM: 2px solid
+}
+.rowMarked TD {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: #ffcc66 2px solid
+}
+.rowWhite TD {
+	BORDER-BOTTOM: medium none
+}
+.rowSaved TD {
+	BACKGROUND: #ffffff
+}
+.rowUnSaved TD {
+	BACKGROUND: #ffffff
+}
+.rowMarked DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #cc0000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowUnMarked DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #ffffff; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowSaved DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #cc0000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.rowUnSaved DIV {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #ffffff; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.desirable {
+	FONT-SIZE: 75%; COLOR: #ff00ff; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.buttonSearch {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; BACKGROUND-COLOR: #ffcc33
+}
+.buttonClear {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; BACKGROUND-COLOR: #ffffcc
+}
+.login {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #999966; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.linkStd {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; TEXT-DECORATION: none
+}
+.redLink {
+	COLOR: #cc0000
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #990000; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.headerBlack {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif
+}
+.textMedium {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textMediumBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.textMediumItalic {
+	FONT-SIZE: 80%; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.textSmall {
+	FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textReallySmall {
+	FONT-SIZE: 40%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.alerts {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: =
+Helvetica, sans-serif
+}
+P.collections {
+	FONT-SIZE: 80%; MARGIN: 8px 0px; FONT-FAMILY: Verdana, Arial, =
+Helvetica, sans-serif
+}
+UL {
+	LINE-HEIGHT: 150%
+}
+UL.none {
+	MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+.rowColored {
+	BACKGROUND: #ffffcc; BORDER-BOTTOM: medium none
+}
+.italic {
+	FONT-STYLE: italic
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.legal {
+	FONT-SIZE: 75%; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, =
+sans-serif; TEXT-DECORATION: none
+}
+.small {
+	FONT-SIZE: 90%; MARGIN: 8px 0px; FONT-FAMILY: Arial, Helvetica, =
+sans-serif
+}
+.subtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 200%
+}
+.hangingIndent {
+	MARGIN: 0px 0cm 0px 1cm; TEXT-INDENT: -1cm
+}
+.printbib {
+	MARGIN-LEFT: 2em; TEXT-INDENT: -2em; LINE-HEIGHT: 2.1
+}
+P.example {
+	MARGIN-LEFT: 2em
+}
+.articletype {
+	COLOR: #ff0000; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.manual {
+	COLOR: #ff0000; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.rowNone TD {
+	BORDER-BOTTOM: medium none
+}
+P.NSForm {
+	MARGIN-TOP: -1em
+}
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/js/retrieve.js
+
+var naicArray =3D new Array(50);=0A=
+var naicIndex =3D 0;=0A=
+var sicArray =3D new Array(50);=0A=
+var sicIndex =3D 0;=0A=
+var tickerArray =3D new Array(50);=0A=
+var tickerIndex =3D 0;=0A=
+var subjectArray =3D new Array(50);=0A=
+var subjectIndex =3D 0;=0A=
+var generateMoreLikeThis =3D false;=0A=
+var absoluteDatabaseName =3D null;=0A=
+var requestString =3D null;=0A=
+var naicsExist =3D false;=0A=
+var sicExist =3D false;=0A=
+var tickerExist =3D false;=0A=
+var tickerName =3D ' ';=0A=
+var naicsName =3D ' ';=0A=
+var sicName =3D ' ';=0A=
+var subjectName =3D ' ';=0A=
+=0A=
+function setTickerName(name) {=0A=
+   tickerName =3D name;=0A=
+}=0A=
+=0A=
+function setNaicsName(name) {=0A=
+   naicsName =3D name;=0A=
+}=0A=
+=0A=
+function setSicName(name) {=0A=
+   sicName =3D name;=0A=
+}=0A=
+=0A=
+function setSubjectName(name) {=0A=
+   subjectName =3D name;=0A=
+}=0A=
+=0A=
+function addSubject(sub) {=0A=
+  //alert('adding subject '+sub+' Index '+subjectIndex);=0A=
+  // Check to see if there is any repetition=0A=
+  //alert("Entered subject:  " + sub);=0A=
+  for ( i =3D0 ; i < subjectIndex; i++ ) {=0A=
+      //alert('ARRAY VALUE ['+subjectArray[i]+']  sub value ['+sub+']');=0A=
+      if ( subjectArray[i] =3D=3D sub )=0A=
+        return;=0A=
+  }=0A=
+  subjectArray[subjectIndex++] =3D sub;=0A=
+=0A=
+}=0A=
+=0A=
+function addNaic(sub) {=0A=
+  //alert('adding naic '+sub+' Index '+naicIndex);=0A=
+  // Check to see if there is any repetition=0A=
+  for ( i =3D0 ; i < naicIndex; i++ ) {=0A=
+      //alert('ARRAY VALUE ['+naicArray[i]+']  sub value ['+sub+']');=0A=
+      if ( naicArray[i] =3D=3D sub )=0A=
+        return;=0A=
+  }=0A=
+  naicArray[naicIndex++] =3D sub;=0A=
+}=0A=
+=0A=
+function addSic(sub) {=0A=
+  //alert('adding sic '+sub+' Index '+sicIndex);=0A=
+  for ( i =3D0 ; i < sicIndex; i++ ) {=0A=
+      if ( sicArray[i] =3D=3D sub )=0A=
+        return;=0A=
+  }=0A=
+  sicArray[sicIndex++] =3D sub;=0A=
+}=0A=
+=0A=
+function addTicker(sub) {=0A=
+  //alert('adding ticker '+sub+' Index '+tickerIndex);=0A=
+  for (i =3D0 ; i < tickerIndex; i++ ) {=0A=
+      if ( tickerArray[i] =3D=3D sub )=0A=
+        return;=0A=
+  }=0A=
+  tickerArray[tickerIndex++] =3D sub;=0A=
+}=0A=
+=0A=
+function generateSubjectMLT() {=0A=
+    var str =3D ' ';=0A=
+    var temp =3D '';=0A=
+    if ( subjectIndex > 0 )  {=0A=
+       str =3D str + '<tr>';=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium" =
+nowrap=3D"nowrap">' + subjectName + '</td>';=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium">';=0A=
+       for (i =3D 0 ; i < subjectIndex ; i++ ) {=0A=
+          temp =3D subjectArray[i];=0A=
+          //alert('Before =3D'+temp);=0A=
+          temp =3DstringReplace(temp,'&lt;hHl&gt;','<font =
+color=3Dred><b>');=0A=
+          temp =3DstringReplace(temp,'&lt;/hHl&gt;','</b></font>');=0A=
+          temp =3DstringReplace(temp,'<hHl>','<font color=3Dred><b>');=0A=
+          temp =3DstringReplace(temp,'</hHl>','</b></font>');=0A=
+          //alert('After =3D'+temp);=0A=
+          str =3D str + '<input type=3D"checkbox" name=3D"moreLikeThis" =
+value=3D" SUB('+subjectArray[i]+') ">';=0A=
+          str =3D str + temp + '</input>';=0A=
+                  if (i !=3D subjectIndex) {=0A=
+                          str =3D str + '&nbsp;';=0A=
+                  }=0A=
+       }=0A=
+       str =3D str + '</td></tr>' ;=0A=
+     }  // end Subject=0A=
+=0A=
+  //alert(str);=0A=
+  document.write(str);=0A=
+}=0A=
+=0A=
+function generateSubjectTerms() {=0A=
+    var str =3D ' ';=0A=
+    if ( subjectIndex > 0 )  {=0A=
+       for (i =3D 0 ; i < subjectIndex ; i++ ) {=0A=
+          temp =3D subjectArray[i];=0A=
+          //alert('Before =3D'+temp);=0A=
+          while(temp.indexOf('<hHl>') >=3D 0 || temp.indexOf('</hHl>') =
+>=3D 0 || temp.indexOf('&lt;hHl&gt;') >=3D 0 || =
+temp.indexOf('&lt;/hHl&gt;') >=3D 0 )=0A=
+          {=0A=
+              temp =3DstringReplace(temp,'&lt;hHl&gt;','<font =
+color=3Dred><b>');=0A=
+              temp =3DstringReplace(temp,'&lt;/hHl&gt;','</b></font>');=0A=
+              temp =3DstringReplace(temp,'<hHl>','<font =
+color=3Dred><b>');=0A=
+              temp =3DstringReplace(temp,'</hHl>','</b></font>');=0A=
+          }=0A=
+          //alert('After =3D'+temp);=0A=
+          =0A=
+          str =3D str + '<a href=3D"javascript:searchSideWays(';=0A=
+          str =3D str + "'SUB', &quot;"+ subjectArray[i] + "&quot;)";=0A=
+          str =3D str + '">' + temp +'</a>';=0A=
+                  if (i !=3D (subjectIndex -1)) {=0A=
+                          str =3D str + ',&nbsp;&nbsp;';=0A=
+                  }=0A=
+       }=0A=
+     }  // end Subject=0A=
+  =0A=
+  while(str.indexOf('<hHl>') >=3D 0 || str.indexOf('</hHl>') >=3D 0)=0A=
+  {=0A=
+      str =3D stringReplace(str, '<hHl>','');=0A=
+      str =3D stringReplace(str, '</hHl>','');=0A=
+  }=0A=
+=0A=
+  //alert(str);=0A=
+  document.write(str);=0A=
+}=0A=
+=0A=
+=0A=
+function generateSubjectTermsPrint() {=0A=
+//alert('here');=0A=
+    var str =3D ' ';=0A=
+    if ( subjectIndex > 0 )  {=0A=
+    //alert('here');=0A=
+       for (i =3D 0 ; i < subjectIndex ; i++ ) {=0A=
+           //alert('here1');=0A=
+          temp =3D subjectArray[i];=0A=
+          //alert('Before =3D'+temp);=0A=
+          temp =3DstringReplace(temp,'&lt;hHl&gt;','<font =
+color=3Dred><b>');=0A=
+          temp =3DstringReplace(temp,'&lt;/hHl&gt;','</b></font>');=0A=
+          temp =3DstringReplace(temp,'<hHl>','<font color=3Dred><b>');=0A=
+          temp =3DstringReplace(temp,'</hHl>','</b></font>');=0A=
+          //alert('After =3D'+temp);=0A=
+          str =3D str +temp;=0A=
+             // alert('here2');=0A=
+                  if (i !=3D (subjectIndex - 1)) {=0A=
+                          str =3D str + ',&nbsp;&nbsp;';=0A=
+                  }=0A=
+       }=0A=
+     }  // end Subject=0A=
+=0A=
+  //alert(str);=0A=
+  document.write(str);=0A=
+}=0A=
+=0A=
+function generateNSTMLT() {=0A=
+	var str =3D ' ';=0A=
+	if ( tickerIndex > 0 )  {=0A=
+       str =3D str + '<tr>';	=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium" =
+nowrap=3D"nowrap">' + tickerName + '</td>';=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium">';=0A=
+       for (i =3D 0 ; i < tickerIndex ; i++ ) {=0A=
+          str =3D str + '<input type=3D"checkbox" name=3D"moreLikeThis" =
+value=3D" TS('+tickerArray[i]+') ">';=0A=
+          str =3D str + tickerArray[i] + '</input>';=0A=
+		  if (i !=3D tickerIndex) {=0A=
+			  str =3D str + '&nbsp;';=0A=
+		  }=0A=
+       }=0A=
+       str =3D str + '</td></tr>' ;=0A=
+     }  // end ticker =0A=
+	if ( naicIndex > 0 )  {=0A=
+       str =3D str + '<tr>';	=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium" =
+nowrap=3D"nowrap">' + naicsName + '</td>';=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium">';=0A=
+       for (i =3D 0 ; i < naicIndex ; i++ ) {=0A=
+          str =3D str + '<input type=3D"checkbox" name=3D"moreLikeThis" =
+value=3D" NAICS('+naicArray[i]+') ">';=0A=
+          str =3D str + naicArray[i] + '</input>';=0A=
+		  if (i !=3D tickerIndex) {=0A=
+			  str =3D str + '&nbsp;';=0A=
+		  }=0A=
+       }=0A=
+       str =3D str + '</td></tr>' ;=0A=
+     }  // end NAICS =0A=
+	if ( sicIndex > 0 )  {=0A=
+       str =3D str + '<tr>';	=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium" =
+nowrap=3D"nowrap">' + sicName + '</td>';=0A=
+       str =3D str + '<td valign=3D"top" class=3D"textMedium">';=0A=
+       for (i =3D 0 ; i < sicIndex ; i++ ) {=0A=
+          str =3D str + '<input type=3D"checkbox" name=3D"moreLikeThis" =
+value=3D" SIC('+sicArray[i]+') ">';=0A=
+          str =3D str + sicArray[i] + '</input>';=0A=
+		  if (i !=3D tickerIndex) {=0A=
+			  str =3D str + '&nbsp;';=0A=
+		  }=0A=
+       }=0A=
+       str =3D str + '</td></tr>' ;=0A=
+     }  // end SIC=0A=
+=0A=
+  //alert(str);=0A=
+  document.write(str);=0A=
+}=0A=
+=0A=
+=0A=
+var ns6=3Ddocument.getElementById&&!document.all?1:0=0A=
+=0A=
+var head=3D"display:''"=0A=
+var folder=3D''=0A=
+=0A=
+function expandit(curobj){=0A=
+folder=3Dns6?curobj.nextSibling.nextSibling.style:document.all[curobj.sou=
+rceIndex+1].style=0A=
+if (folder.display=3D=3D"none")=0A=
+folder.display=3D""=0A=
+else=0A=
+folder.display=3D"none"=0A=
+}=0A=
+=0A=
+=0A=
+function ltrim ( s )=0A=
+{=0A=
+	return s.replace( /^\s*/, "" );=0A=
+}=0A=
+=0A=
+function rtrim ( s )=0A=
+{=0A=
+	return s.replace( /\s*$/, "" );=0A=
+}=0A=
+=0A=
+function trim ( s )=0A=
+{=0A=
+	return rtrim(ltrim(s));=0A=
+}=0A=
+=0A=
+function setRequestString(str) {=0A=
+   requestString =3D str;=0A=
+}=0A=
+=0A=
+=0A=
+function searchMoreLikeThis() {=0A=
+	var isFirst =3D true;=0A=
+	var qString =3D ' ';=0A=
+	if ( document.article.moreLikeThis.length ) {=0A=
+    for ( i =3D0 ; i <document.article.moreLikeThis.length  ; i++ )=0A=
+    {=0A=
+        if (document.article.moreLikeThis[i].checked)=0A=
+        {=0A=
+            if (!isFirst)=0A=
+            {=0A=
+                qString =3D qString + ' AND ';=0A=
+            }=0A=
+            isFirst =3D false;=0A=
+            qString =3D qString + =
+stripStrings(document.article.moreLikeThis[i].value, false); =0A=
+        }=0A=
+    }=0A=
+    } else {=0A=
+       // only one in the list=0A=
+       if ( document.article.moreLikeThis.checked ) {=0A=
+              isFirst =3D false;=0A=
+            qString =3D qString + =
+stripStrings(document.article.moreLikeThis.value, false); =0A=
+       }=0A=
+    }=0A=
+=0A=
+    if ( isFirst)=0A=
+    { =0A=
+        alert('Please select a check box to search');=0A=
+        return;=0A=
+    }=0A=
+    // escape not needed=0A=
+	document.article.SQ.value =3D qString;=0A=
+	document.article.submit();=0A=
+    return;=0A=
+}=0A=
+=0A=
+function resetMoreLikeThis() {=0A=
+	if ( document.article.moreLikeThis.length ) {=0A=
+	    for ( i =3D0 ; i <document.article.moreLikeThis.length  ; i++ )=0A=
+        {=0A=
+            document.article.moreLikeThis[i].checked =3D false;=0A=
+        }=0A=
+	} else {=0A=
+         document.article.moreLikeThis.checked =3D false;=0A=
+	}=0A=
+}=0A=
+=0A=
+function stripStrings(str, isO) {=0A=
+=0A=
+   //alert("Entered stripStrings:  " + str);=0A=
+  =0A=
+   =0A=
+   if ( isO) {=0A=
+       str =3D stringReplace(str, "(", " ");=0A=
+       str =3D stringReplace(str, ")", " ");=0A=
+   }=0A=
+     =0A=
+   if ( !isO) {=0A=
+      //tempString =3D 'NA(abcded(def))';=0A=
+      // check for double =0A=
+      index =3D str.indexOf('(');=0A=
+      if ( index !=3D -1 ) {=0A=
+          substr =3D str.substring(index+1, str.length);=0A=
+          subindex =3D substr.indexOf('(');=0A=
+          if ( subindex !=3D -1) {=0A=
+             // We have multiple paranthesis=0A=
+             temp1 =3D str.substring(0, subindex+index+1);=0A=
+             // NEW ADDITION... STRIP OFF EVERYTHING in paranthesis=0A=
+             //temp2 =3D str.substring(subindex+index+2, str.length);=0A=
+             // str =3D temp1 + temp2;=0A=
+             str =3D temp1 + ')';=0A=
+             //endIndex =3D str.indexOf(')');=0A=
+             //if ( endIndex !=3D -1 ) {=0A=
+               // str =3D str.substring(0, endIndex) + =
+str.substring(endIndex+1, str.length);=0A=
+             //}=0A=
+          }=0A=
+      }=0A=
+//      alert("stripStrings exiting:  " + str);=0A=
+   }=0A=
+   =0A=
+   str =3D stringReplace(str, '[', ' ');=0A=
+   str =3D stringReplace(str, ']', ' ');=0A=
+   str =3D stringReplace(str, '{', ' ');=0A=
+   str =3D stringReplace(str, '}', ' ');=0A=
+   str =3D stringReplace(str, ';', ' ');=0A=
+   =0A=
+   while(str.indexOf('<hHl>') >=3D 0 || str.indexOf('</hHl>') >=3D 0)=0A=
+   {=0A=
+      str =3D stringReplace(str, '<hHl>','');=0A=
+      str =3D stringReplace(str, '</hHl>','');=0A=
+   }=0A=
+   str =3D stringReplace(str, '<', ' ');=0A=
+   str =3D stringReplace(str, '>', ' ');=0A=
+   str =3D stringReplace(str, 'hHl', '  ');=0A=
+   str =3D stringReplace(str, '/hHl', '');=0A=
+   str =3D stringReplace(str, ',,', ',');=0A=
+   str =3D stringReplace(str, ', ,', ',');=0A=
+   str =3D stringReplace(str, '  ', ' ');=0A=
+   // Do it twice just so that if we have "  ,"=0A=
+   str =3D stringReplace(str, ' ,',',');=0A=
+   str =3D stringReplace(str, ' ,',',');=0A=
+   //alert("returning from stripstrings: " + str);=0A=
+   return str;=0A=
+}=0A=
+=0A=
+=0A=
+function searchSideWays(sf, str) {=0A=
+   //alert("ssw entered: " + str);=0A=
+   str =3D stripStrings(str, true);=0A=
+   //alert("after stripStrings:  " + str);=0A=
+   document.article.SQ.value =3D sf + '(' + str + ')';=0A=
+   //alert("SearchSideWays sq.value: " + document.article.SQ.value);=0A=
+   document.article.submit();=0A=
+   return false;=0A=
+}=0A=
+=0A=
+function stringReplace(str1, str2, str3) { =0A=
+=0A=
+ //alert("Entered stringReplace:  " + str1 + "|"+ str2 + "|" + str3); =0A=
+ if(str2 =3D=3D "(" || str2 =3D=3D ")" || str2 =3D=3D "[" || str2 =3D=3D =
+"]")=0A=
+ {=0A=
+  str1 =3D str1.split(str2).join(str3);  //<-- SLOW=0A=
+ // This doesn't work in netscape=0A=
+    while(str1.indexOf(str2) !=3D -1) {=0A=
+      //alert("replacing: " + str2);=0A=
+      str1 =3D str1.replace(str2, str3);=0A=
+    } =0A=
+ }=0A=
+ else =0A=
+ {=0A=
+ str1 =3D str1.replace(str2, str3);=0A=
+ }=0A=
+ //str1 =3D str1.split(str2).join(str3);  //<-- SLOW=0A=
+ // This doesn't work in netscape=0A=
+ //while(str1.indexOf(str2) !=3D -1) {=0A=
+ //  str1 =3D str1.replace(str2, str3);=0A=
+ //} =0A=
+ //alert("Returning from stringReplace: " + str1);=0A=
+ return str1;     =0A=
+} =0A=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/js/wave.js
+
+var fbNumBars =3D 16;	// number of bars in the wave
+var arrColors =3D [[255, 195], [153, 220], [0, 121]];	// the possible =
+colors of the bars
+var arrBarColors =3D [0];	// the actual colors for each bar
+var arrBars =3D [0];		// the bars
+var arrPercents =3D [0];	// the hight of the bars
+var uberBar =3D null;		// container layer that holds all the bars
+var fbWidth =3D 2;		// the width of each bar
+var fbGap =3D 1;			// the space between bars
+var fbHeight =3D 20;		// the max height of each bar
+var fbInitLeft =3D 200;	// left will be overridden to left of search =
+button
+var fbInitTop =3D 200;	// top will be overridden to top of search button
+var iTimeOutInterval =3D 20;	// the bigger the number the slower the =
+wave
+var bCancled =3D false;=09
+
+function searchFeedback()
+{
+	if (document.layers)
+		return;
+	=09
+/* ----- removed stuff to cancel feedback
+	=
+scrollH=3D(window.pageYOffset!=3Dnull)?window.pageYOffset:document.body.s=
+crollTop;
+	var oCapture =3D null
+	if (document.all)
+		oCapture =3D captureClick;
+	else if (document.getElementById)
+		oCapture =3D document.getElementById("captureClick");
+	if (oCapture)
+	{
+		oCapture.style.top =3D scrollH + "px";
+		oCapture.style.visibility =3D "visible";
+	}
+-------------------- */=09
+	bCancled =3D false;
+
+	var elementReference =3D null;
+	if (document.all)
+		elementReference =3D whereIsButton;
+	else if (document.getElementById)
+		elementReference =3D document.getElementById("whereIsButton");
+	if (elementReference =3D=3D null)
+		return;
+
+	// find the location of the search button
+	fbInitLeft =3D DL_GetElementLeft(elementReference);
+	fbInitTop =3D DL_GetElementTop(elementReference);	// show the wave =
+under the button
+
+	if (uberBar =3D=3D null)
+	{
+		var sRed, sGreen, sBlue;
+		var incRed, incGreen, incBlue;
+		var fSin;
+		incRed =3D Math.floor((arrColors[0][1] - arrColors[0][0]));
+		incGreen =3D Math.floor((arrColors[1][1] - arrColors[1][0]));
+		incBlue =3D Math.floor((arrColors[2][1] - arrColors[2][0]));
+		uberBar =3D document.createElement("DIV");
+		document.body.appendChild(uberBar);
+		with (uberBar.style)
+		{
+			position =3D "absolute";
+			visibility =3D "visible";
+			zIndex =3D "19";
+			background =3D "white";
+			width =3D (fbWidth+fbGap)*fbNumBars*2;
+			var add2 =3D fbHeight * fSin + fbHeight*3;
+			height =3D fbHeight*2;
+			left =3D fbInitLeft;
+			top =3D fbInitTop;
+			clip =3D "rect(0 "+(fbWidth+fbGap)*fbNumBars*2+" "+fbHeight*6+" 0)";
+		}		=09
+=09
+		for (i=3D0; i<fbNumBars; i++)
+		{
+			fSin2 =3D Math.sin(i*Math.PI/(fbNumBars-1));
+			sRed =3D fb_getColor(0, Math.abs(fSin2)*incRed);
+			sGreen =3D fb_getColor(1, Math.abs(fSin2)*incGreen);
+			sBlue =3D fb_getColor(2, Math.abs(fSin2)*incBlue);
+			arrBars[i] =3D document.createElement("SPAN");
+			uberBar.appendChild(arrBars[i]);
+			arrBars[i].innerHTML =3D "<img src=3D'/images/common/x.gif' width=3D" =
++ fbWidth + " height=3D2>";
+			with (arrBars[i].style)
+			{
+				position =3D "absolute";
+				visibility =3D "inherit";
+				background =3D "#FF9900";
+				zIndex =3D "20";
+				width =3D fbWidth+"px";
+				height =3D "2px";
+				left =3D i*(fbWidth + fbGap);
+				top =3D fbHeight/2 - 1;
+//				(fbHeight - (fbHeight * fSin + fbHeight)/2) + "px";
+			}
+			arrBars[i].maxheight =3D fbHeight * fSin2;
+			arrPercents[i] =3D 0;
+			arrPercents[i+fbNumBars] =3D fSin2;
+			arrBarColors[i] =3D "#FF9900";
+			arrBarColors[i+fbNumBars] =3D "#"+sRed+sGreen+sBlue;
+		}
+
+
+	// if you want to have the wave speed up each time the search button is
+	// pressed, move the following 2 lines out of the if {}
+
+	uberBar.style.visibility =3D "visible";
+	fbStartWave();
+	}
+}
+
+function fbStartWave()
+{
+	if (bCancled)
+		return;
+	for (i=3D1; i<fbNumBars-1; i++)
+	{
+		arrBars[i].style.height =3D (2 + arrPercents[i]*arrBars[i].maxheight) =
++ "px";
+		arrBars[i].style.top =3D (fbHeight/2 - (2 + =
+arrPercents[i]*arrBars[i].maxheight)/2) + "px";
+		arrBars[i].style.background =3D arrBarColors[i];
+	}
+
+	var fPct0 =3D arrPercents[arrPercents.length-1];
+	var sColor0 =3D arrBarColors[arrPercents.length-1];
+	for (i=3DarrPercents.length-1; i>0; i--)
+	{
+		arrPercents[i] =3D arrPercents[i-1];
+		arrBarColors[i] =3D arrBarColors[i-1];
+	}
+	arrPercents[0] =3D fPct0;
+	arrBarColors[0] =3D sColor0;
+
+	setTimeout("fbStartWave()", iTimeOutInterval);
+}
+
+function fb_getColor(iColor, iinc)
+{
+	var sColor =3D Math.floor((arrColors[iColor][0] + Math.floor(iinc)));
+	sColor =3D returnBase(sColor, 16) + "";
+	if (sColor.length < 2)
+		sColor =3D "0" + sColor;
+	return sColor;
+}
+
+
+function makeArray() {
+    for (i =3D 0; i<makeArray.arguments.length; i++)
+        this[i] =3D makeArray.arguments[i];
+}
+
+// the following was found in a FAQ about converting numbers to HEX in =
+javascript at
+// http://www.freeflights.net/atasi/divers/cjvscr/faqqa/fnumber.html
+var convert =3D new =
+makeArray('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'=
+,'G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X',=
+'Y','Z');
+function returnBase(number,base) {
+    if (number < base) var output =3D convert[number];
+    else {
+        var MSD =3D '' + Math.floor(number / base);
+        var LSD =3D number - MSD*base;
+        if (MSD >=3D base) var output =3D returnBase(MSD,base) + =
+convert[LSD];
+        else var output =3D convert[MSD] + convert[LSD];
+    }
+    return output;
+}
+
+
+// the following scripts were found on=20
+// http://www.webreference.com/dhtml/diner/realpos4/
+function DL_GetElementLeft(eElement)
+{
+   if (!eElement && this)                   =20
+   {                                        =20
+      eElement =3D this;                      =20
+   }                                        =20
+
+   var DL_bIE =3D document.all ? true : false;=20
+
+   var nLeftPos =3D eElement.offsetLeft;      =20
+   var eParElement =3D eElement.offsetParent; =20
+
+   while (eParElement !=3D null)
+   {                                        =20
+
+      if(DL_bIE)                            =20
+      {
+         if( (eParElement.tagName !=3D "TABLE") && (eParElement.tagName =
+!=3D "BODY") )
+         {                                  =20
+            nLeftPos +=3D eParElement.clientLeft;=20
+         }
+      }
+      else                                  =20
+      {
+         if(eParElement.tagName =3D=3D "TABLE") =20
+         {                                  =20
+            var nParBorder =3D parseInt(eParElement.border);
+            if(isNaN(nParBorder))           =20
+            {                               =20
+               var nParFrame =3D eParElement.getAttribute('frame');
+               if(nParFrame !=3D null)        =20
+               {
+                  nLeftPos +=3D 1;            =20
+               }
+            }
+            else if(nParBorder > 0)         =20
+            {
+               nLeftPos +=3D nParBorder;      =20
+            }
+         }
+      }
+      nLeftPos +=3D eParElement.offsetLeft;   =20
+      eParElement =3D eParElement.offsetParent;=20
+   }                                        =20
+   return nLeftPos;                         =20
+}
+
+function DL_GetElementTop(eElement)
+{
+   if (!eElement && this)                   =20
+   {                                        =20
+      eElement =3D this;                      =20
+   }                                        =20
+
+   var DL_bIE =3D document.all ? true : false;=20
+
+   var nTopPos =3D eElement.offsetTop;        =20
+   var eParElement =3D eElement.offsetParent; =20
+
+   while (eParElement !=3D null)
+   {                                        =20
+      if(DL_bIE)                            =20
+      {
+         if( (eParElement.tagName !=3D "TABLE") && (eParElement.tagName =
+!=3D "BODY") )
+         {                                  =20
+            nTopPos +=3D eParElement.clientTop;=20
+         }
+      }
+      else                                  =20
+      {
+         if(eParElement.tagName =3D=3D "TABLE") =20
+         {                                  =20
+            var nParBorder =3D parseInt(eParElement.border);
+            if(isNaN(nParBorder))           =20
+            {                               =20
+               var nParFrame =3D eParElement.getAttribute('frame');
+               if(nParFrame !=3D null)        =20
+               {
+                  nTopPos +=3D 1;             =20
+               }
+            }
+            else if(nParBorder > 0)         =20
+            {
+               nTopPos +=3D nParBorder;       =20
+            }
+         }
+      }
+
+      nTopPos +=3D eParElement.offsetTop;     =20
+      eParElement =3D eParElement.offsetParent;=20
+   }                                        =20
+   return nTopPos;                          =20
+}
+
+/* ----- removed stuff to cancel feedback
+if (!document.layers)
+document.write("<DIV id=3DcaptureClick onClick=3D'cancelFeedback()' =
+style=3D'position:absolute;visibility:hidden;left:0px;top:0px;width:100%;=
+height:100%;z-Index:20;'></DIV>");
+
+function cancelFeedback()
+{
+	bCancled =3D true;
+	var oCapture =3D null
+	if (document.all)
+		oCapture =3D captureClick;
+	else if (document.getElementById)
+		oCapture =3D document.getElementById("captureClick");
+	if (oCapture)
+		captureClick.style.visibility =3D "hidden";
+	=09
+	uberBar.style.visibility =3D "hidden";
+}
+------------------- */
+
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/code/dyn-help.js
+
+=0A=
+var HELP_LAYER =3D "dynHelp";=0A=
+var szCurHelp;=0A=
+=0A=
+firstTime =3D 1;=0A=
+firstMsg =3D "";=0A=
+function doHelp(szId, bOn)=0A=
+{=0A=
+//  alert("hello");=0A=
+  //alert("doHelp: " + szId + "," + bOn);=0A=
+//  var szTmp =3D eval(szId + "Desc");=0A=
+  var szTmp =3D "";=0A=
+=0A=
+  if (bOn)=0A=
+    szTmp =3D szId;  =0A=
+    //eval(szId + "Desc");  This line is no longer needed since we're =
+not passing a variable name, but rather the text itself=0A=
+  else=0A=
+    szTmp =3D firstMsg;=0A=
+  //alert("szTmp :"+ szTmp);=0A=
+  if (BR_NS4)=0A=
+    document.dynHelp.top =3D document.tipBorder.pageY + 18;=0A=
+=0A=
+  // ie?  dynHelp.style.top =3D tipBorder.offsetTop + 18;  =0A=
+  //var szFunc =3D"writeLayer(HELP_LAYER,'"+szTmp+"')";=0A=
+  //var nLocDelay =3D 0;=0A=
+  if (firstTime =3D=3D 1) {=0A=
+    firstTime =3D 0;=0A=
+    firstMsg =3D szTmp;=0A=
+  } =0A=
+  //setTimeout(szFunc, nLocDelay);=0A=
+=0A=
+if(BR_Mac)=0A=
+	szTmp=3D"<nobr>" + szTmp + "</nobr>";=0A=
+  writeLayer(HELP_LAYER, szTmp);=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+//  Following are strings for various hot help components.  Should be =
+broken into generic=0A=
+//  and page specific files to optimize load times....=0A=
+=0A=
+=0A=
+//  They used to live here, but now the actual strings live in the =
+message files (part of the new local language support)=0A=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://proquest.umi.com/js/overlib.js
+
+//\//////////////////////////////////////////////////////////////////////=
+////////////=0A=
+//\  overLIB 3.50  --  This notice must remain untouched at all times.=0A=
+//\  Copyright Erik Bosrup 1998-2001. All rights reserved.=0A=
+//\=0A=
+//\  By Erik Bosrup (erik@bosrup.com).  Last modified 2001-08-28.=0A=
+//\  Portions by Dan Steinman (dansteinman.com). Additions by other =
+people are=0A=
+//\  listed on the overLIB homepage.=0A=
+//\=0A=
+//\  Get the latest version at http://www.bosrup.com/web/overlib/=0A=
+//\=0A=
+//\  This script is published under an open source license. Please read =
+the license=0A=
+//\  agreement online at: http://www.bosrup.com/web/overlib/license.html=0A=
+//\  If you have questions regarding the license please contact =
+erik@bosrup.com.=0A=
+//\=0A=
+//\  This script library was originally created for personal use. By =
+request it has=0A=
+//\  later been made public. This is free software. Do not sell this as =
+your own=0A=
+//\  work, or remove this copyright notice. For full details on copying =
+or changing=0A=
+//\  this script please read the license agreement at the link above.=0A=
+//\=0A=
+//\  Please give credit on sites that use overLIB and submit changes of =
+the script=0A=
+//\  so other people can use them as well. This script is free to use, =
+don't abuse.=0A=
+//\//////////////////////////////////////////////////////////////////////=
+////////////=0A=
+//\mini=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// CONSTANTS=0A=
+// Don't touch these. :)=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+var INARRAY		=3D	1;=0A=
+var CAPARRAY		=3D	2;=0A=
+var STICKY		=3D	3;=0A=
+var BACKGROUND		=3D	4;=0A=
+var NOCLOSE		=3D	5;=0A=
+var CAPTION		=3D	6;=0A=
+var LEFT		=3D	7;=0A=
+var RIGHT		=3D	8;=0A=
+var CENTER		=3D	9;=0A=
+var OFFSETX		=3D	10;=0A=
+var OFFSETY		=3D	11;=0A=
+var FGCOLOR		=3D	12;=0A=
+var BGCOLOR		=3D	13;=0A=
+var TEXTCOLOR		=3D	14;=0A=
+var CAPCOLOR		=3D	15;=0A=
+var CLOSECOLOR		=3D	16;=0A=
+var WIDTH		=3D	17;=0A=
+var BORDER		=3D	18;=0A=
+var STATUS		=3D	19;=0A=
+var AUTOSTATUS		=3D	20;=0A=
+var AUTOSTATUSCAP	=3D	21;=0A=
+var HEIGHT		=3D	22;=0A=
+var CLOSETEXT		=3D	23;=0A=
+var SNAPX		=3D	24;=0A=
+var SNAPY		=3D	25;=0A=
+var FIXX		=3D	26;=0A=
+var FIXY		=3D	27;=0A=
+var FGBACKGROUND	=3D	28;=0A=
+var BGBACKGROUND	=3D	29;=0A=
+var PADX		=3D	30; // PADX2 out=0A=
+var PADY		=3D	31; // PADY2 out=0A=
+var FULLHTML		=3D	34;=0A=
+var ABOVE		=3D	35;=0A=
+var BELOW		=3D	36;=0A=
+var CAPICON		=3D	37;=0A=
+var TEXTFONT		=3D	38;=0A=
+var CAPTIONFONT		=3D	39;=0A=
+var CLOSEFONT		=3D	40;=0A=
+var TEXTSIZE		=3D	41;=0A=
+var CAPTIONSIZE		=3D	42;=0A=
+var CLOSESIZE		=3D	43;=0A=
+var FRAME		=3D	44;=0A=
+var TIMEOUT		=3D	45;=0A=
+var FUNCTION		=3D	46;=0A=
+var DELAY		=3D	47;=0A=
+var HAUTO		=3D	48;=0A=
+var VAUTO		=3D	49;=0A=
+var CLOSECLICK		=3D	50;=0A=
+var CSSOFF		=3D	51;=0A=
+var CSSSTYLE		=3D	52;=0A=
+var CSSCLASS		=3D	53;=0A=
+var FGCLASS		=3D	54;=0A=
+var BGCLASS		=3D	55;=0A=
+var TEXTFONTCLASS	=3D	56;=0A=
+var CAPTIONFONTCLASS	=3D	57;=0A=
+var CLOSEFONTCLASS	=3D	58;=0A=
+var PADUNIT		=3D	59;=0A=
+var HEIGHTUNIT		=3D	60;=0A=
+var WIDTHUNIT		=3D	61;=0A=
+var TEXTSIZEUNIT	=3D	62;=0A=
+var TEXTDECORATION	=3D	63;=0A=
+var TEXTSTYLE		=3D	64;=0A=
+var TEXTWEIGHT		=3D	65;=0A=
+var CAPTIONSIZEUNIT	=3D	66;=0A=
+var CAPTIONDECORATION	=3D	67;=0A=
+var CAPTIONSTYLE	=3D	68;=0A=
+var CAPTIONWEIGHT	=3D	69;=0A=
+var CLOSESIZEUNIT	=3D	70;=0A=
+var CLOSEDECORATION	=3D	71;=0A=
+var CLOSESTYLE		=3D	72;=0A=
+var CLOSEWEIGHT		=3D	73;=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// DEFAULT CONFIGURATION=0A=
+// You don't have to change anything here if you don't want to. All of =
+this can be=0A=
+// changed on your html page or through an overLIB call.=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+// Main background color (the large area)=0A=
+// Usually a bright color (white, yellow etc)=0A=
+if (typeof ol_fgcolor =3D=3D 'undefined') { var ol_fgcolor =3D =
+"#FFFFCC";}=0A=
+	=0A=
+// Border color and color of caption=0A=
+// Usually a dark color (black, brown etc)=0A=
+if (typeof ol_bgcolor =3D=3D 'undefined') { var ol_bgcolor =3D =
+"#888851";}=0A=
+	=0A=
+// Text color=0A=
+// Usually a dark color=0A=
+if (typeof ol_textcolor =3D=3D 'undefined') { var ol_textcolor =3D =
+"#000000";}=0A=
+	=0A=
+// Color of the caption text=0A=
+// Usually a bright color=0A=
+if (typeof ol_capcolor =3D=3D 'undefined') { var ol_capcolor =3D =
+"#FFFFFF";}=0A=
+	=0A=
+// Color of "Close" when using Sticky=0A=
+// Usually a semi-bright color=0A=
+if (typeof ol_closecolor =3D=3D 'undefined') { var ol_closecolor =3D =
+"#9999FF";}=0A=
+=0A=
+// Font face for the main text=0A=
+if (typeof ol_textfont =3D=3D 'undefined') { var ol_textfont =3D =
+"Verdana,Arial,Helvetica";}=0A=
+=0A=
+// Font face for the caption=0A=
+if (typeof ol_captionfont =3D=3D 'undefined') { var ol_captionfont =3D =
+"Verdana,Arial,Helvetica";}=0A=
+=0A=
+// Font face for the close text=0A=
+if (typeof ol_closefont =3D=3D 'undefined') { var ol_closefont =3D =
+"Verdana,Arial,Helvetica";}=0A=
+=0A=
+// Font size for the main text=0A=
+// When using CSS this will be very small.=0A=
+if (typeof ol_textsize =3D=3D 'undefined') { var ol_textsize =3D "1";}=0A=
+=0A=
+// Font size for the caption=0A=
+// When using CSS this will be very small.=0A=
+if (typeof ol_captionsize =3D=3D 'undefined') { var ol_captionsize =3D =
+"1";}=0A=
+=0A=
+// Font size for the close text=0A=
+// When using CSS this will be very small.=0A=
+if (typeof ol_closesize =3D=3D 'undefined') { var ol_closesize =3D "1";}=0A=
+=0A=
+// Width of the popups in pixels=0A=
+// 100-300 pixels is typical=0A=
+if (typeof ol_width =3D=3D 'undefined') { var ol_width =3D "200";}=0A=
+=0A=
+// How thick the ol_border should be in pixels=0A=
+// 1-3 pixels is typical=0A=
+if (typeof ol_border =3D=3D 'undefined') { var ol_border =3D "1";}=0A=
+=0A=
+// How many pixels to the right/left of the cursor to show the popup=0A=
+// Values between 3 and 12 are best=0A=
+if (typeof ol_offsetx =3D=3D 'undefined') { var ol_offsetx =3D 15;}=0A=
+	=0A=
+// How many pixels to the below the cursor to show the popup=0A=
+// Values between 3 and 12 are best=0A=
+if (typeof ol_offsety =3D=3D 'undefined') { var ol_offsety =3D -35;}=0A=
+=0A=
+// Default text for popups=0A=
+// Should you forget to pass something to overLIB this will be displayed.=0A=
+if (typeof ol_text =3D=3D 'undefined') { var ol_text =3D "Default Text"; =
+}=0A=
+=0A=
+// Default caption=0A=
+// You should leave this blank or you will have problems making non caps =
+popups.=0A=
+if (typeof ol_cap =3D=3D 'undefined') { var ol_cap =3D ""; }=0A=
+=0A=
+// Decides if sticky popups are default.=0A=
+// 0 for non, 1 for stickies.=0A=
+if (typeof ol_sticky =3D=3D 'undefined') { var ol_sticky =3D 0; }=0A=
+=0A=
+// Default background image. Better left empty unless you always want =
+one.=0A=
+if (typeof ol_background =3D=3D 'undefined') { var ol_background =3D ""; =
+}=0A=
+=0A=
+// Text for the closing sticky popups.=0A=
+// Normal is "Close".=0A=
+if (typeof ol_close =3D=3D 'undefined') { var ol_close =3D "Close"; }=0A=
+=0A=
+// Default vertical alignment for popups.=0A=
+// It's best to leave RIGHT here. Other options are LEFT and CENTER.=0A=
+if (typeof ol_hpos =3D=3D 'undefined') { var ol_hpos =3D RIGHT; }=0A=
+=0A=
+// Default status bar text when a popup is invoked.=0A=
+if (typeof ol_status =3D=3D 'undefined') { var ol_status =3D ""; }=0A=
+=0A=
+// If the status bar automatically should load either text or caption.=0A=
+// 0=3Dnothing, 1=3Dtext, 2=3Dcaption=0A=
+if (typeof ol_autostatus =3D=3D 'undefined') { var ol_autostatus =3D 0; }=0A=
+=0A=
+// Default height for popup. Often best left alone.=0A=
+if (typeof ol_height =3D=3D 'undefined') { var ol_height =3D -1; }=0A=
+=0A=
+// Horizontal grid spacing that popups will snap to.=0A=
+// 0 makes no grid, anything else will cause a snap to that grid spacing.=0A=
+if (typeof ol_snapx =3D=3D 'undefined') { var ol_snapx =3D 0; }=0A=
+=0A=
+// Vertical grid spacing that popups will snap to.=0A=
+// 0 makes no grid, andthing else will cause a snap to that grid spacing.=0A=
+if (typeof ol_snapy =3D=3D 'undefined') { var ol_snapy =3D 0; }=0A=
+=0A=
+// Sets the popups horizontal position to a fixed column.=0A=
+// Anything above -1 will cause fixed position.=0A=
+if (typeof ol_fixx =3D=3D 'undefined') { var ol_fixx =3D -1; }=0A=
+=0A=
+// Sets the popups vertical position to a fixed row.=0A=
+// Anything above -1 will cause fixed position.=0A=
+if (typeof ol_fixy =3D=3D 'undefined') { var ol_fixy =3D -1; }=0A=
+=0A=
+// Background image for the popups inside.=0A=
+if (typeof ol_fgbackground =3D=3D 'undefined') { var ol_fgbackground =3D =
+""; }=0A=
+=0A=
+// Background image for the popups frame.=0A=
+if (typeof ol_bgbackground =3D=3D 'undefined') { var ol_bgbackground =3D =
+""; }=0A=
+=0A=
+// How much horizontal left padding text should get by default when =
+BACKGROUND is used.=0A=
+if (typeof ol_padxl =3D=3D 'undefined') { var ol_padxl =3D 1; }=0A=
+=0A=
+// How much horizontal right padding text should get by default when =
+BACKGROUND is used.=0A=
+if (typeof ol_padxr =3D=3D 'undefined') { var ol_padxr =3D 1; }=0A=
+=0A=
+// How much vertical top padding text should get by default when =
+BACKGROUND is used.=0A=
+if (typeof ol_padyt =3D=3D 'undefined') { var ol_padyt =3D 1; }=0A=
+=0A=
+// How much vertical bottom padding text should get by default when =
+BACKGROUND is used.=0A=
+if (typeof ol_padyb =3D=3D 'undefined') { var ol_padyb =3D 1; }=0A=
+=0A=
+// If the user by default must supply all html for complete popup =
+control.=0A=
+// Set to 1 to activate, 0 otherwise.=0A=
+if (typeof ol_fullhtml =3D=3D 'undefined') { var ol_fullhtml =3D 0; }=0A=
+=0A=
+// Default vertical position of the popup. Default should normally be =
+BELOW.=0A=
+// ABOVE only works when HEIGHT is defined.=0A=
+if (typeof ol_vpos =3D=3D 'undefined') { var ol_vpos =3D BELOW; }=0A=
+=0A=
+// Default height of popup to use when placing the popup above the =
+cursor.=0A=
+if (typeof ol_aboveheight =3D=3D 'undefined') { var ol_aboveheight =3D =
+0; }=0A=
+=0A=
+// Default icon to place next to the popups caption.=0A=
+if (typeof ol_caption =3D=3D 'undefined') { var ol_capicon =3D ""; }=0A=
+=0A=
+// Default frame. We default to current frame if there is no frame =
+defined.=0A=
+if (typeof ol_frame =3D=3D 'undefined') { var ol_frame =3D self; }=0A=
+=0A=
+// Default timeout. By default there is no timeout.=0A=
+if (typeof ol_timeout =3D=3D 'undefined') { var ol_timeout =3D 0; }=0A=
+=0A=
+// Default javascript funktion. By default there is none.=0A=
+if (typeof ol_function =3D=3D 'undefined') { var ol_function =3D =
+Function(); }=0A=
+=0A=
+// Default timeout. By default there is no timeout.=0A=
+if (typeof ol_delay =3D=3D 'undefined') { var ol_delay =3D 0; }=0A=
+=0A=
+// If overLIB should decide the horizontal placement.=0A=
+if (typeof ol_hauto =3D=3D 'undefined') { var ol_hauto =3D 0; }=0A=
+=0A=
+// If overLIB should decide the vertical placement.=0A=
+if (typeof ol_vauto =3D=3D 'undefined') { var ol_vauto =3D 0; }=0A=
+=0A=
+=0A=
+=0A=
+// If the user has to click to close stickies.=0A=
+if (typeof ol_closeclick =3D=3D 'undefined') { var ol_closeclick =3D 0; }=0A=
+=0A=
+// This variable determines if you want to use CSS or inline definitions.=0A=
+// CSSOFF=3Dno CSS    CSSSTYLE=3Duse CSS inline styles    CSSCLASS=3Duse =
+classes=0A=
+if (typeof ol_css =3D=3D 'undefined') { var ol_css =3D CSSOFF; }=0A=
+=0A=
+// Main background class (eqv of fgcolor)=0A=
+// This is only used if CSS is set to use classes (ol_css =3D CSSCLASS)=0A=
+if (typeof ol_fgclass =3D=3D 'undefined') { var ol_fgclass =3D ""; }=0A=
+=0A=
+// Frame background class (eqv of bgcolor)=0A=
+// This is only used if CSS is set to use classes (ol_css =3D CSSCLASS)=0A=
+if (typeof ol_bgclass =3D=3D 'undefined') { var ol_bgclass =3D ""; }=0A=
+=0A=
+// Main font class=0A=
+// This is only used if CSS is set to use classes (ol_css =3D CSSCLASS)=0A=
+if (typeof ol_textfontclass =3D=3D 'undefined') { var ol_textfontclass =
+=3D ""; }=0A=
+=0A=
+// Caption font class=0A=
+// This is only used if CSS is set to use classes (ol_css =3D CSSCLASS)=0A=
+if (typeof ol_captionfontclass =3D=3D 'undefined') { var =
+ol_captionfontclass =3D ""; }=0A=
+=0A=
+// Close font class=0A=
+// This is only used if CSS is set to use classes (ol_css =3D CSSCLASS)=0A=
+if (typeof ol_closefontclass =3D=3D 'undefined') { var ol_closefontclass =
+=3D ""; }=0A=
+=0A=
+// Unit to be used for the text padding above=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+// Options include "px", "%", "in", "cm" and more=0A=
+if (typeof ol_padunit =3D=3D 'undefined') { var ol_padunit =3D "px";}=0A=
+=0A=
+// Unit to be used for height of popup=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+// Options include "px", "%", "in", "cm" and more=0A=
+if (typeof ol_heightunit =3D=3D 'undefined') { var ol_heightunit =3D =
+"px";}=0A=
+=0A=
+// Unit to be used for width of popup=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+// Options include "px", "%", "in", "cm" and more=0A=
+if (typeof ol_widthunit =3D=3D 'undefined') { var ol_widthunit =3D "px";}=0A=
+=0A=
+// Font size unit for the main text=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_textsizeunit =3D=3D 'undefined') { var ol_textsizeunit =3D =
+"px";}=0A=
+=0A=
+// Decoration of the main text ("none", "underline", "line-through" or =
+"blink")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_textdecoration =3D=3D 'undefined') { var ol_textdecoration =
+=3D "none";}=0A=
+=0A=
+// Font style of the main text ("normal" or "italic")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_textstyle =3D=3D 'undefined') { var ol_textstyle =3D =
+"normal";}=0A=
+=0A=
+// Font weight of the main text ("normal", "bold", "bolder", "lighter", =
+ect.)=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_textweight =3D=3D 'undefined') { var ol_textweight =3D =
+"normal";}=0A=
+=0A=
+// Font size unit for the caption=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_captionsizeunit =3D=3D 'undefined') { var =
+ol_captionsizeunit =3D "px";}=0A=
+=0A=
+// Decoration of the caption ("none", "underline", "line-through" or =
+"blink")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_captiondecoration =3D=3D 'undefined') { var =
+ol_captiondecoration =3D "none";}=0A=
+=0A=
+// Font style of the caption ("normal" or "italic")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_captionstyle =3D=3D 'undefined') { var ol_captionstyle =3D =
+"normal";}=0A=
+=0A=
+// Font weight of the caption ("normal", "bold", "bolder", "lighter", =
+ect.)=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_captionweight =3D=3D 'undefined') { var ol_captionweight =
+=3D "bold";}=0A=
+=0A=
+// Font size unit for the close text=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_closesizeunit =3D=3D 'undefined') { var ol_closesizeunit =
+=3D "px";}=0A=
+=0A=
+// Decoration of the close text ("none", "underline", "line-through" or =
+"blink")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_closedecoration =3D=3D 'undefined') { var =
+ol_closedecoration =3D "none";}=0A=
+=0A=
+// Font style of the close text ("normal" or "italic")=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_closestyle =3D=3D 'undefined') { var ol_closestyle =3D =
+"normal";}=0A=
+=0A=
+// Font weight of the close text ("normal", "bold", "bolder", "lighter", =
+ect.)=0A=
+// Only used if CSS inline styles are being used (ol_css =3D CSSSTYLE)=0A=
+if (typeof ol_closeweight =3D=3D 'undefined') { var ol_closeweight =3D =
+"normal";}=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// ARRAY CONFIGURATION=0A=
+// You don't have to change anything here if you don't want to. The =
+following=0A=
+// arrays can be filled with text and html if you don't wish to pass it =
+from=0A=
+// your html page.=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+// Array with texts.=0A=
+if (typeof ol_texts =3D=3D 'undefined') { var ol_texts =3D new =
+Array("Text 0", "Text 1"); }=0A=
+=0A=
+// Array with captions.=0A=
+if (typeof ol_caps =3D=3D 'undefined') { var ol_caps =3D new =
+Array("Caption 0", "Caption 1"); }=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// END CONFIGURATION=0A=
+// Don't change anything below this line, all configuration is above.=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// INIT=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+// Runtime variables init. Used for runtime only, don't change, not for =
+config!=0A=
+var o3_text =3D "";=0A=
+var o3_cap =3D "";=0A=
+var o3_sticky =3D 0;=0A=
+var o3_background =3D "";=0A=
+var o3_close =3D "Close";=0A=
+var o3_hpos =3D RIGHT;=0A=
+var o3_offsetx =3D 2;=0A=
+var o3_offsety =3D 2;=0A=
+var o3_fgcolor =3D "";=0A=
+var o3_bgcolor =3D "";=0A=
+var o3_textcolor =3D "";=0A=
+var o3_capcolor =3D "";=0A=
+var o3_closecolor =3D "";=0A=
+var o3_width =3D 100;=0A=
+var o3_border =3D 1;=0A=
+var o3_status =3D "";=0A=
+var o3_autostatus =3D 0;=0A=
+var o3_height =3D -1;=0A=
+var o3_snapx =3D 0;=0A=
+var o3_snapy =3D 0;=0A=
+var o3_fixx =3D -1;=0A=
+var o3_fixy =3D -1;=0A=
+var o3_fgbackground =3D "";=0A=
+var o3_bgbackground =3D "";=0A=
+var o3_padxl =3D 0;=0A=
+var o3_padxr =3D 0;=0A=
+var o3_padyt =3D 0;=0A=
+var o3_padyb =3D 0;=0A=
+var o3_fullhtml =3D 0;=0A=
+var o3_vpos =3D BELOW;=0A=
+var o3_aboveheight =3D 0;=0A=
+var o3_capicon =3D "";=0A=
+var o3_textfont =3D "Verdana,Arial,Helvetica";=0A=
+var o3_captionfont =3D "Verdana,Arial,Helvetica";=0A=
+var o3_closefont =3D "Verdana,Arial,Helvetica";=0A=
+var o3_textsize =3D "1";=0A=
+var o3_captionsize =3D "1";=0A=
+var o3_closesize =3D "1";=0A=
+var o3_frame =3D self;=0A=
+var o3_timeout =3D 0;=0A=
+var o3_timerid =3D 0;=0A=
+var o3_allowmove =3D 0;=0A=
+var o3_function =3D Function();=0A=
+var o3_delay =3D 0;=0A=
+var o3_delayid =3D 0;=0A=
+var o3_hauto =3D 0;=0A=
+var o3_vauto =3D 0;=0A=
+var o3_closeclick =3D 0;=0A=
+=0A=
+var o3_css =3D CSSOFF;=0A=
+var o3_fgclass =3D "";=0A=
+var o3_bgclass =3D "";=0A=
+var o3_textfontclass =3D "";=0A=
+var o3_captionfontclass =3D "";=0A=
+var o3_closefontclass =3D "";=0A=
+var o3_padunit =3D "px";=0A=
+var o3_heightunit =3D "px";=0A=
+var o3_widthunit =3D "px";=0A=
+var o3_textsizeunit =3D "px";=0A=
+var o3_textdecoration =3D "";=0A=
+var o3_textstyle =3D "";=0A=
+var o3_textweight =3D "";=0A=
+var o3_captionsizeunit =3D "px";=0A=
+var o3_captiondecoration =3D "";=0A=
+var o3_captionstyle =3D "";=0A=
+var o3_captionweight =3D "";=0A=
+var o3_closesizeunit =3D "px";=0A=
+var o3_closedecoration =3D "";=0A=
+var o3_closestyle =3D "";=0A=
+var o3_closeweight =3D "";=0A=
+=0A=
+=0A=
+=0A=
+// Display state variables=0A=
+var o3_x =3D 0;=0A=
+var o3_y =3D 0;=0A=
+var o3_allow =3D 0;=0A=
+var o3_showingsticky =3D 0;=0A=
+var o3_removecounter =3D 0;=0A=
+=0A=
+// Our layer=0A=
+var over =3D null;=0A=
+=0A=
+=0A=
+// Decide browser version=0A=
+var ns4 =3D (document.layers)? true:false;=0A=
+var ns6 =3D (document.getElementById)? true:false;=0A=
+var ie4 =3D (document.all)? true:false;=0A=
+var ie5 =3D false;=0A=
+=0A=
+// Microsoft Stupidity Check(tm).=0A=
+if (ie4) {=0A=
+	if ((navigator.userAgent.indexOf('MSIE 5') > 0) || =
+(navigator.userAgent.indexOf('MSIE 6') > 0)) {=0A=
+		ie5 =3D true;=0A=
+	}=0A=
+	if (ns6) {=0A=
+		ns6 =3D false;=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+// Capture events, alt. diffuses the overlib function.=0A=
+if ( (ns4) || (ie4) || (ns6)) {=0A=
+	document.onmousemove =3D mouseMove=0A=
+	if (ns4) document.captureEvents(Event.MOUSEMOVE)=0A=
+} else {=0A=
+	overlib =3D no_overlib;=0A=
+	nd =3D no_overlib;=0A=
+	ver3fix =3D true;=0A=
+}=0A=
+=0A=
+=0A=
+// Fake function for 3.0 users.=0A=
+function no_overlib() {=0A=
+	return ver3fix;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// PUBLIC FUNCTIONS=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+// overlib(arg0, ..., argN)=0A=
+// Loads parameters into global runtime variables.=0A=
+function overlib() {=0A=
+	=0A=
+	// Load defaults to runtime.=0A=
+	o3_text =3D ol_text;=0A=
+	o3_cap =3D ol_cap;=0A=
+	o3_sticky =3D ol_sticky;=0A=
+	o3_background =3D ol_background;=0A=
+	o3_close =3D ol_close;=0A=
+	o3_hpos =3D ol_hpos;=0A=
+	o3_offsetx =3D ol_offsetx;=0A=
+	o3_offsety =3D ol_offsety;=0A=
+	o3_fgcolor =3D ol_fgcolor;=0A=
+	o3_bgcolor =3D ol_bgcolor;=0A=
+	o3_textcolor =3D ol_textcolor;=0A=
+	o3_capcolor =3D ol_capcolor;=0A=
+	o3_closecolor =3D ol_closecolor;=0A=
+	o3_width =3D ol_width;=0A=
+	o3_border =3D ol_border;=0A=
+	o3_status =3D ol_status;=0A=
+	o3_autostatus =3D ol_autostatus;=0A=
+	o3_height =3D ol_height;=0A=
+	o3_snapx =3D ol_snapx;=0A=
+	o3_snapy =3D ol_snapy;=0A=
+	o3_fixx =3D ol_fixx;=0A=
+	o3_fixy =3D ol_fixy;=0A=
+	o3_fgbackground =3D ol_fgbackground;=0A=
+	o3_bgbackground =3D ol_bgbackground;=0A=
+	o3_padxl =3D ol_padxl;=0A=
+	o3_padxr =3D ol_padxr;=0A=
+	o3_padyt =3D ol_padyt;=0A=
+	o3_padyb =3D ol_padyb;=0A=
+	o3_fullhtml =3D ol_fullhtml;=0A=
+	o3_vpos =3D ol_vpos;=0A=
+	o3_aboveheight =3D ol_aboveheight;=0A=
+	o3_capicon =3D ol_capicon;=0A=
+	o3_textfont =3D ol_textfont;=0A=
+	o3_captionfont =3D ol_captionfont;=0A=
+	o3_closefont =3D ol_closefont;=0A=
+	o3_textsize =3D ol_textsize;=0A=
+	o3_captionsize =3D ol_captionsize;=0A=
+	o3_closesize =3D ol_closesize;=0A=
+	o3_timeout =3D ol_timeout;=0A=
+	o3_function =3D ol_function;=0A=
+	o3_delay =3D ol_delay;=0A=
+	o3_hauto =3D ol_hauto;=0A=
+	o3_vauto =3D ol_vauto;=0A=
+	o3_closeclick =3D ol_closeclick;=0A=
+	=0A=
+	o3_css =3D ol_css;=0A=
+	o3_fgclass =3D ol_fgclass;=0A=
+	o3_bgclass =3D ol_bgclass;=0A=
+	o3_textfontclass =3D ol_textfontclass;=0A=
+	o3_captionfontclass =3D ol_captionfontclass;=0A=
+	o3_closefontclass =3D ol_closefontclass;=0A=
+	o3_padunit =3D ol_padunit;=0A=
+	o3_heightunit =3D ol_heightunit;=0A=
+	o3_widthunit =3D ol_widthunit;=0A=
+	o3_textsizeunit =3D ol_textsizeunit;=0A=
+	o3_textdecoration =3D ol_textdecoration;=0A=
+	o3_textstyle =3D ol_textstyle;=0A=
+	o3_textweight =3D ol_textweight;=0A=
+	o3_captionsizeunit =3D ol_captionsizeunit;=0A=
+	o3_captiondecoration =3D ol_captiondecoration;=0A=
+	o3_captionstyle =3D ol_captionstyle;=0A=
+	o3_captionweight =3D ol_captionweight;=0A=
+	o3_closesizeunit =3D ol_closesizeunit;=0A=
+	o3_closedecoration =3D ol_closedecoration;=0A=
+	o3_closestyle =3D ol_closestyle;=0A=
+	o3_closeweight =3D ol_closeweight;=0A=
+	=0A=
+=0A=
+	// Special for frame support, over must be reset...=0A=
+	if ( (ns4) || (ie4) || (ns6) ) {=0A=
+		o3_frame =3D ol_frame;=0A=
+		if (ns4) over =3D o3_frame.document.overDiv=0A=
+		if (ie4) over =3D o3_frame.overDiv.style=0A=
+		if (ns6) over =3D o3_frame.document.getElementById("overDiv");=0A=
+	}=0A=
+	=0A=
+	=0A=
+	// What the next argument is expected to be.=0A=
+	var parsemode =3D -1;=0A=
+	=0A=
+	var ar =3D arguments;=0A=
+=0A=
+	for (i =3D 0; i < ar.length; i++) {=0A=
+=0A=
+		if (parsemode < 0) {=0A=
+			// Arg is maintext, unless INARRAY=0A=
+			if (ar[i] =3D=3D INARRAY) {=0A=
+				o3_text =3D ol_texts[ar[++i]];=0A=
+			} else {=0A=
+				o3_text =3D ar[i];=0A=
+			}=0A=
+=0A=
+			parsemode =3D 0;=0A=
+		} else {=0A=
+			// Note: NS4 doesn't like switch cases with vars.=0A=
+			if (ar[i] =3D=3D INARRAY) { o3_text =3D ol_texts[ar[++i]]; continue; }=0A=
+			if (ar[i] =3D=3D CAPARRAY) { o3_cap =3D ol_caps[ar[++i]]; continue; }=0A=
+			if (ar[i] =3D=3D STICKY) { o3_sticky =3D 1; continue; }=0A=
+			if (ar[i] =3D=3D BACKGROUND) { o3_background =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D NOCLOSE) { o3_close =3D ""; continue; }=0A=
+			if (ar[i] =3D=3D CAPTION) { o3_cap =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CENTER || ar[i] =3D=3D LEFT || ar[i] =3D=3D RIGHT) { =
+o3_hpos =3D ar[i]; continue; }=0A=
+			if (ar[i] =3D=3D OFFSETX) { o3_offsetx =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D OFFSETY) { o3_offsety =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FGCOLOR) { o3_fgcolor =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D BGCOLOR) { o3_bgcolor =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTCOLOR) { o3_textcolor =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CAPCOLOR) { o3_capcolor =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CLOSECOLOR) { o3_closecolor =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D WIDTH) { o3_width =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D BORDER) { o3_border =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D STATUS) { o3_status =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D AUTOSTATUS) { o3_autostatus =3D 1; continue; }=0A=
+			if (ar[i] =3D=3D AUTOSTATUSCAP) { o3_autostatus =3D 2; continue; }=0A=
+			if (ar[i] =3D=3D HEIGHT) { o3_height =3D ar[++i]; o3_aboveheight =3D =
+ar[i]; continue; } // Same param again.=0A=
+			if (ar[i] =3D=3D CLOSETEXT) { o3_close =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D SNAPX) { o3_snapx =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D SNAPY) { o3_snapy =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FIXX) { o3_fixx =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FIXY) { o3_fixy =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FGBACKGROUND) { o3_fgbackground =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D BGBACKGROUND) { o3_bgbackground =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D PADX) { o3_padxl =3D ar[++i]; o3_padxr =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D PADY) { o3_padyt =3D ar[++i]; o3_padyb =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D FULLHTML) { o3_fullhtml =3D 1; continue; }=0A=
+			if (ar[i] =3D=3D BELOW || ar[i] =3D=3D ABOVE) { o3_vpos =3D ar[i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CAPICON) { o3_capicon =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTFONT) { o3_textfont =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONFONT) { o3_captionfont =3D ar[++i]; continue; =
+}=0A=
+			if (ar[i] =3D=3D CLOSEFONT) { o3_closefont =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTSIZE) { o3_textsize =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONSIZE) { o3_captionsize =3D ar[++i]; continue; =
+}=0A=
+			if (ar[i] =3D=3D CLOSESIZE) { o3_closesize =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FRAME) { opt_FRAME(ar[++i]); continue; }=0A=
+			if (ar[i] =3D=3D TIMEOUT) { o3_timeout =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D FUNCTION) { opt_FUNCTION(ar[++i]); continue; }=0A=
+			if (ar[i] =3D=3D DELAY) { o3_delay =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D HAUTO) { o3_hauto =3D (o3_hauto =3D=3D 0) ? 1 : 0; =
+continue; }=0A=
+			if (ar[i] =3D=3D VAUTO) { o3_vauto =3D (o3_vauto =3D=3D 0) ? 1 : 0; =
+continue; }=0A=
+			if (ar[i] =3D=3D CLOSECLICK) { o3_closeclick =3D (o3_closeclick =
+=3D=3D 0) ? 1 : 0; continue; }=0A=
+			if (ar[i] =3D=3D CSSOFF) { o3_css =3D ar[i]; continue; }=0A=
+			if (ar[i] =3D=3D CSSSTYLE) { o3_css =3D ar[i]; continue; }=0A=
+			if (ar[i] =3D=3D CSSCLASS) { o3_css =3D ar[i]; continue; }=0A=
+			if (ar[i] =3D=3D FGCLASS) { o3_fgclass =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D BGCLASS) { o3_bgclass =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTFONTCLASS) { o3_textfontclass =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONFONTCLASS) { o3_captionfontclass =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CLOSEFONTCLASS) { o3_closefontclass =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D PADUNIT) { o3_padunit =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D HEIGHTUNIT) { o3_heightunit =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D WIDTHUNIT) { o3_widthunit =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTSIZEUNIT) { o3_textsizeunit =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D TEXTDECORATION) { o3_textdecoration =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D TEXTSTYLE) { o3_textstyle =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D TEXTWEIGHT) { o3_textweight =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONSIZEUNIT) { o3_captionsizeunit =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONDECORATION) { o3_captiondecoration =3D =
+ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONSTYLE) { o3_captionstyle =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CAPTIONWEIGHT) { o3_captionweight =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CLOSESIZEUNIT) { o3_closesizeunit =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CLOSEDECORATION) { o3_closedecoration =3D ar[++i]; =
+continue; }=0A=
+			if (ar[i] =3D=3D CLOSESTYLE) { o3_closestyle =3D ar[++i]; continue; }=0A=
+			if (ar[i] =3D=3D CLOSEWEIGHT) { o3_closeweight =3D ar[++i]; continue; =
+}=0A=
+		}=0A=
+	}=0A=
+=0A=
+	if (o3_delay =3D=3D 0) {=0A=
+		return overlib350();=0A=
+	} else {=0A=
+		o3_delayid =3D setTimeout("overlib350()", o3_delay);=0A=
+=0A=
+		if (o3_sticky) {=0A=
+			return false;=0A=
+		} else {=0A=
+			return true;=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+// Clears popups if appropriate=0A=
+function nd() {=0A=
+	if ( o3_removecounter >=3D 1 ) { o3_showingsticky =3D 0 };=0A=
+	if ( (ns4) || (ie4) || (ns6) ) {=0A=
+		if ( o3_showingsticky =3D=3D 0 ) {=0A=
+			o3_allowmove =3D 0;=0A=
+			if (over !=3D null) hideObject(over);=0A=
+		} else {=0A=
+			o3_removecounter++;=0A=
+		}=0A=
+	}=0A=
+	=0A=
+	return true;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// OVERLIB 3.50 FUNCTION=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+// This function decides what it is we want to display and how we want =
+it done.=0A=
+function overlib350() {=0A=
+=0A=
+	// Make layer content=0A=
+	var layerhtml;=0A=
+=0A=
+	if (o3_background !=3D "" || o3_fullhtml) {=0A=
+		// Use background instead of box.=0A=
+		layerhtml =3D ol_content_background(o3_text, o3_background, =
+o3_fullhtml);=0A=
+	} else {=0A=
+		// They want a popup box.=0A=
+=0A=
+		// Prepare popup background=0A=
+		if (o3_fgbackground !=3D "" && o3_css =3D=3D CSSOFF) {=0A=
+			o3_fgbackground =3D "BACKGROUND=3D\""+o3_fgbackground+"\"";=0A=
+		}=0A=
+		if (o3_bgbackground !=3D "" && o3_css =3D=3D CSSOFF) {=0A=
+			o3_bgbackground =3D "BACKGROUND=3D\""+o3_bgbackground+"\"";=0A=
+		}=0A=
+=0A=
+		// Prepare popup colors=0A=
+		if (o3_fgcolor !=3D "" && o3_css =3D=3D CSSOFF) {=0A=
+			o3_fgcolor =3D "BGCOLOR=3D\""+o3_fgcolor+"\"";=0A=
+		}=0A=
+		if (o3_bgcolor !=3D "" && o3_css =3D=3D CSSOFF) {=0A=
+			o3_bgcolor =3D "BGCOLOR=3D\""+o3_bgcolor+"\"";=0A=
+		}=0A=
+=0A=
+		// Prepare popup height=0A=
+		if (o3_height > 0 && o3_css =3D=3D CSSOFF) {=0A=
+			o3_height =3D "HEIGHT=3D" + o3_height;=0A=
+		} else {=0A=
+			o3_height =3D "";=0A=
+		}=0A=
+=0A=
+		// Decide which kinda box.=0A=
+		if (o3_cap =3D=3D "") {=0A=
+			// Plain=0A=
+			layerhtml =3D ol_content_simple(o3_text);=0A=
+		} else {=0A=
+			// With caption=0A=
+			if (o3_sticky) {=0A=
+				// Show close text=0A=
+				layerhtml =3D ol_content_caption(o3_text, o3_cap, o3_close);=0A=
+			} else {=0A=
+				// No close text=0A=
+				layerhtml =3D ol_content_caption(o3_text, o3_cap, "");=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	=0A=
+	// We want it to stick!=0A=
+	if (o3_sticky) {=0A=
+		o3_showingsticky =3D 1;=0A=
+		o3_removecounter =3D 0;=0A=
+	}=0A=
+	=0A=
+	// Write layer=0A=
+	layerWrite(layerhtml);=0A=
+	=0A=
+	// Prepare status bar=0A=
+	if (o3_autostatus > 0) {=0A=
+		o3_status =3D o3_text;=0A=
+		if (o3_autostatus > 1) {=0A=
+			o3_status =3D o3_cap;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// When placing the layer the first time, even stickies may be moved.=0A=
+	o3_allowmove =3D 0;=0A=
+=0A=
+	// Initiate a timer for timeout=0A=
+	if (o3_timeout > 0) {          =0A=
+		if (o3_timerid > 0) clearTimeout(o3_timerid);=0A=
+		o3_timerid =3D setTimeout("cClick()", o3_timeout);=0A=
+	}=0A=
+=0A=
+	// Show layer=0A=
+	disp(o3_status);=0A=
+=0A=
+	// Stickies should stay where they are.	=0A=
+	if (o3_sticky) {=0A=
+		o3_allowmove =3D 0;=0A=
+		return false;=0A=
+	} else {=0A=
+		return true;=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// LAYER GENERATION FUNCTIONS=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+// Makes simple table without caption=0A=
+function ol_content_simple(text) {=0A=
+	if (o3_css =3D=3D CSSCLASS) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 =
+class=3D\""+o3_bgclass+"\"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 =
+CELLPADDING=3D2 CELLSPACING=3D0 class=3D\""+o3_fgclass+"\"><TR><TD =
+VALIGN=3DTOP><FONT =
+class=3D\""+o3_textfontclass+"\">"+text+"</FONT></TD></TR></TABLE></TD></=
+TR></TABLE>";=0A=
+	if (o3_css =3D=3D CSSSTYLE) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 =
+style=3D\"background-color: "+o3_bgcolor+"; height: =
+"+o3_height+o3_heightunit+";\"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 =
+CELLPADDING=3D2 CELLSPACING=3D0 style=3D\"color: "+o3_fgcolor+"; =
+background-color: "+o3_fgcolor+"; height: =
+"+o3_height+o3_heightunit+";\"><TR><TD VALIGN=3DTOP><FONT =
+style=3D\"font-family: "+o3_textfont+"; color: "+o3_textcolor+"; =
+font-size: "+o3_textsize+o3_textsizeunit+"; text-decoration: =
+"+o3_textdecoration+"; font-weight: "+o3_textweight+"; =
+font-style:"+o3_textstyle+"\">"+text+"</FONT></TD></TR></TABLE></TD></TR>=
+</TABLE>";=0A=
+	if (o3_css =3D=3D CSSOFF) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 "+o3_bgcolor+" =
+"+o3_height+"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 CELLPADDING=3D2 =
+CELLSPACING=3D0 "+o3_fgcolor+" "+o3_fgbackground+" "+o3_height+"><TR><TD =
+VALIGN=3DTOP><FONT FACE=3D\""+o3_textfont+"\" =
+COLOR=3D\""+o3_textcolor+"\" =
+SIZE=3D\""+o3_textsize+"\">"+text+"</FONT></TD></TR></TABLE></TD></TR></T=
+ABLE>";=0A=
+=0A=
+	set_background("");=0A=
+	return txt;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+// Makes table with caption and optional close link=0A=
+function ol_content_caption(text, title, close) {=0A=
+	closing =3D "";=0A=
+	closeevent =3D "onMouseOver";=0A=
+=0A=
+	if (o3_closeclick =3D=3D 1) closeevent =3D "onClick";=0A=
+	if (o3_capicon !=3D "") o3_capicon =3D "<IMG SRC=3D\""+o3_capicon+"\"> =
+";=0A=
+=0A=
+	if (close !=3D "") {=0A=
+		if (o3_css =3D=3D CSSCLASS) closing =3D "<TD ALIGN=3DRIGHT><A =
+HREF=3D\"/\" "+closeevent+"=3D\"return cClick();\" =
+class=3D\""+o3_closefontclass+"\">"+close+"</A></TD>";=0A=
+		if (o3_css =3D=3D CSSSTYLE) closing =3D "<TD ALIGN=3DRIGHT><A =
+HREF=3D\"/\" "+closeevent+"=3D\"return cClick();\" style=3D\"color: =
+"+o3_closecolor+"; font-family: "+o3_closefont+"; font-size: =
+"+o3_closesize+o3_closesizeunit+"; text-decoration: =
+"+o3_closedecoration+"; font-weight: "+o3_closeweight+"; =
+font-style:"+o3_closestyle+";\">"+close+"</A></TD>";=0A=
+		if (o3_css =3D=3D CSSOFF) closing =3D "<TD ALIGN=3DRIGHT><A =
+HREF=3D\"/\" "+closeevent+"=3D\"return cClick();\"><FONT =
+COLOR=3D\""+o3_closecolor+"\" FACE=3D\""+o3_closefont+"\" =
+SIZE=3D\""+o3_closesize+"\">"+close+"</FONT></A></TD>";=0A=
+	}=0A=
+=0A=
+	if (o3_css =3D=3D CSSCLASS) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 =
+class=3D\""+o3_bgclass+"\"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 =
+CELLPADDING=3D0 CELLSPACING=3D0><TR><TD><FONT =
+class=3D\""+o3_captionfontclass+"\">"+o3_capicon+title+"</FONT></TD>"+clo=
+sing+"</TR></TABLE><TABLE WIDTH=3D100% BORDER=3D0 CELLPADDING=3D2 =
+CELLSPACING=3D0 class=3D\""+o3_fgclass+"\"><TR><TD VALIGN=3DTOP><FONT =
+class=3D\""+o3_textfontclass+"\">"+text+"</FONT></TD></TR></TABLE></TD></=
+TR></TABLE>";=0A=
+	if (o3_css =3D=3D CSSSTYLE) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 =
+style=3D\"background-color: "+o3_bgcolor+"; background-image: =
+url("+o3_bgbackground+"); height: =
+"+o3_height+o3_heightunit+";\"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 =
+CELLPADDING=3D0 CELLSPACING=3D0><TR><TD><FONT style=3D\"font-family: =
+"+o3_captionfont+"; color: "+o3_capcolor+"; font-size: =
+"+o3_captionsize+o3_captionsizeunit+"; font-weight: =
+"+o3_captionweight+"; font-style: =
+"+o3_captionstyle+";\">"+o3_capicon+title+"</FONT></TD>"+closing+"</TR></=
+TABLE><TABLE WIDTH=3D100% BORDER=3D0 CELLPADDING=3D2 CELLSPACING=3D0 =
+style=3D\"color: "+o3_fgcolor+"; background-color: "+o3_fgcolor+"; =
+height: "+o3_height+o3_heightunit+";\"><TR><TD VALIGN=3DTOP><FONT =
+style=3D\"font-family: "+o3_textfont+"; color: "+o3_textcolor+"; =
+font-size: "+o3_textsize+o3_textsizeunit+"; text-decoration: =
+"+o3_textdecoration+"; font-weight: "+o3_textweight+"; =
+font-style:"+o3_textstyle+"\">"+text+"</FONT></TD></TR></TABLE></TD></TR>=
+</TABLE>";=0A=
+	if (o3_css =3D=3D CSSOFF) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D"+o3_border+" CELLSPACING=3D0 "+o3_bgcolor+" =
+"+o3_bgbackground+" "+o3_height+"><TR><TD><TABLE WIDTH=3D100% BORDER=3D0 =
+CELLPADDING=3D0 CELLSPACING=3D0><TR><TD><B><FONT =
+COLOR=3D\""+o3_capcolor+"\" FACE=3D\""+o3_captionfont+"\" =
+SIZE=3D\""+o3_captionsize+"\">"+o3_capicon+title+"</FONT></B></TD>"+closi=
+ng+"</TR></TABLE><TABLE WIDTH=3D100% BORDER=3D0 CELLPADDING=3D2 =
+CELLSPACING=3D0 "+o3_fgcolor+" "+o3_fgbackground+" "+o3_height+"><TR><TD =
+VALIGN=3DTOP><FONT COLOR=3D\""+o3_textcolor+"\" =
+FACE=3D\""+o3_textfont+"\" =
+SIZE=3D\""+o3_textsize+"\">"+text+"</FONT></TD></TR></TABLE></TD></TR></T=
+ABLE>";=0A=
+=0A=
+	set_background("");=0A=
+	return txt;=0A=
+}=0A=
+=0A=
+// Sets the background picture, padding and lots more. :)=0A=
+function ol_content_background(text, picture, hasfullhtml) {=0A=
+	if (hasfullhtml) {=0A=
+		txt =3D text;=0A=
+	} else {=0A=
+		if (o3_css =3D=3D CSSCLASS) txt =3D "<TABLE =
+WIDTH=3D"+o3_width+o3_widthunit+" BORDER=3D0 CELLPADDING=3D0 =
+CELLSPACING=3D0 HEIGHT=3D"+o3_height+o3_heightunit+"><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyt+o3_padunit+"></TD></TR><TR><TD =
+WIDTH=3D"+o3_padxl+o3_padunit+"></TD><TD VALIGN=3DTOP =
+WIDTH=3D"+(o3_width-o3_padxl-o3_padxr)+o3_padunit+"><FONT =
+class=3D\""+o3_textfontclass+"\">"+text+"</FONT></TD><TD =
+WIDTH=3D"+o3_padxr+o3_padunit+"></TD></TR><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyb+o3_padunit+"></TD></TR></TABLE>";=0A=
+		if (o3_css =3D=3D CSSSTYLE) txt =3D "<TABLE =
+WIDTH=3D"+o3_width+o3_widthunit+" BORDER=3D0 CELLPADDING=3D0 =
+CELLSPACING=3D0 HEIGHT=3D"+o3_height+o3_heightunit+"><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyt+o3_padunit+"></TD></TR><TR><TD =
+WIDTH=3D"+o3_padxl+o3_padunit+"></TD><TD VALIGN=3DTOP =
+WIDTH=3D"+(o3_width-o3_padxl-o3_padxr)+o3_padunit+"><FONT =
+style=3D\"font-family: "+o3_textfont+"; color: "+o3_textcolor+"; =
+font-size: "+o3_textsize+o3_textsizeunit+";\">"+text+"</FONT></TD><TD =
+WIDTH=3D"+o3_padxr+o3_padunit+"></TD></TR><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyb+o3_padunit+"></TD></TR></TABLE>";=0A=
+		if (o3_css =3D=3D CSSOFF) txt =3D "<TABLE WIDTH=3D"+o3_width+" =
+BORDER=3D0 CELLPADDING=3D0 CELLSPACING=3D0 =
+HEIGHT=3D"+o3_height+"><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyt+"></TD></TR><TR><TD WIDTH=3D"+o3_padxl+"></TD><TD =
+VALIGN=3DTOP WIDTH=3D"+(o3_width-o3_padxl-o3_padxr)+"><FONT =
+FACE=3D\""+o3_textfont+"\" COLOR=3D\""+o3_textcolor+"\" =
+SIZE=3D\""+o3_textsize+"\">"+text+"</FONT></TD><TD =
+WIDTH=3D"+o3_padxr+"></TD></TR><TR><TD COLSPAN=3D3 =
+HEIGHT=3D"+o3_padyb+"></TD></TR></TABLE>";=0A=
+	}=0A=
+	set_background(picture);=0A=
+	return txt;=0A=
+}=0A=
+=0A=
+// Loads a picture into the div.=0A=
+function set_background(pic) {=0A=
+	if (pic =3D=3D "") {=0A=
+		if (ie4) over.backgroundImage =3D "none";=0A=
+		if (ns6) over.style.backgroundImage =3D "none";=0A=
+	} else {=0A=
+		if (ns4) {=0A=
+			over.background.src =3D pic;=0A=
+		} else if (ie4) {=0A=
+			over.backgroundImage =3D "url("+pic+")";=0A=
+		} else if (ns6) {=0A=
+			over.style.backgroundImage =3D "url("+pic+")";=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// HANDLING FUNCTIONS=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+// Displays the popup=0A=
+function disp(statustext) {=0A=
+	if ( (ns4) || (ie4) || (ns6) ) {=0A=
+		if (o3_allowmove =3D=3D 0) 	{=0A=
+			placeLayer();=0A=
+			showObject(over);=0A=
+			o3_allowmove =3D 1;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	if (statustext !=3D "") {=0A=
+		self.status =3D statustext;=0A=
+	}=0A=
+}=0A=
+=0A=
+// Decides where we want the popup.=0A=
+function placeLayer() {=0A=
+	var placeX, placeY;=0A=
+	=0A=
+	// HORIZONTAL PLACEMENT=0A=
+	if (o3_fixx > -1) {=0A=
+		// Fixed position=0A=
+		placeX =3D o3_fixx;=0A=
+	} else {=0A=
+		winoffset =3D (ie4) ? o3_frame.document.body.scrollLeft : =
+o3_frame.pageXOffset;=0A=
+		if (ie4) iwidth =3D o3_frame.document.body.clientWidth;=0A=
+		if (ns4) iwidth =3D o3_frame.innerWidth; // was screwed in mozilla, =
+fixed now?=0A=
+		if (ns6) iwidth =3D o3_frame.outerWidth;=0A=
+		=0A=
+		// If HAUTO, decide what to use.=0A=
+		if (o3_hauto =3D=3D 1) {=0A=
+			if ( (o3_x - winoffset) > ((eval(iwidth)) / 2)) {=0A=
+				o3_hpos =3D LEFT;=0A=
+			} else {=0A=
+				o3_hpos =3D RIGHT;=0A=
+			}=0A=
+		}=0A=
+		=0A=
+		// From mouse=0A=
+		if (o3_hpos =3D=3D CENTER) { // Center=0A=
+			placeX =3D o3_x+o3_offsetx-(o3_width/2);=0A=
+		}=0A=
+		if (o3_hpos =3D=3D RIGHT) { // Right=0A=
+			placeX =3D o3_x+o3_offsetx;=0A=
+			if ( (eval(placeX) + eval(o3_width)) > (winoffset + iwidth) ) {=0A=
+				placeX =3D iwidth + winoffset - o3_width;=0A=
+				if (placeX < 0) placeX =3D 0;=0A=
+			}=0A=
+		}=0A=
+		if (o3_hpos =3D=3D LEFT) { // Left=0A=
+			placeX =3D o3_x-o3_offsetx-o3_width;=0A=
+			if (placeX < winoffset) placeX =3D winoffset;=0A=
+		}=0A=
+	=0A=
+		// Snapping!=0A=
+		if (o3_snapx > 1) {=0A=
+			var snapping =3D placeX % o3_snapx;=0A=
+			if (o3_hpos =3D=3D LEFT) {=0A=
+				placeX =3D placeX - (o3_snapx + snapping);=0A=
+			} else {=0A=
+				// CENTER and RIGHT=0A=
+				placeX =3D placeX + (o3_snapx - snapping);=0A=
+			}=0A=
+			if (placeX < winoffset) placeX =3D winoffset;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	=0A=
+	=0A=
+	// VERTICAL PLACEMENT=0A=
+	if (o3_fixy > -1) {=0A=
+		// Fixed position=0A=
+		placeY =3D o3_fixy;=0A=
+	} else {=0A=
+		scrolloffset =3D (ie4) ? o3_frame.document.body.scrollTop : =
+o3_frame.pageYOffset;=0A=
+=0A=
+		// If VAUTO, decide what to use.=0A=
+		if (o3_vauto =3D=3D 1) {=0A=
+			if (ie4) iheight =3D o3_frame.document.body.clientHeight;=0A=
+			if (ns4) iheight =3D o3_frame.innerHeight;=0A=
+			if (ns6) iheight =3D o3_frame.outerHeight;=0A=
+=0A=
+			iheight =3D (eval(iheight)) / 2;=0A=
+			if ( (o3_y - scrolloffset) > iheight) {=0A=
+				o3_vpos =3D ABOVE;=0A=
+			} else {=0A=
+				o3_vpos =3D BELOW;=0A=
+			}=0A=
+		}=0A=
+=0A=
+=0A=
+		// From mouse=0A=
+		if (o3_vpos =3D=3D ABOVE) {=0A=
+			if (o3_aboveheight =3D=3D 0) {=0A=
+				var divref =3D (ie4) ? o3_frame.document.all['overDiv'] : over;=0A=
+				o3_aboveheight =3D (ns4) ? divref.clip.height : divref.offsetHeight;=0A=
+			}=0A=
+=0A=
+			placeY =3D o3_y - (o3_aboveheight + o3_offsety);=0A=
+			if (placeY < scrolloffset) placeY =3D scrolloffset;=0A=
+		} else {=0A=
+			// BELOW=0A=
+			placeY =3D o3_y + o3_offsety;=0A=
+		}=0A=
+=0A=
+		// Snapping!=0A=
+		if (o3_snapy > 1) {=0A=
+			var snapping =3D placeY % o3_snapy;=0A=
+			=0A=
+			if (o3_aboveheight > 0 && o3_vpos =3D=3D ABOVE) {=0A=
+				placeY =3D placeY - (o3_snapy + snapping);=0A=
+			} else {=0A=
+				placeY =3D placeY + (o3_snapy - snapping);=0A=
+			}=0A=
+			=0A=
+			if (placeY < scrolloffset) placeY =3D scrolloffset;=0A=
+		}=0A=
+	}=0A=
+=0A=
+=0A=
+	// Actually move the object.	=0A=
+	repositionTo(over, placeX, placeY);=0A=
+}=0A=
+=0A=
+=0A=
+// Moves the layer=0A=
+function mouseMove(e) {=0A=
+	if ( (ns4) || (ns6) ) {o3_x=3De.pageX; o3_y=3De.pageY;}=0A=
+	if (ie4) {o3_x=3Devent.x; o3_y=3Devent.y;}=0A=
+	if (ie5) {o3_x=3Devent.x+o3_frame.document.body.scrollLeft; =
+o3_y=3Devent.y+o3_frame.document.body.scrollTop;}=0A=
+	=0A=
+	if (o3_allowmove =3D=3D 1) {=0A=
+		placeLayer();=0A=
+	}=0A=
+}=0A=
+=0A=
+// The Close onMouseOver function for stickies=0A=
+function cClick() {=0A=
+	hideObject(over);=0A=
+	o3_showingsticky =3D 0;=0A=
+	=0A=
+	return false;=0A=
+}=0A=
+=0A=
+=0A=
+// Makes sure target frame has overLIB=0A=
+function compatibleframe(frameid) {        =0A=
+	if (ns4) {=0A=
+		if (typeof frameid.document.overDiv =3D=3D'undefined') return false;=0A=
+	} else if (ie4) {=0A=
+		if (typeof frameid.document.all["overDiv"] =3D=3D'undefined') return =
+false;=0A=
+	} else if (ns6) {=0A=
+		if (frameid.document.getElementById('overDiv') =3D=3D null) return =
+false;=0A=
+	}=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// LAYER FUNCTIONS=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+// Writes to a layer=0A=
+function layerWrite(txt) {=0A=
+	txt +=3D "\n";=0A=
+	=0A=
+        if (ns4) {=0A=
+                var lyr =3D o3_frame.document.overDiv.document=0A=
+=0A=
+                lyr.write(txt)=0A=
+                lyr.close()=0A=
+        } else if (ie4) {=0A=
+		o3_frame.document.all["overDiv"].innerHTML =3D txt=0A=
+	} else if (ns6) {=0A=
+		range =3D o3_frame.document.createRange();=0A=
+		range.setStartBefore(over);=0A=
+		domfrag =3D range.createContextualFragment(txt);=0A=
+		while (over.hasChildNodes()) {=0A=
+			over.removeChild(over.lastChild);=0A=
+		}=0A=
+		over.appendChild(domfrag);=0A=
+	}=0A=
+}=0A=
+=0A=
+// Make an object visible=0A=
+function showObject(obj) {=0A=
+        if (ns4) obj.visibility =3D "show";=0A=
+        else if (ie4) obj.visibility =3D "visible";=0A=
+	else if (ns6) obj.style.visibility =3D "visible";=0A=
+}=0A=
+=0A=
+// Hides an object=0A=
+function hideObject(obj) {=0A=
+        if (ns4) obj.visibility =3D "hide";=0A=
+        else if (ie4) obj.visibility =3D "hidden";=0A=
+	else if (ns6) obj.style.visibility =3D "hidden";=0A=
+        =0A=
+	if (o3_timerid > 0) clearTimeout(o3_timerid);=0A=
+	if (o3_delayid > 0) clearTimeout(o3_delayid);=0A=
+	o3_timerid =3D 0;=0A=
+	o3_delayid =3D 0;=0A=
+        self.status =3D "";=0A=
+}=0A=
+=0A=
+// Move a layer=0A=
+function repositionTo(obj,xL,yL) {=0A=
+	if ( (ns4) || (ie4) ) {=0A=
+	        obj.left =3D xL;=0A=
+	        obj.top =3D yL;=0A=
+	} else if (ns6) {=0A=
+		obj.style.left =3D xL + "px";=0A=
+		obj.style.top =3D yL+ "px";=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// PARSER FUNCTIONS=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+=0A=
+// Defines which frame we should point to.=0A=
+function opt_FRAME(frm) {=0A=
+        o3_frame =3D compatibleframe(frm) ? frm : ol_frame;=0A=
+=0A=
+	if ( (ns4) || (ie4 || (ns6)) ) {=0A=
+		if (ns4) over =3D o3_frame.document.overDiv;=0A=
+		if (ie4) over =3D o3_frame.overDiv.style;=0A=
+		if (ns6) over =3D o3_frame.document.getElementById("overDiv");=0A=
+	}=0A=
+=0A=
+	return 0;=0A=
+}=0A=
+=0A=
+// Calls an external function=0A=
+function opt_FUNCTION(callme) {=0A=
+	o3_text =3D callme()=0A=
+	return 0;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+//end (For internal purposes.)=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+// OVERLIB 2 COMPATABILITY FUNCTIONS=0A=
+// If you aren't upgrading you can remove the below section.=0A=
+/////////////////////////////////////////////////////////////////////////=
+///////////=0A=
+=0A=
+// Converts old 0=3Dleft, 1=3Dright and 2=3Dcenter into constants.=0A=
+function vpos_convert(d) {=0A=
+	if (d =3D=3D 0) {=0A=
+		d =3D LEFT;=0A=
+	} else {=0A=
+		if (d =3D=3D 1) {=0A=
+			d =3D RIGHT;=0A=
+		} else {=0A=
+			d =3D CENTER;=0A=
+		}=0A=
+	}=0A=
+	=0A=
+	return d;=0A=
+}=0A=
+=0A=
+// Simple popup=0A=
+function dts(d,text) {=0A=
+	o3_hpos =3D vpos_convert(d);=0A=
+	overlib(text, o3_hpos, CAPTION, "");=0A=
+}=0A=
+=0A=
+// Caption popup=0A=
+function dtc(d,text, title) {=0A=
+	o3_hpos =3D vpos_convert(d);=0A=
+	overlib(text, CAPTION, title, o3_hpos);=0A=
+}=0A=
+=0A=
+// Sticky=0A=
+function stc(d,text, title) {=0A=
+	o3_hpos =3D vpos_convert(d);=0A=
+	overlib(text, CAPTION, title, o3_hpos, STICKY);=0A=
+}=0A=
+=0A=
+// Simple popup right=0A=
+function drs(text) {=0A=
+	dts(1,text);=0A=
+}=0A=
+=0A=
+// Caption popup right=0A=
+function drc(text, title) {=0A=
+	dtc(1,text,title);=0A=
+}=0A=
+=0A=
+// Sticky caption right=0A=
+function src(text,title) {=0A=
+	stc(1,text,title);=0A=
+}=0A=
+=0A=
+// Simple popup left=0A=
+function dls(text) {=0A=
+	dts(0,text);=0A=
+}=0A=
+=0A=
+// Caption popup left=0A=
+function dlc(text, title) {=0A=
+	dtc(0,text,title);=0A=
+}=0A=
+=0A=
+// Sticky caption left=0A=
+function slc(text,title) {=0A=
+	stc(0,text,title);=0A=
+}=0A=
+=0A=
+// Simple popup center=0A=
+function dcs(text) {=0A=
+	dts(2,text);=0A=
+}=0A=
+=0A=
+// Caption popup center=0A=
+function dcc(text, title) {=0A=
+	dtc(2,text,title);=0A=
+}=0A=
+=0A=
+// Sticky caption center=0A=
+function scc(text,title) {=0A=
+	stc(2,text,title);=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C4A55B.1DE83260--
