@@ -10,5 +10,5 @@ I am an evolutionary geneticist with a wide variety of interests both in the lab
 
 <p class="about-text">
 <span class="fa fa-flask about-icon"></span>
-I am an associate professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a> at <a href= "http://www.gatech.edu/">Georgia Tech</a>  Where our lab uses a variety of systems to address questions about how genetic and developmental mechanisms influence evolutionary processes, and how evolutionary history has shaped genetic and developmental mechanisms.
+I am an associate professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a> Where our lab uses a variety of systems to address questions about how genetic and developmental mechanisms influence evolutionary processes, and how evolutionary history has shaped genetic and developmental mechanisms.
 </p>
