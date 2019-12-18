@@ -7,8 +7,11 @@ css: "/css/aboutme.css"
 <div id="aboutme-section">
 
 <p class="about-text">
-<a href="https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en"> Probably best to check google scholar for most updated list of papers. </a>
+<a href="https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en"> Probably best to check google scholar for most updated list of papers (from 2019 back to 2001). </a>
 </p>
+
+The rest is being updated soon...
+
 
 <p class="about-text">
 <span class="fa fa-venus-mars about-icon"></span>
