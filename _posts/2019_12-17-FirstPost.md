@@ -1,15 +1,9 @@
 ---
 layout: page
 title: A new look for the lab website.
-css: /css/aboutme.css
-tags:
-  - data
-  - fun
-published: true
+tags:[random]
 ---
 
- <body>
  Finally migrating the lab website to github, so this stub of a post is mostly to check that things are working. I will be asking for comments soon, but not yet!
- <br>
- <br>
-  
+
+ The template for this website was [entirely based](https://github.com/testanick/testanick.github.io) on (i.e. stolen!) from Dr. Nick Testa, a previous Ph.D student in the lab, and now a bigwig data scientist in Pittsburgh.
