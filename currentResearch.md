@@ -1,5 +1,9 @@
 ---
+layout: page
 title: Current Research
+bigimg:
+
+ - "/img/research/Background_integrative.pdf" : "Genetic Background Effects"
 ---
 
 
