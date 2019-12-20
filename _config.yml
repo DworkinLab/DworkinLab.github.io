@@ -17,7 +17,7 @@ baseurl: ""
 title: Dworkin Lab website
 
 # Short description of your site
-description: The new Dworkin lab website
+description: Dworkin lab website
 
 # --- Navigation bar options --- #
 
@@ -26,7 +26,6 @@ navbar-links:
   People: "people"
   Current Research: "currentResearch"
   Publications: "pubs"
-
   Resources:
     - google Scholar page: "https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en"
     - McMaster Department of Biology: "https://www.biology.mcmaster.ca/"
@@ -187,6 +186,3 @@ prose:
 
 gems:
   - jekyll-paginate
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
