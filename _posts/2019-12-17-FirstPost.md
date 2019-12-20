@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: A new look for the lab website.
 tags:[random]
 ---
