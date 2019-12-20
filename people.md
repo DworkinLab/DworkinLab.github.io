@@ -3,9 +3,9 @@ layout: page
 title: The people who do the amazing research
 bigimg:
 
-- "/img/research/Lab2017_V2.jpg" : "Lab (circa 2017)"
-- "/img/research/LabShot2019.jpg" : "Lab (circa 2019)"
-- "/img/research/IMG_0051.JPG" : "Lab (circa 2014)"
+- "/img/coverphotos/Lab2017_V2.jpg" : "Lab (circa 2017)"
+- "/img/coverphotos/LabShot2019.jpg" : "Lab (circa 2019)"
+- "/img/coverphotos/IMG_0051.JPG" : "Lab (circa 2014)"
 - "/img/fun/DSC_0140.jpg" : "Lab (circa 2007)"
 - "/img/fun/IMG_0502.JPG" : "Lab (circa 2010)"
 - "/img/fun/Photo1.jpg" : "Lab (circa 2011)"
