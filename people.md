@@ -1,7 +1,15 @@
 ---
 layout: page
 title: The people who do the amazing research
-css: "/css/aboutme.css"
+bigimg:
+
+- "/img/research/Lab2017_V2.jpg" : "Lab (circa 2017)"
+- "/img/research/LabShot2019.jpg" : "Lab (circa 2019)"
+- "/img/research/IMG_0051.JPG" : "Lab (circa 2014)"
+- "/img/fun/DSC_0140.jpg" : "Lab (circa 2007)"
+- "/img/fun/IMG_0502.JPG" : "Lab (circa 2010)"
+- "/img/fun/Photo1.jpg" : "Lab (circa 2011)"
+
 ---
 
 ## Current people in the lab
@@ -20,7 +28,7 @@ Maria Pesevski: Is a Ph.D student interested in the evolution of condition depen
 </p>
 
 <p class="about-text">
-Katie Pelletier: Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possivle developmental and genetic biases that might influence the evolutionary process. 
+Katie Pelletier: Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possivle developmental and genetic biases that might influence the evolutionary process.
 </p>
 
 <p class="about-text">
