@@ -22,7 +22,7 @@ bigimg:
 **Maria Pesevski:** Is a Ph.D student interested in the evolution of condition dependence and sexual dimorphism for size and shape using *Drosophila* wing morphology. When not thinking deeply about size, shape and sexual differences in flies, Maria spends her time salsa dancing.
 
 
-**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possivle developmental and genetic biases that might influence the evolutionary process.
+**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possible developmental and genetic biases that might influence the evolutionary process.
 
 
 **Andrew Scott:** Is a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew uses a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours. When he is not developing new little devices to measure flies with, he is enjoying many of the local beers in Hamilton.
