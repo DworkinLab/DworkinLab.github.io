@@ -2,12 +2,8 @@
 layout: page
 title: Current Research
 bigimg:
+
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
- - "/img/research/Beetle2.jpg" : "Diversity of beetle horns"
- - "/img/research/ptc_three_views.png" : "Variation in wing shape due to variation in the Patched gene"
- - "/img/research/Salticid_Drosophila_04_2.png" : "Drosophila being eaten by a jumping spider"
- - "/img/research/Dll_expression_GBE.png" : "Variation in expression of the Dll gene across mutations in different genetic backgrounds"
- - "/img/research/DaleyThesis_GBE_sd.png" : "Variation among wild type strains in the phenotypic expression of mutant phenotypes"
 ---
 
 ## Overview
