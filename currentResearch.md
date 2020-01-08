@@ -4,6 +4,18 @@ title: Current Research
 bigimg:
 
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
+ - "/img/research/avatar-icon.jpg" : "The Drosophila wing, a model trait used in the lab"
+ - "/img/research/Beetle2.jpg" : "Diversity of beetle horns"
+ - "/img/research/ptc_three_views.png" : "Variation in wing shape due to variation in the Patched gene"
+- "/img/research/Salticid_Drosophila_04_2.png" : "Drosophila being eaten by a jumping spider"
+- "/img/research/can2.png" : "Genetic variation for wing shape in Drosophila"
+
+- "/img/research/Pitchers2019_Fig1.tif" : "Genetic variation for wing shape in Drosophila, Pitchers et al. 2019"
+- "/img/research/Pitchers2019_Fig2.tif" : "SNP effects in the Egfr gene on wing shape, Pitchers et al. 2019"
+- "/img/research/Parigi2019_TM.tiff" : "Transitions among  behaviours in Drosophila under predation risk, Parigi et al. 2019"
+- "/img/research/Dll_expression_GBE.png" : "Variation in expression of the Dll gene across mutations in different genetic backgrounds"
+- "/img/research/DaleyThesis_GBE_sd.png" : "Variation among wild type strains in the phenotypic expression of mutant phenotypes"
+
 ---
 
 
@@ -12,6 +24,7 @@ bigimg:
 
 At one level, evolution is remarkably simple, with just a few concepts – mutation, recombination, random drift and natural selection – that underlie the overall process.  Yet this description obscures many issues that make evolution a fascinating area for study.  Evolution typically involves many genes and often revolves around interactions between individuals and their environments.  Moreover, genes interact with one another and with the environment in a nonlinear fashion, resulting in complex phenotypes and evolutionary dynamics.  Our work aims to describe and analyze such interactions with experimental and quantitative rigour. Specifically work in my lab aims to address the fundamental question about the mechanistic basis of observed phenotypic variation. That is, how genetic (and environmental) variation modulate developmental processes and ultimately influence phenotypic outcomes. Our research employs genetic and genomic approaches to address these issues, largely using Drosophila (fruit flies) as a model system.  Most labs that work with Drosophila study either individual mutations of large effect (such as those that completely knock out a particular function) or subtle quantitative variation (rarely identifying specific genes).  We employ both of these empirical approaches in conjunction with our genomic analyses to help relate our understanding from developmental genetics with the natural variation observed in populations. In the sections that follow, I summarize our findings and future directions for several projects conducted in my laboratory.
 
+![alt text](/img/research/Background_integrative.png "Example of genetic background effects")
 
 ## Functional genetic and genomic approaches for the analyses of conditional effects of mutations.
 

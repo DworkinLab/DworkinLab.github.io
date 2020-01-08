@@ -13,7 +13,7 @@ bigimg:
 
 ## Current people in the lab
 
-**Ian Dworkin:** Is an associate professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a> Where our lab uses a variety of systems to address questions about how genetic and developmental mechanisms influence evolutionary processes, and how evolutionary history has shaped genetic and developmental mechanisms. When not doing the science thing, I do the dad thing. In the few spare moments, I also do some nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
+**Ian Dworkin:** Is an associate professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do some nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
 
 
 **Sarah Marzec:** Is a Ph.D Student who is using Waddington's classic system studying genetic assimilation in *Drosophila melanogaster* to address questions about canalization, cryptic genetic variation and trait evolution by genetic assimilation. Sarah's is secretly hoping for a small lab accident that will result in her getting superpowers.
@@ -28,7 +28,7 @@ bigimg:
 **Andrew Scott:** Is a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew uses a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours. When he is not developing new little devices to measure flies with, he is enjoying many of the local beers in Hamilton.
 
 
-**Audrey Wilson:** Audrey is a M.Sc. student studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she does, Audrey's work space looks a lot like a craft store, and spends a considerable amount of time in the dollar store to find just the right materials to be converted to usuable scientific "equipment".
+**Audrey Wilson:** Audrey is a M.Sc. student studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she does, Audrey's work space looks a lot like a craft store, and spends a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
 
 **Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined.
 
@@ -36,11 +36,11 @@ bigimg:
 
 ## Lab alumni
 
-Caitlyn Daley: Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development.
+**Caitlyn Daley:** Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development.
 
-Paul Knoops:
+**Paul Knoops:** Paul did his M.Sc. research studying how Drosophila interacted with potential predators, and how this influenced Drosophila mating behaviour and activity.
 
-Nick Testa:
+**Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila.
 
 Annat Haber:
 
