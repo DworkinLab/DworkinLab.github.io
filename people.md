@@ -32,11 +32,11 @@ bigimg:
 
 **Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
-**Isabella Delano:** Isabella is an undergraduae thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila.
+**Isabella Delano:** Isabella is an undergraduate thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila.
 
-**Dan Siemon:** Dan is an undergraduae thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila. (Working in parallel with Isabella. it is a big project!)
+**Dan Siemon:** Dan is an undergraduate thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila. (Working in parallel with Isabella. it is a big project!)
 
-**Megan Simoes:** Megan is an undergraduae thesis student studying  the evolution of sex specific condition dependence among species of Drosophila.
+**Megan Simoes:** Megan is an undergraduate thesis student studying  the evolution of sex specific condition dependence among species of Drosophila.
 
 ## Lab alumni
 
