@@ -44,9 +44,9 @@ bigimg:
 
 **Paul Knoops:** Paul did his M.Sc. research studying how Drosophila interacted with potential predators, and how this influenced Drosophila mating behaviour and activity. Paul also made sure we never had any leftovers for lab parties.
 
-**Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila. Data-wiz.
+**Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila. Data-wiz at Highmark.
 
-Annat Haber: Researcher, Jackson Labs.
+Annat Haber: Data-wiz. Researcher, Jackson Labs.
 
 William Pitchers: Data-wiz.
 
@@ -68,13 +68,13 @@ David Tack: Data-wiz.
 
 Anna Mammel: Post-doctoral researcher at the Hutch.
 
-Alycia Kowalski: Veterinarian
+Alycia Kowalski: Veterinarian, Research fellow at Penn Vet New Bolton Center.
 
 Lin Choi: Dentist
 
 Heather McGovern: MD
 
-Emma Northrup: Finishing her Ph. D
+Emma Northrup: Finishing her Ph. D at South Dakota State University.
 
 Willam Bell: M.Sc at University of Waterloo
 
@@ -108,13 +108,15 @@ Mamun Patwary:
 
 Lianna Wat: Ph.D student, University of British Columbia.
 
+Samiksha Kaul: Ph.D Student, Georgia Tech.
+
 Braedan Huras:
 
 Gayatri Sivaratnam: Medical Student.
 
 Christian Marier :Research Technician, NYU
 
-Megan Cermak (M.Sc. Genetic Counseling)
+Megan Cermak: Genetic Counselor at Nationwide Children's Hospital
 
 Kristen Hummel: Veterinarian
 
@@ -122,14 +124,14 @@ Zachary Masters: MD
 
 Cody Porter: PhD Student
 
-Leslie Bell: (M.Education)
+Leslie (Bell) Marvin: (M.Education)
 
 Andrew Victory: ER Doctor (Pittsburgh)
 
-Justyne Matheny: Completed Ph.D at Duke
+Justyne Matheny:Ph.D, Duke University. Biocurator at The University of North Carolina at Chapel Hill
 
 Amelia Anderson: Veterinarian
 
-WonYoung Shim: Veterinarian
+Kayla (WonYoung) Shim: Veterinarian
 
-Lindy Shelley: Physiotherapist
+Lindy Shelley Johnson: Physiotherapist, Zuckerberg San Francisco General.
