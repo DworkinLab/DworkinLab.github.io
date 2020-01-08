@@ -3,24 +3,21 @@ layout: page
 title: Current Research
 bigimg:
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
- - "/img/research/avatar-icon.jpg" : "The Drosophila wing, a model trait used in the lab"
  - "/img/research/Beetle2.jpg" : "Diversity of beetle horns"
  - "/img/research/ptc_three_views.png" : "Variation in wing shape due to variation in the Patched gene"
-- "/img/research/Salticid_Drosophila_04_2.png" : "Drosophila being eaten by a jumping spider"
-- "/img/research/can2.png" : "Genetic variation for wing shape in Drosophila"
-- "/img/research/Dll_expression_GBE.png" : "Variation in expression of the Dll gene across mutations in different genetic backgrounds"
-- "/img/research/DaleyThesis_GBE_sd.png" : "Variation among wild type strains in the phenotypic expression of mutant phenotypes"
+ - "/img/research/Salticid_Drosophila_04_2.png" : "Drosophila being eaten by a jumping spider"
+ - "/img/research/Dll_expression_GBE.png" : "Variation in expression of the Dll gene across mutations in different genetic backgrounds"
+ - "/img/research/DaleyThesis_GBE_sd.png" : "Variation among wild type strains in the phenotypic expression of mutant phenotypes"
 ---
-
-
 
 ## Overview
 
 At one level, evolution is remarkably simple, with just a few concepts – mutation, recombination, random drift and natural selection – that underlie the overall process.  Yet this description obscures many issues that make evolution a fascinating area for study.  Evolution typically involves many genes and often revolves around interactions between individuals and their environments.  Moreover, genes interact with one another and with the environment in a nonlinear fashion, resulting in complex phenotypes and evolutionary dynamics.  Our work aims to describe and analyze such interactions with experimental and quantitative rigour. Specifically work in my lab aims to address the fundamental question about the mechanistic basis of observed phenotypic variation. That is, how genetic (and environmental) variation modulate developmental processes and ultimately influence phenotypic outcomes. Our research employs genetic and genomic approaches to address these issues, largely using Drosophila (fruit flies) as a model system.  Most labs that work with Drosophila study either individual mutations of large effect (such as those that completely knock out a particular function) or subtle quantitative variation (rarely identifying specific genes).  We employ both of these empirical approaches in conjunction with our genomic analyses to help relate our understanding from developmental genetics with the natural variation observed in populations. In the sections that follow, I summarize our findings and future directions for several projects conducted in my laboratory.
 
-![alt text](/img/research/Background_integrative.png "Example of genetic background effects")
 
 ## Functional genetic and genomic approaches for the analyses of conditional effects of mutations.
+
+![alt text](/img/research/Background_integrative.png "Example of genetic background effects")
 
 The consequences of any mutation depend both on the genomic context in which it occurs and the organism’s environment. It is well known that not all wild-type genetic backgrounds are “equal”, and large effects mutations can vary in their consequence due to genetic background. Yet, little is known about the functional consequences of such genetic background effects. Utilizing functionally characterized mutations, we study the impact of wild-type genetic background and rearing environment on the phenotypic expression of these alleles. In particular this work treats the degree of phenotypic effect of a mutation (expressivity) as a quantitative trait subject to many genetic and environmental influences.
 
@@ -30,7 +27,10 @@ Complementary to the studies described above, we are also “inverting the probl
 
 ## Dissecting the genetic architecture of wing shape in Drosophila.
 
+![alt text](/img/research/ptc_three_views.png "Natural and lab induced genetic variants in the Patched gene influence Drosophila wing shape in similar ways")
+
 One of the goals of evolutionary genetics is to elucidate the genetic architecture that underlies complex phenotypes. Yet most work in the field still focuses on identifying variants that contribute to trait variation, without considering the proximate mechanism by which they achieve their effect. On the other hand, to be able to developmentally dissect the functional basis of genetic variants that modulate subtle phenotypic changes, requires a model system that can be accurately and sensitively quantified. Drosophila Wing shape represents an ideal model system to study questions about genetic architecture from both an evolutionary and functional perspective.
+
 Wing shape is a complex multivariate phenotype, yet it is sufficiently straightforward to measure that we can perform large high throughput experiments in Drosophila.  Using a 58 dimensional representation of wing shape to assess variation for wing shape we utilize a combination of induced mutations (Sonnenschein et al. 2015), controlled environmental variation, and natural genetic variation (Pitchers et al. 2013) to address our questions. For instance, we utilize induced mutations in highly controlled genetic backgrounds, to help elucidate the proximate mechanisms that shape trait expression as well as plasticity of genetic effects (i.e. Debat et al 2009; Haber and Dworkin 2016) and the relationship between subtle genetic perturbations on wing shape and how it co-varies with gene expression (Dworkin et al. 2011). Using these approaches we are now focused on understanding sex-limited effects of mutations on size and shape, and how these contribute to sexual dimorphism (Testa and Dworkin 2016).
 
 In our work to identify and functionally characterize how naturally segregating polymorphisms influence wing shape we keep our central question (how do such variants influence development which in turn mediate shape change?). For instance, we examined natural variation for the cis-regulatory (enhancer) of the cut gene, known to influence wing development. Variation in the enhancer is present as two alternative haplotypes differing in expression of cut, which we verified transgenically.  While the differences in gene expression are substantial, the effects on wing shape are subtle.
