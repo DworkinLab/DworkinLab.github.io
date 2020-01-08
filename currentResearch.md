@@ -2,20 +2,14 @@
 layout: page
 title: Current Research
 bigimg:
-
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
  - "/img/research/avatar-icon.jpg" : "The Drosophila wing, a model trait used in the lab"
  - "/img/research/Beetle2.jpg" : "Diversity of beetle horns"
  - "/img/research/ptc_three_views.png" : "Variation in wing shape due to variation in the Patched gene"
 - "/img/research/Salticid_Drosophila_04_2.png" : "Drosophila being eaten by a jumping spider"
 - "/img/research/can2.png" : "Genetic variation for wing shape in Drosophila"
-
-- "/img/research/Pitchers2019_Fig1.tif" : "Genetic variation for wing shape in Drosophila, Pitchers et al. 2019"
-- "/img/research/Pitchers2019_Fig2.tif" : "SNP effects in the Egfr gene on wing shape, Pitchers et al. 2019"
-- "/img/research/Parigi2019_TM.tiff" : "Transitions among  behaviours in Drosophila under predation risk, Parigi et al. 2019"
 - "/img/research/Dll_expression_GBE.png" : "Variation in expression of the Dll gene across mutations in different genetic backgrounds"
 - "/img/research/DaleyThesis_GBE_sd.png" : "Variation among wild type strains in the phenotypic expression of mutant phenotypes"
-
 ---
 
 
