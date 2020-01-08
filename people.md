@@ -22,7 +22,7 @@ bigimg:
 **Maria Pesevski:** Is a Ph.D student interested in the evolution of condition dependence and sexual dimorphism for size and shape using *Drosophila* wing morphology. When not thinking deeply about size, shape and sexual differences in flies, Maria spends her time salsa dancing.
 
 
-**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possible developmental and genetic biases that might influence the evolutionary process.
+**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations and plans to use this to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.
 
 
 **Andrew Scott:** Is a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew uses a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours. When he is not developing new little devices to measure flies with, he is enjoying many of the local beers in Hamilton.
@@ -30,7 +30,7 @@ bigimg:
 
 **Audrey Wilson:** Audrey is a M.Sc. student studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she does, Audrey's work space looks a lot like a craft store, and spends a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
 
-**Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined.
+**Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
 
 
@@ -59,3 +59,17 @@ Michael DeNieu:
 Chris Chandler:
 
 Megan Fritz:
+
+David Tack:
+
+Anna Mammel:
+
+Alycia Kowalski:
+
+Lindy Shelley:
+
+Lin Choi:
+
+Heather McGovern:
+
+Emma Northrup:
