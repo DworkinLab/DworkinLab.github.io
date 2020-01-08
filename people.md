@@ -36,9 +36,9 @@ bigimg:
 
 ## Lab alumni
 
-**Caitlyn Daley:** Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development.
+**Caitlyn Daley:** Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development. She really loves her cat.
 
-**Paul Knoops:** Paul did his M.Sc. research studying how Drosophila interacted with potential predators, and how this influenced Drosophila mating behaviour and activity.
+**Paul Knoops:** Paul did his M.Sc. research studying how Drosophila interacted with potential predators, and how this influenced Drosophila mating behaviour and activity. Paul also made sure we never had any leftovers for lab parties.
 
 **Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila.
 
