@@ -32,7 +32,11 @@ bigimg:
 
 **Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
+**Isabella Delano:** Isabella is an undergraduae thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila.
 
+**Dan Siemon:** Dan is an undergraduae thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila. (Working in parallel with Isabella. it is a big project!)
+
+**Megan Simoes:** Megan is an undergraduae thesis student studying  the evolution of sex specific condition dependence among species of Drosophila.
 
 ## Lab alumni
 
@@ -40,36 +44,92 @@ bigimg:
 
 **Paul Knoops:** Paul did his M.Sc. research studying how Drosophila interacted with potential predators, and how this influenced Drosophila mating behaviour and activity. Paul also made sure we never had any leftovers for lab parties.
 
-**Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila.
+**Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila. Data-wiz.
 
-Annat Haber:
+Annat Haber: Researcher, Jackson Labs.
 
-William Pitchers:
+William Pitchers: Data-wiz.
 
 Amanda Charbanneau:
 
-Anne Sonnenschein:
+Anne Sonnenschein: Data-wiz.
 
-Abhijna Parigi:
+Abhijna Parigi: Post-Doctoral researcher
 
-Sudarshan Chari:
+Sudarshan Chari: Data-wiz.
 
 Michael DeNieu:
 
-Chris Chandler:
+Chris Chandler: Associate Professor, SUNY Oswego.
 
-Megan Fritz:
+Megan Fritz: Assistant Professor, University of Maryland.
 
-David Tack:
+David Tack: Data-wiz.
 
-Anna Mammel:
+Anna Mammel: Post-doctoral researcher at the Hutch.
 
-Alycia Kowalski:
+Alycia Kowalski: Veterinarian
 
-Lindy Shelley:
+Lin Choi: Dentist
 
-Lin Choi:
+Heather McGovern: MD
 
-Heather McGovern:
+Emma Northrup: Finishing her Ph. D
 
-Emma Northrup:
+Willam Bell: M.Sc at University of Waterloo
+
+Genevieve Dietrich: Current Mcmaster Undergraduate.
+
+Amy Chang: M.Sc at University of Toronto
+
+Folasade Ologundudu:
+
+Jeremy Cooney: Law school.
+
+Cristina Abbataangelo: M.Sc student, University of Toronto.
+
+Daniel Sutanto:
+
+Amy Calovini:
+
+Abood Abubakr:
+
+Ana Vera Cruz: M.Sc. student, University of Ottawa.
+
+Julie Holms:
+
+Denise Rebello: Ph.D student, University of Toronto.
+
+Ieta Shams: Medical Student
+
+Ravina Dhami:
+
+Mamun Patwary:
+
+Lianna Wat: Ph.D student, University of British Columbia.
+
+Braedan Huras:
+
+Gayatri Sivaratnam: Medical Student.
+
+Christian Marier :Research Technician, NYU
+
+Megan Cermak (M.Sc. Genetic Counseling)
+
+Kristen Hummel: Veterinarian
+
+Zachary Masters: MD
+
+Cody Porter: PhD Student
+
+Leslie Bell: (M.Education)
+
+Andrew Victory: ER Doctor (Pittsburgh)
+
+Justyne Matheny: Completed Ph.D at Duke
+
+Amelia Anderson: Veterinarian
+
+WonYoung Shim: Veterinarian
+
+Lindy Shelley: Physiotherapist
