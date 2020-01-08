@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The people who do the amazing research
+title: The researchers
 bigimg:
 
 - "/img/coverphotos/Lab2017_V2.jpg" : "Lab (circa 2017)"
