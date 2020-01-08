@@ -46,5 +46,8 @@ In addition to this work, we are taking a broad genomics approach. Using a panel
 
 ## Older research
 
+
+[![Drosophila retreating from mantid](https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/1694760/thumb.png)](https://figshare.com/articles/Drosophila_retreat_behaviour_video3/1185640)
+
 Evolution of anti-predation traits: Experimental Evolution using *Drosophila*.
 How do organisms evolve in response to a novel predator, and how is this evolutionary response mediated by interactions among different types of traits (such as behavior and morphology)?  To address this, we have a research program that seeks to understand the evolution of anti-predation phenotypes (morphological and behavioural) using *Drosophila* as model “prey” system (Parigi et al. 2019). While researchers have examined the role of predators as agents of natural selection, few have examined the long term (inter-generational) consequences. Conversely, while *Drosophila* has a rich history for studies of selection, only a few have provided an ecological context. In our lab we have initiated long-term experimental evolution studies where *Drosophila* is under pressure of predation by preying mantids (*Tenodera aridifolia sinensis*), or jumping spiders (*Salticus scenicus*). Initial work has demonstrated selection on wing size and shape, and we are currently exploring how multivariate selection has changed during 100 generations of selection. In addition we have examined the evolved populations for potential trade-offs for other traits (Elliot et al. 2015, Elliot et al. 2017).
