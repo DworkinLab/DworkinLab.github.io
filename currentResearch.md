@@ -4,9 +4,7 @@ title: Current Research
 bigimg:
 
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
- Spidernom.png
  - "/img/research/Spidernom.png" : "Predation of Drosophila by a jumping spider"
-
 ---
 
 ## Overview
