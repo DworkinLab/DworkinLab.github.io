@@ -9,12 +9,16 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ## Chronologically (reverse)
 
+### 2020ish
+
 Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in Drosophila melanogaster. Accepted pending revisions. Genes|Genomes|Genetics.
  [pre-print](https://www.biorxiv.org/content/10.1101/686741v2.full)
 
 Pesevski, M. & Dworkin, I. Genetic and environmental canalization are not associated among altitudinally varying populations of Drosophila melanogaster. Acceptance pending revisions. Evolution. [pre-print](https://www.biorxiv.org/content/10.1101/715649v1)
 
 Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chases Promote the Evolution of Prey Intelligence. In Press. In Evolution in Action – Past, Present and Future. Lenski, R. & Banzhaf, W. editors. Springer.
+
+### 2018 - 2019
 
 Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135)
 
@@ -30,6 +34,7 @@ Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Baraza
 
 Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258.[link](https://doi.org/10.1007/s10519-018-9901-7)
 
+### 2015 - 2017
 Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using Drosophila melanogaster selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link](https://doi.org/10.1111/jeb.13084)
 
 Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link](https://doi.org/10.1111/evo.13100)
@@ -57,6 +62,8 @@ Moczek A.P, Sears, K.E, Stollewerk A, Wittkopp P.J, Diggle P, Dworkin I, Ledon-R
 Fritz, M., Walker, E., Miller, J., Severson, D & Dworkin, I. (2015). Divergent host preferences of above- and below-ground Culex pipiens (Diptera: Culicidae) and their hybrid offspring in a laboratory setting. Medical & Veterinary Entomology. 29(2):115-123. [link](https://doi.org/10.1111/mve.12096)
 
 Lavine, L.C., Gotoh, H., Brent, C.S., Dworkin,I. & Emlen, D.J. (2015). Exaggerated Trait Growth in Insects. Annual Review of Entomology. 60:453-472. [link](https://doi.org/10.1146/annurev-ento-010814-021045)
+
+### 2010 - 2014
 
 Pitchers, W.R, Klingenberg, C.P., Tregenza, T., Hunt, J., & Dworkin, I. (2014). The potential influence of morphology on the evolutionary divergence of an acoustic signal.  Journal of Evolutionary Biology. 27(10):2163-2176. [link](https://doi.org/10.1111/jeb.12471)
 
@@ -117,6 +124,8 @@ Moczek, A. P., Sultan, S., Foster, S., Ledón-Rettig, C., Dworkin, I., Nijhout, 
 Stillwell, R. C., Dworkin, I., Shingleton, A. W., & Frankino, W. A. (2011). Experimental manipulation of body size to estimate morphological scaling relationships in Drosophila. Journal of Visualized Experiments, (56). [link](https://doi.org/10.3791/3162)
 
 Swanson, E. M., Dworkin, I., & Holekamp, K. E. (2011). Lifetime selection on a hypoallometric size trait in the spotted hyena. Proceedings Of The Royal Society B-Biological Sciences, [link](https://doi.org/10.1098/rspb.2010.2512)
+
+### Before 2010
 
 Shingleton, A. W., Estep, C. M., Driscoll, M. V., & Dworkin, I. (2009). Many ways to be small: different environmental regulators of size generate distinct scaling relationships in Drosophila melanogaster. Proceedings Of The Royal Society B-Biological Sciences, 276(1667), 2625–2633. [link](https://doi.org/10.1098/rspb.2008.1796)
 
