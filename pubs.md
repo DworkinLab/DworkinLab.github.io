@@ -29,24 +29,24 @@ Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chas
 
 ### 2018 - 2019
 
-Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135)
+Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135). [PDF](/pdf/Frankino_etal_2019.pdf)
 
 Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900)
 
 Parigi, A., Porter, C., Cermak, M., Pitchers, W.R. & Dworkin, I. (2019). The behavioural repertoire of *Drosophila melanogaster* in the presence of two predator species that differ in hunting mode. PLoS One. [link](https://doi.org/10.1371/journal.pone.0216860)
 
-Pitchers, W.R, Nye, J.,Márquez, E.J., Kowalski, A., Dworkin, I. & Houle, D. (2019). A multivariate genome-wide association study of wing shape in *Drosophila melanogaster*. Genetics. 211:1429-1447. [link](https://doi.org/10.1534/genetics.118.301342)
+Pitchers, W.R, Nye, J.,Márquez, E.J., Kowalski, A., Dworkin, I. & Houle, D. (2019). A multivariate genome-wide association study of wing shape in *Drosophila melanogaster*. Genetics. 211:1429-1447. [link](https://doi.org/10.1534/genetics.118.301342). [PDF](/pdf/Pitchers_etal_2019.pdf)
 
-Zinna, R., Emlen, D., Lavine, L.C., Johns, A., Gotoh, H., Niimi, T. & Dworkin, I. (2018). Sexual dimorphism and heightened conditional expression in a sexually selected weapon in the Asian rhinoceros beetle. Molecular Ecology. 27:5049-5072. [link](https://doi.org/10.1111/mec.14907)
+Zinna, R., Emlen, D., Lavine, L.C., Johns, A., Gotoh, H., Niimi, T. & Dworkin, I. (2018). Sexual dimorphism and heightened conditional expression in a sexually selected weapon in the Asian rhinoceros beetle. Molecular Ecology. 27:5049-5072. [link](https://doi.org/10.1111/mec.14907). [PDF](/pdf/Zinna_etal_2018.pdf)
 
-Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.  [link](https://doi.org/10.1111/eva.12699 )
+Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.  [link](https://doi.org/10.1111/eva.12699 ). [PDF](/pdf/Charbonneau_et_al-2018-Evolutionary_Applications.pdf)
 
-Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258.[link](https://doi.org/10.1007/s10519-018-9901-7)
+Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258.[link](https://doi.org/10.1007/s10519-018-9901-7). [PDF](/pdf/Scott_etal_2018.pdf)
 
 ### 2015 - 2017
-Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using *Drosophila melanogaster* selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link](https://doi.org/10.1111/jeb.13084)
+Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using *Drosophila melanogaster* selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link](https://doi.org/10.1111/jeb.13084). [PDF](/pdf/Hangartner_et_al-2017-Journal_of_Evolutionary_Biology.pdf)
 
-Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link](https://doi.org/10.1111/evo.13100)
+Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link](https://doi.org/10.1111/evo.13100). [PDF](/pdf/HaberDworkin2017.pdf)
 
 Elliott, K.H., Norris, D.R., Betini, G.S. & Dworkin, I. (2017). Scared fitless: Context-dependent response of fear to loss of predators over evolutionary time in *Drosophila melanogaster*. FACETS. 2(1): 342-354. [link](https://doi.org/10.1139/facets-2016-0075)
 
@@ -54,13 +54,13 @@ Chandler, C.H., Chari, S., Kowalski, A., Choi, L., Tack, D., DeNieu, M., Pitcher
 
 Roles, A.J., Rutter, M.T., Dworkin, I., Fenster, C.B. & Conner, J.K. (2016). Field measurements of genotype by environment interaction for fitness caused by spontaneous mutations in *Arabidopsis thaliana*. Evolution. 70(5):1039-1050. [link](https://doi.org/10.1111/evo.12913)
 
-Gotoh, H., Zinna, R., Warren, I., DeNieu, M., Niimi., T., Dworkin, I., Emlen, D., Miura, T. & Lavine, L. (2016). Identification and functional analyses of sex determination genes in the sexually dimorphic stag beetle *Cyclommatus metallifer*. BMC Genomics. 17:250. [link](https://doi.org/10.1186/s12864-016-2522-8)
+Gotoh, H., Zinna, R., Warren, I., DeNieu, M., Niimi., T., Dworkin, I., Emlen, D., Miura, T. & Lavine, L. (2016). Identification and functional analyses of sex determination genes in the sexually dimorphic stag beetle *Cyclommatus metallifer*. BMC Genomics. 17:250. [link](https://doi.org/10.1186/s12864-016-2522-8). [PDF](/pdf/Gotoh_etal_2016_BMC_Genomics.pdf)
 
-Testa, N. & Dworkin, I. (2016).  The sex-limited effects of mutations in the EGFR and TGF-β signaling pathways on shape and size sexual dimorphism and allometry in the *Drosophila* wing. Development, Genes and Evolution. [link](https://doi.org/10.1007/s00427-016-0534-7)
+Testa, N. & Dworkin, I. (2016).  The sex-limited effects of mutations in the EGFR and TGF-β signaling pathways on shape and size sexual dimorphism and allometry in the *Drosophila* wing. Development, Genes and Evolution. [link](https://doi.org/10.1007/s00427-016-0534-7). [PDF](/pdf/TestaDworkin2016.pdf)
 
-Elliot, K.H., Betini, G.S., Dworkin, I. & Norris, D.R. (2016). Experimental evidence for within- and cross-seasonal effects of fear on survival and reproduction.  J. Animal Ecology. 85:507-515. [link](https://doi.org/10.1111/1365-2656.12487)
+Elliot, K.H., Betini, G.S., Dworkin, I. & Norris, D.R. (2016). Experimental evidence for within- and cross-seasonal effects of fear on survival and reproduction.  J. Animal Ecology. 85:507-515. [link](https://doi.org/10.1111/1365-2656.12487). [PDF](/pdf/Elliott_et_al-2016-Journal_of_Animal_Ecology.pdf)
 
-Stillwell R., Shingleton A., Dworkin I. & Frankino, W.A. (2016). Tipping the scales: Evolution of the allometric slope independent of average trait size. Evolution. 70(2):433-444 [link](https://doi.org/10.1111/evo.12865)
+Stillwell R., Shingleton A., Dworkin I. & Frankino, W.A. (2016). Tipping the scales: Evolution of the allometric slope independent of average trait size. Evolution. 70(2):433-444 [link](https://doi.org/10.1111/evo.12865). [PDF](/pdf/Stillwell_etal_2016.pdf)
 
 Sonnenschein, A., VanderZee, D.,  Pitchers, W.R., Chari, S. & Dworkin, I. (2015). An Image Database of *Drosophila melanogaster* Wings for Phenomic and Biometric analysis. GigaScience. 4(1):25. [link](https://doi.org/10.1186/s13742-015-0065-6)
 
