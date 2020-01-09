@@ -6,7 +6,6 @@ bigimg:
  - "/img/research/Background_integrative.png" : "Genetic Background Effects"
  - "/img/research/Spidernom.png" : "Predation of Drosophila by a jumping spider"
  - "/img/coverphotos/wingtile.png.jpg" : "diversity in Drosophila wing size and shape"
-
 ---
 
 ## Overview
