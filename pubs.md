@@ -25,7 +25,7 @@ Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the 
 
 Pesevski, M. & Dworkin, I. Genetic and environmental canalization are not associated among altitudinally varying populations of *Drosophila melanogaster*. Acceptance pending revisions. Evolution. [pre-print](https://www.biorxiv.org/content/10.1101/715649v1)
 
-Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chases Promote the Evolution of Prey Intelligence. In Press. In Evolution in Action – Past, Present and Future. Lenski, R. & Banzhaf, W. editors. Springer.
+Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chases Promote the Evolution of Prey Intelligence. In Press. In Evolution in Action – Past, Present and Future. Lenski, R. & Banzhaf, W. editors. Springer. [PDF](/pdf/Wagner-etal-revised_2020.pdf)
 
 ### 2018 - 2019
 

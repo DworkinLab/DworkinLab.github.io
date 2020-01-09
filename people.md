@@ -126,7 +126,7 @@ Cody Porter: PhD Student
 
 Leslie (Bell) Marvin: (M.Education)
 
-Andrew Victory: ER Doctor (Pittsburgh)
+Andrew Victory: ER Doctor, Pittsburgh.
 
 Justyne Matheny:Ph.D, Duke University. Biocurator at The University of North Carolina at Chapel Hill
 
