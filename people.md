@@ -54,17 +54,17 @@ Amanda Charbanneau:
 
 Anne Sonnenschein: Data-wiz.
 
-Abhijna Parigi: Post-Doctoral researcher
+Abhijna Parigi: Post-Doctoral researcher, University of California Davis.
 
 Sudarshan Chari: Data-wiz.
 
-Michael DeNieu:
+Michael DeNieu:Post-doct, George Washington University.
 
 Chris Chandler: Associate Professor, SUNY Oswego.
 
 Megan Fritz: Assistant Professor, University of Maryland.
 
-David Tack: Data-wiz.
+David Tack: Data-wiz, Spectrum Health Office of Research.
 
 Anna Mammel: Post-doctoral researcher at the Hutch.
 
