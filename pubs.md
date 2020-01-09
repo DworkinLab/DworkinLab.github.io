@@ -6,6 +6,8 @@ bigimg:
  - "/img/wordclouds/Chandler2019_cloud.png" : "Chandler et al. 2020"
  - "/img/wordclouds/Chari_square.png" : "Chari et al."
  - "/img/wordclouds/Pesevski2019_square.png" : "Pesevski and Dworkin"
+ - "/img/wordclouds/Zinna_square.png" : "Zinna et al. 2018"
+
 ---
 
 *Please note: I will be adding direct links to data, code and PDFs soon. All data and code is already available (via DRYAD, figshare, github).*
