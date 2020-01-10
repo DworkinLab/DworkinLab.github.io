@@ -64,7 +64,7 @@ Stillwell R., Shingleton A., Dworkin I. & Frankino, W.A. (2016). Tipping the sca
 
 Sonnenschein, A., VanderZee, D.,  Pitchers, W.R., Chari, S. & Dworkin, I. (2015). An Image Database of *Drosophila melanogaster* Wings for Phenomic and Biometric analysis. GigaScience. 4(1):25. [link](https://doi.org/10.1186/s13742-015-0065-6)
 
-Dworkin, I., and Jones, C.D. (2015). Evolutionary Genetics: You are what you evolve to eat. Current Biology. 25:R341–R343. [link](http://dx.doi.org/10.1016/j.cub.2015.01.044)
+Dworkin, I., and Jones, C.D. (2015). Evolutionary Genetics: You are what you evolve to eat. Current Biology. 25:R341–R343. [link](http://dx.doi.org/10.1016/j.cub.2015.01.044). [PDF](/pdf/DworkinJONES2015.pdf)
 
 Moczek A.P, Sears, K.E, Stollewerk A, Wittkopp P.J, Diggle P, Dworkin I, Ledon-Rettig C, Matus D.Q, Roth S, Abouheif E, Brown F.D, Chiu C, Cohen C.S, De Tomaso A.W, Gilbert S.F, Hall B, Love A, Lyons D.C, Sanger T, Smith J, Specht C, Vallejo-Marin M & Extavour C. G. (2015). The significance and scope of evolutionary developmental biology: a vision for the 21st century. Evolution & Development. 17(3):198-219.
 
@@ -74,77 +74,77 @@ Lavine, L.C., Gotoh, H., Brent, C.S., Dworkin,I. & Emlen, D.J. (2015). Exaggerat
 
 ### 2010 - 2014
 
-Pitchers, W.R, Klingenberg, C.P., Tregenza, T., Hunt, J., & Dworkin, I. (2014). The potential influence of morphology on the evolutionary divergence of an acoustic signal.  Journal of Evolutionary Biology. 27(10):2163-2176. [link](https://doi.org/10.1111/jeb.12471)
+Pitchers, W.R, Klingenberg, C.P., Tregenza, T., Hunt, J., & Dworkin, I. (2014). The potential influence of morphology on the evolutionary divergence of an acoustic signal.  Journal of Evolutionary Biology. 27(10):2163-2176. [link](https://doi.org/10.1111/jeb.12471). [PDF](/pdf/Pitchers_etal_JEvolBiol_2014.pdf)
 
-Pitchers, W.R., Wolf, J.B.,Tregenza, T., Hunt, J. & Dworkin, I. (2014). Evolutionary rates for multivariate traits: the role of selection and genetic variation. Phil. Trans. Roy. Soc. 369(1649):1471 [link](https://doi.org/10.1098/rstb.2013.0252)
+Pitchers, W.R., Wolf, J.B.,Tregenza, T., Hunt, J. & Dworkin, I. (2014). Evolutionary rates for multivariate traits: the role of selection and genetic variation. Phil. Trans. Roy. Soc. 369(1649):1471 [link](https://doi.org/10.1098/rstb.2013.0252). [PDF](/pdf/Pitchers_etal_PhilTrans_2014.pdf)
 
 O’Donnell, D.R., Fish, J.A., Parigi, A., Dworkin, I. & Wagner, A.P. (2014). The roles of standing genetic variation and evolutionary history in determining the evolvability of anti-predator strategies. PLoS One. 9(6):e100163 [link](https://doi.org/10.1371/journal.pone.0100163)
 
-Moghe, G.D., Hufnagel, D.E., Tang, H., Xiao, Y., Dworkin, I., Town, C.D., Conner, J.K. & Shiu, S. (2014). Consequences of Whole-Genome triplication as revealed by comparative genomic analyses of the Wild Radish *Raphanus raphanistrium* and three other Brassicaceae species. Plant Cell. [link](https://doi.org/10.1105/tpc.114.124297)
+Moghe, G.D., Hufnagel, D.E., Tang, H., Xiao, Y., Dworkin, I., Town, C.D., Conner, J.K. & Shiu, S. (2014). Consequences of Whole-Genome triplication as revealed by comparative genomic analyses of the Wild Radish *Raphanus raphanistrium* and three other Brassicaceae species. Plant Cell. [link](https://doi.org/10.1105/tpc.114.124297). [PDF](/PDF/Moghe-etal_PlantCell_2014.pdf)
 
-Ledón-Rettig, C., Pfennig, D., Chunco, C. & Dworkin, I. (2014). Cryptic Genetic variation in natural populations: A predictive framework. Integrative and Comparative Biology. 54(5): 783-793. [link](https://doi.org/10.1093/icb/icu077)
+Ledón-Rettig, C., Pfennig, D., Chunco, C. & Dworkin, I. (2014). Cryptic Genetic variation in natural populations: A predictive framework. Integrative and Comparative Biology. 54(5): 783-793. [link](https://doi.org/10.1093/icb/icu077). [PDF](/pdf/Ledon-Rettig_etal_ICB_2014.pdf)
 
 Melicher, D.M., Torson, A.S., Dworkin, I. & Bowsher, J.H. (2014). A pipeline for the de novo assembly of the *Themira biloba* (Sepsidae: Diptera) transcriptome using a multiple k-mer length approach. BMC Genomics. 15(1):188 [link](https://doi.org/10.1186/1471-2164-15-188)
 
 Lehmann, K.D.S., Goldman, B.W., Dworkin, I., Bryson, D.M. & Wagner, A.P. (2014). From Cues to Signals: Evolution of Interspecific Communication Via Aposematism and Mimicry in a Predator-Prey System. PLoS One. 9(3): e91783 [link](https://doi.org/10.1371/journal.pone.0091783)
 
-Johnson, A., Strauss, E., Pickett, R., Adami, C., Dworkin, I., & Goldsby, H. More Bang For Your Buck: Quorum-Sensing Capabilities Improve the Efficacy of Suicidal Altruism. Alife 14:120-128. [link](http://dx.doi.org/10.7551/978-0-262-32621-6-ch020)
+Johnson, A., Strauss, E., Pickett, R., Adami, C., Dworkin, I., & Goldsby, H. More Bang For Your Buck: Quorum-Sensing Capabilities Improve the Efficacy of Suicidal Altruism. Alife 14:120-128. [link](http://dx.doi.org/10.7551/978-0-262-32621-6-ch020). [PDF](/pdf/Anya_Artificial_Life_2014.pdf)
 
-Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426)
+Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426). [PDF](/pdf/Chandler_etal_Genetics_2014.pdf)
 
 Warren, I.A., Vera, J.C., Johns, A., Zinna, R., Marden, J.H., Emlen, D.J., Dworkin, I. & Lavine, L.C. (2014). Insights into the development and evolution of exaggerated traits using de novo transcriptomes of two species of horned scarab beetles. PLoS One. 9(2):e88364 [link](https://doi.org/10.1371/journal.pone.0088364)
 
-Fritz, M.L., Yunker, A.J., Walker, E.D. & Dworkin, I. (2014). Daily blood feeding rhythms of laboratory-reared North American *Culex pipiens*. J. Circadian Rhythms. 12:1. [link](https://doi.org/10.1186/1740-3391-12-1)
+Fritz, M.L., Yunker, A.J., Walker, E.D. & Dworkin, I. (2014). Daily blood feeding rhythms of laboratory-reared North American *Culex pipiens*. J. Circadian Rhythms. 12:1. [link](https://doi.org/10.1186/1740-3391-12-1). [PDF](/pdf/Fritz_2014_1740-3391-12-1.pdf)
 
 Ahmad, F., Roy, K., O’Connor, B., Shelton, J., Dozier, G. & Dworkin, I. (2014). Fly Wing Biometrics using modified local binary pattern, SVMs and Random Forest. International Journal of Machine Learning and Computing. 4(3):279-285. [link](https://doi.org/10.7763/IJMLC.2014.V4.425)
 
-Swanson, E.M., McElhinny, T.L., Dworkin, I., Weldele, M.L., Glickman, S.E. & Holekamp, K.E. (2013). Ontogeny of sexual size dimorphism in the spotted hyena (*Crocuta crocuta*). J. Mammalogy. 94(6):1298-1310. [link](http://dx.doi.org/10.1644/12-MAMM-A-277.1)
+Swanson, E.M., McElhinny, T.L., Dworkin, I., Weldele, M.L., Glickman, S.E. & Holekamp, K.E. (2013). Ontogeny of sexual size dimorphism in the spotted hyena (*Crocuta crocuta*). J. Mammalogy. 94(6):1298-1310. [link](http://dx.doi.org/10.1644/12-MAMM-A-277.1). [PDF](/pdf/Swanson_etal_2013.pdf)
 
-Warren, I.A., Gotoh, H., Dworkin, I., Emlen, D.J., & Lavine, L.C. (2013). A general mechanism for conditional expression of exaggerated sexually selected traits. BioEssays. 35(10):889-99. [link](https://doi.org/10.1002/bies.201300031)
+Warren, I.A., Gotoh, H., Dworkin, I., Emlen, D.J., & Lavine, L.C. (2013). A general mechanism for conditional expression of exaggerated sexually selected traits. BioEssays. 35(10):889-99. [link](https://doi.org/10.1002/bies.201300031). [PDF](/pdf/WarrenBioEssays2013.pdf)
 
 Chari, S., & Dworkin, I.  (2013). The conditional nature of genetic interactions: the consequences of wild-type backgrounds on mutational interactions in a genome-wide modifier screen. PLoS Genetics. 9(8):e1003661. [link](https://doi.org/10.1371/journal.pgen.1003661)
 
-Chandler, C.H., Chari, S & Dworkin, I. (2013). Does your gene need a background check? How genetic background impacts the analysis of mutations, genes, and evolution. Trends in Genetics. 29(6):358-66. [link](http://dx.doi.org/10.1016/j.tig.2013.01.009)
+Chandler, C.H., Chari, S & Dworkin, I. (2013). Does your gene need a background check? How genetic background impacts the analysis of mutations, genes, and evolution. Trends in Genetics. 29(6):358-66. [link](http://dx.doi.org/10.1016/j.tig.2013.01.009). [PDF](/pdf/ChandlerChariDworkin2013_TIG.pdf)
 
-Payne, M., Shelton, J., Turner, J., Adams, J., Carter, J., Williams, H., Hansen, C., Dworkin, I & Dozier, G. (2013). Fly wing biometrics using genetic and evolutionary feature extraction. 2013 IEEE Symposium Series on Computational Intelligence and Biometrics. Pp. 42-46.  [link](https://doi.org/10.1109/CIBIM.2013.6607912)
+Payne, M., Shelton, J., Turner, J., Adams, J., Carter, J., Williams, H., Hansen, C., Dworkin, I & Dozier, G. (2013). Fly wing biometrics using genetic and evolutionary feature extraction. 2013 IEEE Symposium Series on Computational Intelligence and Biometrics. Pp. 42-46.  [link](https://doi.org/10.1109/CIBIM.2013.6607912). [PDF](/pdf/Payne_etal_2013.pdf)
 
-Pitchers, W.R., Brooks, R., Jennions, M.D., Tregenza, T., Dworkin, I. & Hunt, J. (2013). Limited plasticity in the phenotypic variance-covariance matrix for male advertisement calls in the black field cricket, *Teleogryllus commodus*. J. Evolutionary Biology. 26(5):1060-78. [link](https://doi.org/10.1111/jeb.12120)
+Pitchers, W.R., Brooks, R., Jennions, M.D., Tregenza, T., Dworkin, I. & Hunt, J. (2013). Limited plasticity in the phenotypic variance-covariance matrix for male advertisement calls in the black field cricket, *Teleogryllus commodus*. J. Evolutionary Biology. 26(5):1060-78. [link](https://doi.org/10.1111/jeb.12120). [PDF](/pdf/PitchersJEB2013.pdf)
 
 Colbry, D., Dyer, F., Dworkin, I., Wang, Y and Wang, L. (2013). Speeding up Scientific Imaging Workflows: Design of Automated Image Annotation Tools. (IEEE) Workshop on User-Centered Computer Vision (UCCV) pp.13-18. [link](https://doi.org/10.1109/UCCV.2013.6530801)
 
-Corley-Lavine, L., Hanhn, L.L., Garczynski, S.F., Warren, I.A., Dworkin, I. & Emlen, D.J. (2013). Cloning and characterization of a mRNA encoding an insulin receptor from the horned scarab beetle *Onthophagus nigriventris* (Coleoptera: Scarabaeidae). Archives of Insect Biochemistry & Physiology. 82(1):43-57. [link](https://doi.org/10.1002/arch.21072)
+Corley-Lavine, L., Hanhn, L.L., Garczynski, S.F., Warren, I.A., Dworkin, I. & Emlen, D.J. (2013). Cloning and characterization of a mRNA encoding an insulin receptor from the horned scarab beetle *Onthophagus nigriventris* (Coleoptera: Scarabaeidae). Archives of Insect Biochemistry & Physiology. 82(1):43-57. [link](https://doi.org/10.1002/arch.21072). [PDF](/PDF/Lavine2012_InR_beetle.pdf)
 
-Chandler, C.H. Ofria, C. & Dworkin, I. (2013). Runaway Sexual Selection leads to Good Genes. Evolution. 67(1):110-119.  [link](https://doi.org/10.1111/j.1558-5646.2012.01750.x)
+Chandler, C.H. Ofria, C. & Dworkin, I. (2013). Runaway Sexual Selection leads to Good Genes. Evolution. 67(1):110-119.  [link](https://doi.org/10.1111/j.1558-5646.2012.01750.x). [PDF](/pdf/ChandlerOfriaDworkin2013.pdf)
 
-Ingleby, F.C., Hosken, D.J., Flowerts, K., Hawkes, M.F., Lane, S.M., Rapkin, J, Dworkin, I. & Hunt, J. (2013). Genotype-by-environment interactions for cuticular hydrocarbon expression in *Drosophila simulans*. J. Evolutionary Biology. 26(1):94-107. [link](https://doi.org/10.1111/jeb.12030)
+Ingleby, F.C., Hosken, D.J., Flowerts, K., Hawkes, M.F., Lane, S.M., Rapkin, J, Dworkin, I. & Hunt, J. (2013). Genotype-by-environment interactions for cuticular hydrocarbon expression in *Drosophila simulans*. J. Evolutionary Biology. 26(1):94-107. [link](https://doi.org/10.1111/jeb.12030). [PDF](/pdf/Fiona_jeb12030.pdf)
 
-Pitchers, W.R. Pool, J & Dworkin, I. (2013). Altitudinal Clinal Variation in Wing Form in African *Drosophila melanogaster*: One Cline or Many? Evolution. 67(2): 438-452 [link](https://doi.org/10.1111/j.1558-5646.2012.01774.x)
+Pitchers, W.R. Pool, J & Dworkin, I. (2013). Altitudinal Clinal Variation in Wing Form in African *Drosophila melanogaster*: One Cline or Many? Evolution. 67(2): 438-452 [link](https://doi.org/10.1111/j.1558-5646.2012.01774.x). [PDF](/pdf/PitchersPoolDworkin2013.pdf)
 
-Emlen, D.J., Warren, I., Johns, A., Dworkin, I. &, Corley-Lavine, L. (2012). A mechanism of extreme growth and reliable signaling in sexually selected ornaments and weapons. Science. 337:860-864. [link](https://doi.org/10.1126/science.1224286)
+Emlen, D.J., Warren, I., Johns, A., Dworkin, I. &, Corley-Lavine, L. (2012). A mechanism of extreme growth and reliable signaling in sexually selected ornaments and weapons. Science. 337:860-864. [link](https://doi.org/10.1126/science.1224286). [PDF](/pdf/Science-2012-Emlen-860-4.pdf)
 
-Malek, T., Boughman, J., Dworkin, I., & Peichel, K. (2012). Admixture mapping of male nuptial color and body shape in a recently formed hybrid population of threespine stickleback. 21:5265-5279. Molecular Ecology. [link](https://doi.org/10.1111/j.1365-294X.2012.05660.x)
+Malek, T., Boughman, J., Dworkin, I., & Peichel, K. (2012). Admixture mapping of male nuptial color and body shape in a recently formed hybrid population of threespine stickleback. 21:5265-5279. Molecular Ecology. [link](https://doi.org/10.1111/j.1365-294X.2012.05660.x). [PDF](/pdf/MALEK_etal_MolEcol_2012.pdf)
 
-Chandler, C. H., Chadderdon, G. E., Phillips, P. C., Dworkin, I., & Janzen, F. J. (2012). Experimental evolution of the *Caenorhabditis elegans* sex determination pathway. Evolution, 66(1), 82–93. [link](https://doi.org/10.1111/j.1558-5646.2011.01420.x)
+Chandler, C. H., Chadderdon, G. E., Phillips, P. C., Dworkin, I., & Janzen, F. J. (2012). Experimental evolution of the *Caenorhabditis elegans* sex determination pathway. Evolution, 66(1), 82–93. [link](https://doi.org/10.1111/j.1558-5646.2011.01420.x). [PDF](/pdf/Chandler_etal_Evolution 2012.pdf)
 
-Dworkin, I., Anderson, J. B., Idaghdour, Y., Parker, E. K., Stone, E. A., & Gibson, G. (2011). The Effects of Weak Genetic Perturbations on the Transcriptome of the Wing Imaginal Disc, and its Association with Wing Shape in *Drosophila melanogaster*. Genetics. [link](https://doi.org/10.1534/genetics.110.125922)
+Dworkin, I., Anderson, J. B., Idaghdour, Y., Parker, E. K., Stone, E. A., & Gibson, G. (2011). The Effects of Weak Genetic Perturbations on the Transcriptome of the Wing Imaginal Disc, and its Association with Wing Shape in *Drosophila melanogaster*. Genetics. [link](https://doi.org/10.1534/genetics.110.125922). [PDF](/pdf/DworkinEtAlGenetics2011.pdf)
 
-Moczek, A. P., Sultan, S., Foster, S., Ledón-Rettig, C., Dworkin, I., Nijhout, H. F., Abouheif, E., et al. (2011). The role of developmental plasticity in evolutionary innovation. Proceedings Of The Royal Society B-Biological Sciences, 278(1719), 2705–2713. [link](https://doi.org/10.1098/rspb.2011.0971)
+Moczek, A. P., Sultan, S., Foster, S., Ledón-Rettig, C., Dworkin, I., Nijhout, H. F., Abouheif, E., et al. (2011). The role of developmental plasticity in evolutionary innovation. Proceedings Of The Royal Society B-Biological Sciences, 278(1719), 2705–2713. [link](https://doi.org/10.1098/rspb.2011.0971). [PDF](/pdf/Moczek_etal_2011.pdf)
 
 Stillwell, R. C., Dworkin, I., Shingleton, A. W., & Frankino, W. A. (2011). Experimental manipulation of body size to estimate morphological scaling relationships in *Drosophila*. Journal of Visualized Experiments, (56). [link](https://doi.org/10.3791/3162)
 
-Swanson, E. M., Dworkin, I., & Holekamp, K. E. (2011). Lifetime selection on a hypoallometric size trait in the spotted hyena. Proceedings Of The Royal Society B-Biological Sciences, [link](https://doi.org/10.1098/rspb.2010.2512)
+Swanson, E. M., Dworkin, I., & Holekamp, K. E. (2011). Lifetime selection on a hypoallometric size trait in the spotted hyena. Proceedings Of The Royal Society B-Biological Sciences, [link](https://doi.org/10.1098/rspb.2010.2512). [PDF](/pdf/Swanson_etal_2011ProcB.pdf)
 
 ### Before 2010
 
-Shingleton, A. W., Estep, C. M., Driscoll, M. V., & Dworkin, I. (2009). Many ways to be small: different environmental regulators of size generate distinct scaling relationships in *Drosophila melanogaster*. Proceedings Of The Royal Society B-Biological Sciences, 276(1667), 2625–2633. [link](https://doi.org/10.1098/rspb.2008.1796)
+Shingleton, A. W., Estep, C. M., Driscoll, M. V., & Dworkin, I. (2009). Many ways to be small: different environmental regulators of size generate distinct scaling relationships in *Drosophila melanogaster*. Proceedings Of The Royal Society B-Biological Sciences, 276(1667), 2625–2633. [link](https://doi.org/10.1098/rspb.2008.1796). [PDF](/pdf/Shingleton_etal2009.pdf)
 
-Dworkin, I., & Jones, C. D. (2009). Genetic changes accompanying the evolution of host specialization in *Drosophila sechellia*. Genetics, 181(2), 721–736. [link](https://doi.org/10.1534/genetics.108.093419)
+Dworkin, I., & Jones, C. D. (2009). Genetic changes accompanying the evolution of host specialization in *Drosophila sechellia*. Genetics, 181(2), 721–736. [link](https://doi.org/10.1534/genetics.108.093419). [PDF](/pdf/DworkinJones2009.pdf)
 
-Dworkin, I., Kennerly, E., Tack, D., Hutchinson, J., Brown, J., Mahaffey, J., & Gibson, G. (2009). Genomic consequences of background effects on *scalloped* mutant expressivity in the wing of *Drosophila melanogaster*. Genetics, 181(3), 1065–1076. [link]([link](https://doi.org/10.1534/genetics.108.096453)
+Dworkin, I., Kennerly, E., Tack, D., Hutchinson, J., Brown, J., Mahaffey, J., & Gibson, G. (2009). Genomic consequences of background effects on *scalloped* mutant expressivity in the wing of *Drosophila melanogaster*. Genetics, 181(3), 1065–1076. [link]([link](https://doi.org/10.1534/genetics.108.096453). [PDF](/pdf/DworkinKennerlyTackHutchisonBrownMahaffeyGibson.pdf)
 
-Debat, V., Debelle, A., & Dworkin, I. (2009). Plasticity, canalization, and developmental stability of the *Drosophila* wing: joint effects of mutations and developmental temperature. Evolution, 63(11), 2864–2876. [link](https://doi.org/10.1111/j.1558-5646.2009.00774.x)
+Debat, V., Debelle, A., & Dworkin, I. (2009). Plasticity, canalization, and developmental stability of the *Drosophila* wing: joint effects of mutations and developmental temperature. Evolution, 63(11), 2864–2876. [link](https://doi.org/10.1111/j.1558-5646.2009.00774.x). [PDF](/pdf/Debat_etal_2009_Evolution.pdf)
 
-Dworkin, I., Lee, W., McCloskey, F., & Larsen, E. (2007). Complex genetic interactions govern the temporal effects of *Antennapedia* on antenna-to-leg transformations in *Drosophila melanogaster*. Journal Of Genetics, 86(2), 111–123.
+Dworkin, I., Lee, W., McCloskey, F., & Larsen, E. (2007). Complex genetic interactions govern the temporal effects of *Antennapedia* on antenna-to-leg transformations in *Drosophila melanogaster*. Journal Of Genetics, 86(2), 111–123. [PDF](/pdf/Dworkin_etal_2007_JGenet_proofs.pdf)
 
 Hall, M. C., Dworkin, I., Ungerer, M. C., & Purugganan, M. (2007). Genetics of microenvironmental canalization in *Arabidopsis thaliana*. Proceedings Of The National Academy Of Sciences Of The United States Of America, 104(34), 13717–13722. [link](https://doi.org/10.1073/pnas.0701936104)
 

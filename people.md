@@ -48,7 +48,7 @@ bigimg:
 
 Annat Haber: Data-wiz. Researcher, Jackson Labs.
 
-William Pitchers: Data-wiz.
+William Pitchers: Data-wiz.: Microbiological Diagnostic Unit Public Health Laboratory. The Peter Doherty Institute for Infection and Immunity, University of Melbourne.
 
 Amanda Charbanneau:
 
@@ -58,7 +58,7 @@ Abhijna Parigi: Post-Doctoral researcher, University of California Davis.
 
 Sudarshan Chari: Data-wiz.
 
-Michael DeNieu:Post-doct, George Washington University.
+Michael DeNieu: Post-Doctoral researcher, George Washington University.
 
 Chris Chandler: Associate Professor, SUNY Oswego.
 
@@ -66,7 +66,7 @@ Megan Fritz: Assistant Professor, University of Maryland.
 
 David Tack: Data-wiz, Spectrum Health Office of Research.
 
-Anna Mammel: Post-doctoral researcher at the Hutch.
+Anna Mammel: Post-Doctoral researcher at the Hutch.
 
 Alycia Kowalski: Veterinarian, Research fellow at Penn Vet New Bolton Center.
 
@@ -78,9 +78,9 @@ Emma Northrup: Finishing her Ph. D at South Dakota State University.
 
 Willam Bell: M.Sc at University of Waterloo
 
-Genevieve Dietrich: Current Mcmaster Undergraduate.
+Genevieve Dietrich: Current McMaster Undergraduate.
 
-Amy Chang: M.Sc at University of Toronto
+Amy Chang: M.S. student at the University of Toronto.
 
 Folasade Ologundudu:
 
