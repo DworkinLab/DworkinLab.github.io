@@ -7,7 +7,7 @@ bigimg:
  - "/img/wordclouds/Chari_square.png" : "Chari et al."
  - "/img/wordclouds/Pesevski2019_square.png" : "Pesevski and Dworkin"
  - "/img/wordclouds/Zinna_square.png" : "Zinna et al. 2018"
-
+ - "/img/wordclouds/ArticleTitles.png" : "Article titles"
 ---
 
 *Please note: I will be adding direct links to data, code and PDFs soon. All data and code is already available (via DRYAD, figshare, github).*
