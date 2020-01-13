@@ -90,7 +90,7 @@ Lehmann, K.D.S., Goldman, B.W., Dworkin, I., Bryson, D.M. & Wagner, A.P. (2014).
 
 Johnson, A., Strauss, E., Pickett, R., Adami, C., Dworkin, I., & Goldsby, H. More Bang For Your Buck: Quorum-Sensing Capabilities Improve the Efficacy of Suicidal Altruism. Alife 14:120-128. [link](http://dx.doi.org/10.7551/978-0-262-32621-6-ch020). [PDF](/pdf/Anya_Artificial_Life_2014.pdf)
 
-Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426). [PDF](/pdf/Chandler_etal_Genetics_2014.pdf)
+Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426).  [PDF](/pdf/Chandler_etal_Genetics_2014.pdf)
 
 Warren, I.A., Vera, J.C., Johns, A., Zinna, R., Marden, J.H., Emlen, D.J., Dworkin, I. & Lavine, L.C. (2014). Insights into the development and evolution of exaggerated traits using de novo transcriptomes of two species of horned scarab beetles. PLoS One. 9(2):e88364 [link](https://doi.org/10.1371/journal.pone.0088364)
 
