@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhD position using experimental evolution and genomics to study cognition and behaviour, 2020
+title: PhD position 2020
 tags:[Students]
 ---
 
