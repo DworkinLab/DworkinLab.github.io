@@ -46,7 +46,7 @@ bigimg:
 
 **Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila. Data-wiz at Highmark.
 
-Annat Haber: Data-wiz. Researcher, Jackson Labs.
+*Annat Haber: Data-wiz. Researcher, Jackson Labs.
 
 William Pitchers: Data-wiz.: Microbiological Diagnostic Unit Public Health Laboratory. The Peter Doherty Institute for Infection and Immunity, University of Melbourne.
 

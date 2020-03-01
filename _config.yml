@@ -44,11 +44,11 @@ avatar: "/img/avatar-icon.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Ian Dworkin
-  email: "Ian Dworkin"
+  email: "dworkin AT mcmaster DOT CA"
  # facebook: yourname  # eg. daattali
   github: idworkin    # eg. daattali
   twitter: IanDworkin   # eg. daattali
-#  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+ #  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
  # linkedin: Nicholas Testa  # eg. daattali https://www.linkedin.com/in/nicholas-testa-49272936
  # xing: yourname      # eg. daattali
  # stackoverflow: yourlink  # eg. "3943160/daattali"
@@ -96,7 +96,7 @@ url-pretty: "DworkinLab/DworkinLab.github.io"  # eg. "deanattali.com/beautiful-j
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 100
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -186,3 +186,6 @@ prose:
 
 gems:
   - jekyll-paginate
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
