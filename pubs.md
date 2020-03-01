@@ -8,6 +8,8 @@ bigimg:
  - "/img/wordclouds/Pesevski2019_square.png" : "Pesevski and Dworkin"
  - "/img/wordclouds/Zinna_square.png" : "Zinna et al. 2018"
  - "/img/wordclouds/ArticleTitles.png" : "Article titles"
+
+
 ---
 
 *Please note: I will be adding direct links to data, code and PDFs soon. All data and code is already available (via DRYAD, figshare, github).*
@@ -20,8 +22,8 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### 2020ish
 
-Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Accepted pending revisions. Genes|Genomes|Genetics.
- [pre-print](https://www.biorxiv.org/content/10.1101/686741v2.full)
+Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Accepted. Genes|Genomes|Genetics.
+ [pre-print](https://www.biorxiv.org/content/10.1101/686741v3.full). [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020)
 
 Pesevski, M. & Dworkin, I. Genetic and environmental canalization are not associated among altitudinally varying populations of *Drosophila melanogaster*. Acceptance pending revisions. Evolution. [pre-print](https://www.biorxiv.org/content/10.1101/715649v1)
 
@@ -33,24 +35,24 @@ Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleto
 
 Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900)
 
-Parigi, A., Porter, C., Cermak, M., Pitchers, W.R. & Dworkin, I. (2019). The behavioural repertoire of *Drosophila melanogaster* in the presence of two predator species that differ in hunting mode. PLoS One. [link](https://doi.org/10.1371/journal.pone.0216860)
+Parigi, A., Porter, C., Cermak, M., Pitchers, W.R. & Dworkin, I. (2019). The behavioural repertoire of *Drosophila melanogaster* in the presence of two predator species that differ in hunting mode. PLoS One. [link to paper](https://doi.org/10.1371/journal.pone.0216860). [data/scripts on github]((https://github.com/DworkinLab/ParigiPLOS2019_Ethogram)  [link to original videos](https://doi.org/10.6084/m9.figshare.8072171.v3).
 
-Pitchers, W.R, Nye, J.,Márquez, E.J., Kowalski, A., Dworkin, I. & Houle, D. (2019). A multivariate genome-wide association study of wing shape in *Drosophila melanogaster*. Genetics. 211:1429-1447. [link](https://doi.org/10.1534/genetics.118.301342). [PDF](/pdf/Pitchers_etal_2019.pdf)
+Pitchers, W.R, Nye, J.,Márquez, E.J., Kowalski, A., Dworkin, I. & Houle, D. (2019). A multivariate genome-wide association study of wing shape in *Drosophila melanogaster*. Genetics. 211:1429-1447. [link](https://doi.org/10.1534/genetics.118.301342). [PDF](/pdf/Pitchers_etal_2019.pdf). [Supplementary materials, including code and Data](https://gsajournals.figshare.com/articles/Supplemental_Material_for_Pitchers_et_al_2019/6790526) [More complete set of data and results (1 GB)](https://figshare.com/articles/HighQualityData_From_the_paper/7762940) [Complete MANOVA results](https://figshare.com/articles/HighQualityResultsTable_MainMANOVA/7762823).
 
-Zinna, R., Emlen, D., Lavine, L.C., Johns, A., Gotoh, H., Niimi, T. & Dworkin, I. (2018). Sexual dimorphism and heightened conditional expression in a sexually selected weapon in the Asian rhinoceros beetle. Molecular Ecology. 27:5049-5072. [link](https://doi.org/10.1111/mec.14907). [PDF](/pdf/Zinna_etal_2018.pdf)
+Zinna, R., Emlen, D., Lavine, L.C., Johns, A., Gotoh, H., Niimi, T. & Dworkin, I. (2018). Sexual dimorphism and heightened conditional expression in a sexually selected weapon in the Asian rhinoceros beetle. Molecular Ecology. 27:5049-5072. [link](https://doi.org/10.1111/mec.14907). [PDF](/pdf/Zinna_etal_2018.pdf). [sequence reads in the SRA](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA493494/)  [Transcriptome, counts and code on DRYAD](https://doi.org/10.5061/dryad.f40f4qg) [data/scripts on github](https://github.com/DworkinLab/Trypoxylus_RNAseq)  
 
-Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.  [link](https://doi.org/10.1111/eva.12699 ). [PDF](/pdf/Charbonneau_et_al-2018-Evolutionary_Applications.pdf)
+Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.  [link](https://doi.org/10.1111/eva.12699 ). [PDF](/pdf/Charbonneau_et_al-2018-Evolutionary_Applications.pdf). [Scripts on github]( https://github.com/ACharbonneau/creepy-barnacle)  [Data in DRYAD]( https://doi.org/10.5061/dryad.tc651j5)
 
 Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258.[link](https://doi.org/10.1007/s10519-018-9901-7). [PDF](/pdf/Scott_etal_2018.pdf)
 
 ### 2015 - 2017
-Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using *Drosophila melanogaster* selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link](https://doi.org/10.1111/jeb.13084). [PDF](/pdf/Hangartner_et_al-2017-Journal_of_Evolutionary_Biology.pdf)
+Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using *Drosophila melanogaster* selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link](https://doi.org/10.1111/jeb.13084). [PDF](/pdf/Hangartner_et_al-2017-Journal_of_Evolutionary_Biology.pdf). [Data on DRYAD](https://doi.org/10.5061/dryad.sg8c5)
 
-Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link](https://doi.org/10.1111/evo.13100). [PDF](/pdf/HaberDworkin2017.pdf)
+Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link](https://doi.org/10.1111/evo.13100). [PDF](/pdf/HaberDworkin2017.pdf). [Data and scripts on DRYAD](https://doi.org/10.5061/dryad.3b426). [Data and scripts on github](https://github.com/DworkinLab/HaberDworkin_Evolution2016)
 
 Elliott, K.H., Norris, D.R., Betini, G.S. & Dworkin, I. (2017). Scared fitless: Context-dependent response of fear to loss of predators over evolutionary time in *Drosophila melanogaster*. FACETS. 2(1): 342-354. [link](https://doi.org/10.1139/facets-2016-0075)
 
-Chandler, C.H., Chari, S., Kowalski, A., Choi, L., Tack, D., DeNieu, M., Pitchers, W.R., Sonnenschein, A., Marvin, L., Hummel, K., Marier, C., Victory, A., Porter, C., Mammel, A., Holms, J., Sivaratnam, G. & Dworkin I. (2017). How well do you know your mutation? Complex effects of genetic background on expressivity, complementation, and ordering of allelic effects. PLoS Genetics. 13(11): e1007075. [link](https://doi.org/10.1371/journal.pgen.1007075)
+Chandler, C.H., Chari, S., Kowalski, A., Choi, L., Tack, D., DeNieu, M., Pitchers, W.R., Sonnenschein, A., Marvin, L., Hummel, K., Marier, C., Victory, A., Porter, C., Mammel, A., Holms, J., Sivaratnam, G. & Dworkin I. (2017). How well do you know your mutation? Complex effects of genetic background on expressivity, complementation, and ordering of allelic effects. PLoS Genetics. 13(11): e1007075. [link](https://doi.org/10.1371/journal.pgen.1007075). [Data and scripts on github](https://github.com/DworkinLab/ChandlerChariPLoSGenetics2017). [Data and scripts on Figshare](https://doi.org/10.6084/m9.figshare.5579296.v1). [Raw Images used in paper](https://doi.org/10.6084/m9.figshare.5944852).
 
 Roles, A.J., Rutter, M.T., Dworkin, I., Fenster, C.B. & Conner, J.K. (2016). Field measurements of genotype by environment interaction for fitness caused by spontaneous mutations in *Arabidopsis thaliana*. Evolution. 70(5):1039-1050. [link](https://doi.org/10.1111/evo.12913)
 
