@@ -22,7 +22,7 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### 2020ish
 
-Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Accepted. Genes|Genomes|Genetics.
+Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes|Genomes|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) | [link to paper]( https://doi.org/10.1534/g3.119.400934) |  
  [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full). [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020)
 
 Pesevski, M. & Dworkin, I. Genetic and environmental canalization are not associated among altitudinally varying populations of *Drosophila melanogaster*. Acceptance pending revisions. Evolution. [pre-print](https://www.biorxiv.org/content/10.1101/715649v1)
