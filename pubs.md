@@ -22,8 +22,7 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### 2020ish
 
-Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes|Genomes|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) | [link to paper]( https://doi.org/10.1534/g3.119.400934) |  
- [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full) | [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
+Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes|Genomes|Genetics. [PDF](/pdf/Chandler_etal2020.pdf)|[link to paper]( https://doi.org/10.1534/g3.119.400934)|[pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full)|[Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
 
 Pesevski, M. & Dworkin, I. Genetic and environmental canalization are not associated among altitudinally varying populations of *Drosophila melanogaster*. Evolution. Accepted [pre-print](https://www.biorxiv.org/content/10.1101/715649v2)
 
@@ -31,7 +30,7 @@ Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chas
 
 ### 2018 - 2019
 
-Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135) | [PDF](/pdf/Frankino_etal_2019.pdf). [data](https://doi.org/10.5061/dryad.f8320d5)
+Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135). | [PDF](/pdf/Frankino_etal_2019.pdf). [data](https://doi.org/10.5061/dryad.f8320d5)
 
 Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900)
 
