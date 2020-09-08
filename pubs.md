@@ -21,7 +21,7 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 ## Chronologically (reverse)
 
 ### 2020ish
-Wilson, A.E., Siddiqui, A. & Dworkin, I. Spatial heterogeneity in resources alters selective dynamics in Drosophila melanogaster. In review. [link to pre-print](https://www.biorxiv.org/content/10.1101/2020.09.05.283705v1).
+Wilson, A.E., Siddiqui, A. & Dworkin, I. Spatial heterogeneity in resources alters selective dynamics in *Drosophila melanogaster*. In review. [pre-print of paper](https://www.biorxiv.org/content/10.1101/2020.09.05.283705v1).
 
 Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes\|Genomes\|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) \| [link to paper]( https://doi.org/10.1534/g3.119.400934) \| [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full) \| [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
 
