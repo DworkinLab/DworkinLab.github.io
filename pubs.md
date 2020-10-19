@@ -16,7 +16,7 @@ bigimg:
 
 ## Google scholar
 
-Probably best to check [google scholar](https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en) for most updated list of papers (from 2019 back to 2001).
+Probably best to check [google scholar](https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en) for most updated list of papers (from 2020 back to 2001).
 
 ## Chronologically (reverse)
 
@@ -33,7 +33,7 @@ Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chas
 
 Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135). \| [PDF](/pdf/Frankino_etal_2019.pdf) \| [data](https://doi.org/10.5061/dryad.f8320d5).
 
-Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900).
+Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. Insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900).
 
 Parigi, A., Porter, C., Cermak, M., Pitchers, W.R. & Dworkin, I. (2019). The behavioural repertoire of *Drosophila melanogaster* in the presence of two predator species that differ in hunting mode. PLoS One. [link to paper](https://doi.org/10.1371/journal.pone.0216860) \| [data/scripts](https://github.com/DworkinLab/ParigiPLOS2019_Ethogram) \| [link to video files](https://doi.org/10.6084/m9.figshare.8072171.v3).
 
@@ -58,7 +58,7 @@ Roles, A.J., Rutter, M.T., Dworkin, I., Fenster, C.B. & Conner, J.K. (2016). Fie
 
 Gotoh, H., Zinna, R., Warren, I., DeNieu, M., Niimi., T., Dworkin, I., Emlen, D., Miura, T. & Lavine, L. (2016). Identification and functional analyses of sex determination genes in the sexually dimorphic stag beetle *Cyclommatus metallifer*. BMC Genomics. 17:250. [link to paper](https://doi.org/10.1186/s12864-016-2522-8) \| [PDF of paper](/pdf/Gotoh_etal_2016_BMC_Genomics.pdf).
 
-Testa, N. & Dworkin, I. (2016).  The sex-limited effects of mutations in the EGFR and TGF-β signaling pathways on shape and size sexual dimorphism and allometry in the *Drosophila* wing. Development, Genes and Evolution. [link to paper](https://doi.org/10.1007/s00427-016-0534-7) \| [PDF of paper](/pdf/TestaDworkin2016.pdf) \| [Landmark data on DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1041) | [Scripts for analysis](https://github.com/DworkinLab/TestaDworkin2016DGE).
+Testa, N. & Dworkin, I. (2016).  The sex-limited effects of mutations in the EGFR and TGF-β signaling pathways on shape and size sexual dimorphism and allometry in the *Drosophila* wing. Development, Genes and Evolution. [link to paper](https://doi.org/10.1007/s00427-016-0534-7) \| [PDF of paper](/pdf/TestaDworkin2016.pdf) \| [Landmark data on DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1041) \| [Scripts for analysis](https://github.com/DworkinLab/TestaDworkin2016DGE).
 
 Elliot, K.H., Betini, G.S., Dworkin, I. & Norris, D.R. (2016). Experimental evidence for within- and cross-seasonal effects of fear on survival and reproduction.  J. Animal Ecology. 85:507-515. [link](https://doi.org/10.1111/1365-2656.12487) \| [PDF](/pdf/Elliott_et_al-2016-Journal_of_Animal_Ecology.pdf) \| [data](https://doi.org/10.5061/dryad.8p0g8).
 
@@ -78,11 +78,11 @@ Lavine, L.C., Gotoh, H., Brent, C.S., Dworkin,I. & Emlen, D.J. (2015). Exaggerat
 
 Pitchers, W.R, Klingenberg, C.P., Tregenza, T., Hunt, J., & Dworkin, I. (2014). The potential influence of morphology on the evolutionary divergence of an acoustic signal.  Journal of Evolutionary Biology. 27(10):2163-2176. [link](https://doi.org/10.1111/jeb.12471) \| [PDF](/pdf/Pitchers_etal_JEvolBiol_2014.pdf) \| [data and scripts](https://github.com/DworkinLab/PitchersJEB2014_cricket_wings).
 
-Pitchers, W.R., Wolf, J.B.,Tregenza, T., Hunt, J. & Dworkin, I. (2014). Evolutionary rates for multivariate traits: the role of selection and genetic variation. Phil. Trans. Roy. Soc. 369(1649):1471 [link](https://doi.org/10.1098/rstb.2013.0252). [PDF](/pdf/Pitchers_etal_PhilTrans_2014.pdf) \| [data and scripts](https://github.com/DworkinLab/Pitchers_PTRS2014).
+Pitchers, W.R., Wolf, J.B.,Tregenza, T., Hunt, J. & Dworkin, I. (2014). Evolutionary rates for multivariate traits: the role of selection and genetic variation. Phil. Trans. Roy. Soc. 369(1649):1471 [link](https://doi.org/10.1098/rstb.2013.0252) \| [PDF](/pdf/Pitchers_etal_PhilTrans_2014.pdf) \| [data and scripts](https://github.com/DworkinLab/Pitchers_PTRS2014).
 
 O’Donnell, D.R., Fish, J.A., Parigi, A., Dworkin, I. & Wagner, A.P. (2014). The roles of standing genetic variation and evolutionary history in determining the evolvability of anti-predator strategies. PLoS One. 9(6):e100163 [link](https://doi.org/10.1371/journal.pone.0100163).
 
-Moghe, G.D., Hufnagel, D.E., Tang, H., Xiao, Y., Dworkin, I., Town, C.D., Conner, J.K. & Shiu, S. (2014). Consequences of Whole-Genome triplication as revealed by comparative genomic analyses of the Wild Radish *Raphanus raphanistrium* and three other Brassicaceae species. Plant Cell. [link](https://doi.org/10.1105/tpc.114.124297). [PDF](/PDF/Moghe-etal_PlantCell_2014.pdf) \| [data](https://doi.org/10.5061/dryad.t50j5).
+Moghe, G.D., Hufnagel, D.E., Tang, H., Xiao, Y., Dworkin, I., Town, C.D., Conner, J.K. & Shiu, S. (2014). Consequences of Whole-Genome triplication as revealed by comparative genomic analyses of the Wild Radish *Raphanus raphanistrium* and three other Brassicaceae species. Plant Cell. [link](https://doi.org/10.1105/tpc.114.124297) \| [PDF](/PDF/Moghe-etal_PlantCell_2014.pdf) \| [data](https://doi.org/10.5061/dryad.t50j5).
 
 Ledón-Rettig, C., Pfennig, D., Chunco, C. & Dworkin, I. (2014). Cryptic Genetic variation in natural populations: A predictive framework. Integrative and Comparative Biology. 54(5): 783-793. [link](https://doi.org/10.1093/icb/icu077) \| [PDF](/pdf/Ledon-Rettig_etal_ICB_2014.pdf).
 
@@ -92,7 +92,7 @@ Lehmann, K.D.S., Goldman, B.W., Dworkin, I., Bryson, D.M. & Wagner, A.P. (2014).
 
 Johnson, A., Strauss, E., Pickett, R., Adami, C., Dworkin, I., & Goldsby, H. More Bang For Your Buck: Quorum-Sensing Capabilities Improve the Efficacy of Suicidal Altruism. Alife 14:120-128. [link](http://dx.doi.org/10.7551/978-0-262-32621-6-ch020) \| [PDF](/pdf/Anya_Artificial_Life_2014.pdf).
 
-Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426).  [PDF](/pdf/Chandler_etal_Genetics_2014.pdf) \| [data and scripts](https://github.com/DworkinLab/ChandlerChariTackDworkin2014) \| [sequence reads](http://www.ncbi.nlm.nih.gov/Traces/sra/?study=SRP035237).
+Chandler, C.H., Chari, S., Tack, D. & Dworkin, I. (2014). Causes and Consequences of Genetic Background Effects Illuminated by Integrative Genomic Analysis. 196:1321-1336. Genetics. [link](https://doi.org/10.1534/genetics.113.159426) \|  [PDF](/pdf/Chandler_etal_Genetics_2014.pdf) \| [data and scripts](https://github.com/DworkinLab/ChandlerChariTackDworkin2014) \| [sequence reads](http://www.ncbi.nlm.nih.gov/Traces/sra/?study=SRP035237).
 
 Warren, I.A., Vera, J.C., Johns, A., Zinna, R., Marden, J.H., Emlen, D.J., Dworkin, I. & Lavine, L.C. (2014). Insights into the development and evolution of exaggerated traits using de novo transcriptomes of two species of horned scarab beetles. PLoS One. 9(2):e88364 [link](https://doi.org/10.1371/journal.pone.0088364) \|  [data](https://doi.org/10.5061/dryad.n10j0).
 
