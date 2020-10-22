@@ -12,7 +12,7 @@ bigimg:
 
 ---
 
-*Please note: I will be adding direct links to data, code and PDFs soon. All data and code is already available (via DRYAD, figshare, github).*
+*Please note: direct links to data, code and PDFs soon. All data and code is mostly already available (via DRYAD, figshare, github) with each paper below.*
 
 ## Google scholar
 
