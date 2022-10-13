@@ -15,22 +15,24 @@ bigimg:
 
 **Ian Dworkin:** Is an associate professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do some nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
 
-
-**Sarah Marzec:** Is a Ph.D Student who is using Waddington's classic system studying genetic assimilation in *Drosophila melanogaster* to address questions about canalization, cryptic genetic variation and trait evolution by genetic assimilation. Sarah is secretly hoping for a small lab accident that will result in her getting superpowers.
-
-
-**Maria Pesevski:** Is a Ph.D student interested in the evolution of condition dependence and sexual dimorphism for size and shape using *Drosophila* wing morphology. When not thinking deeply about size, shape and sexual differences in flies, Maria spends her time salsa dancing.
-
-
 **Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations. Katie plans to use this system to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.
 
+**Tyler Audet:** Is a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler is using a variety of systems (artificial selection, experimental evolution and comparative approaches) within and among *Drosophila* species.
 
-**Andrew Scott:** Is a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew uses a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours. When he is not developing new little devices to measure flies with, he is enjoying many of the local beers in Hamilton.
+**Brandon McIntyre:** Is an M.Sc. student testing models to explain and predict genetic background dependence. Brandon uses the development of the *Drosophila* wing and its adult morphology as a model to test these models.
+
+**Amanda Neves:** Amanda is currently an M.Sc. student who is using computational genomic approaches to investigate how variation in gene expression during development does (and does not) mediate phenotypic differences. Amanda is using RNAseq from developing wing tissues from *Drosophila*, investigating both natural variation among strains, and mutational effects.
+
+**Arteen Torabi-Marashi:** Arteen is using genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*. Arteen is jointly supervised by Dr. Reuven Dukas.
+
+## Lab alumni
+
+**Dr. Andrew Scott:** was a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew used a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours.
 
 
-**Audrey Wilson:** Audrey is a M.Sc. student studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she does, Audrey's work space looks a lot like a craft store, and spends a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
+**Audrey Wilson:** Audrey completed her M.Scc, studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she did, Audrey's work space looked a lot like a craft store, and spent a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
 
-**Darcy Henderson:** Darcy is a M.Sc. student studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
+**Darcy Henderson:** Darcy completed her M.Sc. studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
 **Isabella Delano:** Isabella is an undergraduate thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila.
 
@@ -38,7 +40,12 @@ bigimg:
 
 **Megan Simoes:** Megan is an undergraduate thesis student studying  the evolution of sex specific condition dependence among species of Drosophila.
 
-## Lab alumni
+
+**Dr. Sarah Marzec:** Completed her Ph.D Student using Waddington's classic system studying genetic assimilation in *Drosophila melanogaster* to address questions about canalization, cryptic genetic variation and trait evolution by genetic assimilation. Sarah is secretly hoping for a small lab accident that will result in her getting superpowers.
+
+
+**Dr. Maria Pesevski:** As a Ph.D student studied the evolution of condition dependence and sexual dimorphism for size and shape using *Drosophila* wing morphology. When not thinking deeply about size, shape and sexual differences in flies, Maria spends her time salsa dancing.
+
 
 **Caitlyn Daley:** Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development. She really loves her cat.
 
@@ -46,9 +53,9 @@ bigimg:
 
 **Nick Testa:** Nick did his Ph.D studying the genetics of sexual size and shape dimorphism in Drosophila. Data-wiz at Highmark.
 
-*Annat Haber: Data-wiz. Researcher, Jackson Labs.
+**Annat Haber**: Data-wiz. Researcher, Jackson Labs.
 
-William Pitchers: Data-wiz.: Microbiological Diagnostic Unit Public Health Laboratory. The Peter Doherty Institute for Infection and Immunity, University of Melbourne.
+**William Pitchers**: Data-wiz.: Microbiological Diagnostic Unit Public Health Laboratory. The Peter Doherty Institute for Infection and Immunity, University of Melbourne.
 
 Amanda Charbanneau:
 
