@@ -14,7 +14,7 @@ bigimg:
 
 ## Current people in the lab
 
-**Ian Dworkin:** Is a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
+**Ian Dworkin:** Is a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a> .Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
 
 ### Current Graduate students
 
