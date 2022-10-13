@@ -78,7 +78,25 @@ Dr. Chris Chandler: Associate Professor, SUNY Oswego.
 
 Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
-### Previous undergraduate researchers
+### undergraduate researcher alumni
+
+**Richard Saint-Laurent:** Finishing co-op placements for Honours BSc.
+
+**Francesco Ruso:** Graduate student, University of Toronto.
+
+**Irene Grace Pender:** Graduate Student, Vienna School of Population Genetics.
+
+**Yun Bo Xi:** Dentistry school, University of Western Ontario.
+
+**Nirupama Tamvada:** Graduate student, University of British Columbia.
+
+**Candaice Newell:** Graduate student, University of Toronto.
+
+**Meera Chopra:** Finishing Undergraduate.
+
+**Archana Thurairajah:**
+
+**Manthi Jayamaha:**
 
 **Isabella Delano:** Isabella is an undergraduate thesis student studying the genetic basis of adaptive differentiation in wing size and shape between altitudinally varying populations of Drosophila.
 
@@ -86,21 +104,21 @@ Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 **Megan Simoes:** Megan is an undergraduate thesis student studying  the evolution of sex specific condition dependence among species of Drosophila.
 
-Dr. David Tack: Data-wiz, Spectrum Health Office of Research.
+**Dr. David Tack:** Data-wiz, Spectrum Health Office of Research.
 
-Dr. Anna Mammel: Post-Doctoral researcher at the Hutch.
+**Dr. Anna Mammel:** Post-Doctoral researcher at the Hutch.
 
-Dr. Alycia Kowalski: Veterinarian, Research fellow at Penn Vet New Bolton Center.
+**Dr. Alycia Kowalski:** Veterinarian, Research fellow at Penn Vet New Bolton Center.
 
-Dr. Lin Choi: Dentist
+**Dr. Lin Choi:** Dentist
 
 Dr. Heather McGovern: MD
 
 Dr. Emma Northrup: Finished her Ph. D at South Dakota State University. Works at the Mayo Clinic
 
-Willam Bell: M.Sc at University of Waterloo
+Willam Bell: M.Sc.
 
-Genevieve Dietrich: Current McMaster Undergraduate.
+Genevieve Dietrich: Medical School.
 
 Amy Chang: M.S. student at the University of Toronto.
 
@@ -108,7 +126,7 @@ Folasade Ologundudu:
 
 Jeremy Cooney: Law school.
 
-Cristina Abbataangelo: M.Sc student, University of Toronto.
+Cristina Abbataangelo: PhD student, University of Toronto.
 
 Daniel Sutanto:
 
@@ -122,38 +140,38 @@ Julie Holms:
 
 Denise Rebello: Ph.D student, University of Toronto.
 
-Ieta Shams: Medical Student
+Dr.Ieta Shams: Medical Student
 
 Ravina Dhami:
 
 Mamun Patwary:
 
-Lianna Wat: Ph.D student, University of British Columbia.
+Dr. Lianna Wat: Post-Doctoral Researcher. Stanford University.
 
 Samiksha Kaul: Ph.D Student, Georgia Tech.
 
 Braedan Huras:
 
-Gayatri Sivaratnam: Medical Student.
+Dr. Gayatri Sivaratnam: Medical Student.
 
 Christian Marier :Research Technician, NYU
 
 Megan Cermak: Genetic Counselor at Nationwide Children's Hospital
 
-Kristen Hummel: Veterinarian
+Dr. Kristen Hummel: Veterinarian
 
-Zachary Masters: MD
+Dr. Zachary Masters: MD
 
-Cody Porter: PhD Student
+Dr. Cody Porter: Assistant Professor
 
 Leslie (Bell) Marvin: (M.Education)
 
-Andrew Victory: ER Doctor, Pittsburgh.
+Dr. Andrew Victory: ER Doctor, Pittsburgh.
 
-Justyne Matheny:Ph.D, Duke University. Biocurator at The University of North Carolina at Chapel Hill
+Dr. Justyne Matheny: Biocurator at The University of North Carolina at Chapel Hill
 
-Amelia Anderson: Veterinarian
+Dr. Amelia Anderson: Veterinarian
 
-Kayla (WonYoung) Shim: Veterinarian
+Dr. Kayla (WonYoung) Shim: Veterinarian
 
 Lindy Shelley Johnson: Physiotherapist, Zuckerberg San Francisco General.
