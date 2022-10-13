@@ -6,6 +6,7 @@ bigimg:
 - "/img/coverphotos/Lab2017_V2.jpg" : "Lab (circa 2017)"
 - "/img/coverphotos/LabShot2019.jpg" : "Lab (circa 2019)"
 - "/img/coverphotos/IMG_0051.JPG" : "Lab (circa 2014)"
+- "/img/coverphotos/Lab2021.png" : "Lab (circa 2022.. pandemic times)"
 - "/img/fun/DSC_0140.jpg" : "Lab (circa 2007)"
 - "/img/fun/IMG_0502.JPG" : "Lab (circa 2010)"
 - "/img/fun/Photo1.jpg" : "Lab (circa 2011)"
