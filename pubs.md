@@ -22,6 +22,20 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### Relatively recent
 
+Rzezniczak, T.Z., Rzezniczak, M.T., Reed, B.H., Dworkin, I. & Merritt, T.J.S. (2023). Regulation at *Drosophila*’s *Malic Enzyme* highlights the complexity of transvection and its sensitivity to genetic background. Genetics. [paper]( https://doi.org/10.1093/genetics/iyac181). [data/scripts](https://github.com/DworkinLab/TR2022_TransvectionDataScripts).  
+
+Pelletier,K., Pitchers,W.R., Mammel A.,, Northrop-Albrecht, E., Márquez, E.J., Moscarella, R.A., Houle, D. & Dworkin, I. (2023). Complexities of recapitulating polygenic effects in natural populations: replication of genetic effects on wing shape in artificially selected and wild caught populations of *Drosophila melanogaster*. Genetics. Accepted. [pre-print](https://www.biorxiv.org/content/10.1101/2022.05.12.491649v2.abstract). [Data and scripts](https://github.com/DworkinLab/WingShapeBSA).  
+
+Scott, A.M., Yan, J., Baxter,C.M., Dworkin, I. & Dukas, R. (2022). The genetic basis of variation in sexual aggression: Evolution versus social plasticity. Molecular Ecology. 31(10):2865-2881. [link to paper](https://doi.org/10.1111/mec.16437). [data/scripts](https://datadryad.org/stash/dataset/doi:10.5061/dryad.zs7h44jbr). [More data and scripts](https://zenodo.org/record/6110067). [sequence data](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA816348/).  
+
+Scott, A.M., Dworkin, I. & Dukas, R. (2022). Evolution of sociability by artificial selection. Evolution. 76(3): 541-553. [link to paper](https://doi.org/10.1111/evo.14370). [link to data/scripts](https://doi.org/10.5061/dryad.qrfj6q5gx)  
+
+Marzec, S., Pelletier, K., Chang, AHP. & Dworkin, I. Reexamining Waddington: Canalization and new mutations are not required for the evolution of genetic assimilation. [pre-print](doi: https://doi.org/10.1101/2022.01.09.475581)  
+
+Song, X., Furman, B.L.S., Premachandra, T., Knytl,M., Cauret, C.MS.,  Wasonga, D.V., Measey, J., Dworkin, I., &  Evans, B.J. (2021). Sex chromosome degeneration, turnover, and sex-biased expression of sex-linked transcripts in African clawed frogs (*Xenopus*). Phil. Trans. Roy. Soc. B. 376(1832). [link to paper](https://doi.org/10.1098/rstb.2020.0095)  
+
+Pesevski, M. & Dworkin, I.The influence of adaptation to life at high-altitude on condition dependent sexual shape and size dimorphism in *Drosophila melanogaster*. [pre-print](doi: https://doi.org/10.1101/2021.06.30.450630)    
+
 Wilson, A.E., Siddiqui, A. & Dworkin, I. (2021). Spatial heterogeneity in resources alters selective dynamics in *Drosophila melanogaster*. Evolution. 75(7):1792-1804.[link to paper](https://academic.oup.com/evolut/article/75/7/1792/6728877). [pre-print of paper](https://www.biorxiv.org/content/10.1101/2020.09.05.283705v1). [Link to Data/Scripts on github](https://github.com/idworkin/Wilson2021_Evolution_Data). [Link to Data/scripts on DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.m37pvmd24).  
 
 Chandler, C.H., Mammel, A. & Dworkin, I. (2020). Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes\|Genomes\|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) \| [link to paper]( https://doi.org/10.1534/g3.119.400934) \| [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full) \| [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
@@ -30,8 +44,7 @@ Pesevski, M. & Dworkin, I. (2020). Genetic and environmental canalization are no
 
 Wagner, A.P. Zaman, L., Dworkin, I. & Ofria, C. (2020). Behavioral Strategy chases Promote the Evolution of Prey Intelligence. In Press. In Evolution in Action – Past, Present and Future. Lenski, R. & Banzhaf, W. editors. Springer. [PDF](/pdf/Wagner-etal-revised_2020.pdf).
 
-### 2018 - 2019
-
+### 2019 - 2015
 Frankino, W.A., Bakota, E., Dworkin, I., Wilkinson, G.S., Wolf, J.B. & Shingleton, A.S. (2019). Individual cryptic scaling relationships and the evolution of animal form. Integrative and Comparative Biology. [link](https://doi.org/10.1093/icb/icz135). \| [PDF](/pdf/Frankino_etal_2019.pdf) \| [data](https://doi.org/10.5061/dryad.f8320d5).
 
 Cevik, D., Acker, M., Arefi, P., Ghaemi, R., Zhang, J., Selvaganapathy, P.R., Dworkin, I. & Jacobs, J.R., (2019). Chloroform and Desflurane Immobilization with Recovery of Viable *Drosophila* Larvae for Confocal Imaging. J. Insect physiology, p.103900. [link](https://doi.org/10.1016/j.jinsphys.2019.103900).
@@ -48,7 +61,6 @@ Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Baraza
 
 Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258. [link to paper](https://doi.org/10.1007/s10519-018-9901-7) \| [PDF of paper](/pdf/Scott_etal_2018.pdf).
 
-### 2015 - 2017
 Hangartner, S., Dworkin, I., DeNieu, M. & Hoffmann, A.A. (2017). Does increased heat resistance result in higher susceptibility to predation? A test using *Drosophila melanogaster* selection and hardening. Journal of Evolutionary Biology. 30(6): 1153-1164. [link to paper](https://doi.org/10.1111/jeb.13084) \| [PDF of paper](/pdf/Hangartner_et_al-2017-Journal_of_Evolutionary_Biology.pdf) \| [Data](https://doi.org/10.5061/dryad.sg8c5).
 
 Haber, A. & Dworkin, I. (2017). Dis-integrating the fly: A mutational perspective on phenotypic integration and covariation. Evolution. 71(1): 66-80. [link to paper](https://doi.org/10.1111/evo.13100) \| [PDF of paper](/pdf/HaberDworkin2017.pdf) \| [Data and scripts on DRYAD](https://doi.org/10.5061/dryad.3b426) \|[Data and scripts on github](https://github.com/DworkinLab/HaberDworkin_Evolution2016).
