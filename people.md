@@ -18,8 +18,8 @@ bigimg:
 
 ### Current Graduate students
 
-**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations. Katie plans to use this system to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.
-  s
+**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations. Katie plans to use this system to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.  
+
 **Tyler Audet:** Is a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler is using a variety of systems (artificial selection, experimental evolution and comparative approaches) within and among *Drosophila* species.
   
 **Arteen Torabi-Marashi:** Arteen is using genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*. Arteen is jointly supervised by Dr. Reuven Dukas.
