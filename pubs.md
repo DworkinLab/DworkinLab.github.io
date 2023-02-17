@@ -20,10 +20,11 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ## Chronologically (reverse)
 
-### 2020ish
-Wilson, A.E., Siddiqui, A. & Dworkin, I. Spatial heterogeneity in resources alters selective dynamics in *Drosophila melanogaster*. In review. [pre-print of paper](https://www.biorxiv.org/content/10.1101/2020.09.05.283705v1).
+### Relatively recent
 
-Chandler, C.H., Mammel, A. & Dworkin, I. Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes\|Genomes\|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) \| [link to paper]( https://doi.org/10.1534/g3.119.400934) \| [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full) \| [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
+Wilson, A.E., Siddiqui, A. & Dworkin, I. (2021). Spatial heterogeneity in resources alters selective dynamics in *Drosophila melanogaster*. Evolution. 75(7):1792-1804.[link to paper](https://academic.oup.com/evolut/article/75/7/1792/6728877). [pre-print of paper](https://www.biorxiv.org/content/10.1101/2020.09.05.283705v1). [Link to Data/Scripts on github](https://github.com/idworkin/Wilson2021_Evolution_Data). [Link to Data/scripts on DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.m37pvmd24).  
+
+Chandler, C.H., Mammel, A. & Dworkin, I. (2020). Sexual selection does not increase the rate of compensatory adaptation to a mutation influencing a secondary sexual trait in *Drosophila melanogaster*. Genes\|Genomes\|Genetics. [PDF](/pdf/Chandler_etal2020.pdf) \| [link to paper]( https://doi.org/10.1534/g3.119.400934) \| [pre-print of paper](https://www.biorxiv.org/content/10.1101/686741v3.full) \| [Data/scripts on Github](https://github.com/DworkinLab/Chandler_etal_G3_2020).
 
 Pesevski, M. & Dworkin, I. (2020). Genetic and environmental canalization are not associated among altitudinally varying populations of *Drosophila melanogaster*. Evolution. [link to paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/evo.14039) \| [PDF](\pdf\PesevskiDworkin2020_evo.14039.pdf) \| [link to pre-print](https://www.biorxiv.org/content/10.1101/715649v2) \| [data and scripts on github](https://github.com/DworkinLab/PesevskiDworkin_Evolution_2020) \| [data and scripts on DRYAD with doi](https://doi.org/10.5061/dryad.b8gtht79c) \| [raw images on Figshare](https://figshare.com/articles/Drosophila_melanogaster_African_Wings/1449060).
 
@@ -41,7 +42,9 @@ Pitchers, W.R, Nye, J.,Márquez, E.J., Kowalski, A., Dworkin, I. & Houle, D. (20
 
 Zinna, R., Emlen, D., Lavine, L.C., Johns, A., Gotoh, H., Niimi, T. & Dworkin, I. (2018). Sexual dimorphism and heightened conditional expression in a sexually selected weapon in the Asian rhinoceros beetle. Molecular Ecology. 27:5049-5072. [link to paper](https://doi.org/10.1111/mec.14907) \| [PDF of paper](/pdf/Zinna_etal_2018.pdf) \| [sequence reads](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA493494/) \| [Transcriptome, counts and code on DRYAD](https://doi.org/10.5061/dryad.f40f4qg) \| [data/scripts](https://github.com/DworkinLab/Trypoxylus_RNAseq).
 
-Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.  [link to paper](https://doi.org/10.1111/eva.12699 ) \| [PDF of paper](/pdf/Charbonneau_et_al-2018-Evolutionary_Applications.pdf) \| [Scripts]( https://github.com/ACharbonneau/creepy-barnacle) \| [Data]( https://doi.org/10.5061/dryad.tc651j5).
+Charbonneau, A., Tack, D., Lale, A., Goldston, J., Caple, M., Conner, E., Barazani, O., Ziffer-Berger, J., Dworkin, I. & Conner, J.K. (2018). Weed evolution: Genetic differentiation among wild, weedy, and crop radish. Evolutionary Applications. 11(10):1964-1974.
+ [link to paper](https://doi.org/10.1111/eva.12699
+) \| [PDF of paper](/pdf/Charbonneau_et_al-2018-Evolutionary_Applications.pdf) \| [Scripts]( https://github.com/ACharbonneau/creepy-barnacle) \| [Data]( https://doi.org/10.5061/dryad.tc651j5).
 
 Scott, A.M., Dworkin, I. & Dukas, R. (2018). Sociability in Fruit Flies: Genetic Variation, Heritability and Plasticity. Behavior Genetics. 48: 247-258. [link to paper](https://doi.org/10.1007/s10519-018-9901-7) \| [PDF of paper](/pdf/Scott_etal_2018.pdf).
 

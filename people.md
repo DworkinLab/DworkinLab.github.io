@@ -14,32 +14,43 @@ bigimg:
 
 ## Current people in the lab
 
-**Ian Dworkin:** Is a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a> .Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
+**Ian Dworkin:** Is a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
 
 ### Current Graduate students
 
 **Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations. Katie plans to use this system to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.
-
+  s
 **Tyler Audet:** Is a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler is using a variety of systems (artificial selection, experimental evolution and comparative approaches) within and among *Drosophila* species.
-
-**Brandon McIntyre:** Is an M.Sc. student testing models to explain and predict genetic background dependence. Brandon uses the development of the *Drosophila* wing and its adult morphology as a model to test these models.
-
-**Amanda Neves:** Amanda is currently an M.Sc. student who is using computational genomic approaches to investigate how variation in gene expression during development does (and does not) mediate phenotypic differences. Amanda is using RNAseq from developing wing tissues from *Drosophila*, investigating both natural variation among strains, and mutational effects.
-
+  
 **Arteen Torabi-Marashi:** Arteen is using genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*. Arteen is jointly supervised by Dr. Reuven Dukas.
 
 
 ### Current Undergraduate students (independent projects)
 
-**Mariam Abass:** Does heat stress influence mutation rate in Drosophila?
+**Mariam Abass:** Phylogenetic comparative analysis of sexual shape dimorphism.
 
 **Brett Van Bakel:** Does natural variation in cell size influence mutational sensitivity to mutations in the *miniature* gene?
 
-**Veronica Du:** Is there a parallel response on wing size and shape to temperature and hypoxia in Drosophila.
+**Veronica Du:** How do populations with divergent evolutionary histories respond to developmental temperature changes?
+
+**Ofure Itua:** is examining whether perturbing growth signaling and sex determination in the fat body of Drosophila can influence tissue and sex specific patterns of size and shape.
+
+**Binjal Pradhan:** Making some genetic tools for non-model Drosophila species.
+
+**Irem Eksioglu:** The influences of splicing factors on sex specific patterns of size and shape in *Drosophila melanogaster*.
+
+**Aaron Taylor:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
+
+**Noa Agid:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
+
 
 ## Lab alumni
 
 ### Graduate students and Post-Doctoral Associates
+
+**Brandon McIntyre:** Completed his MSc. in December 2022, testing models to explain and predict genetic background dependence. Brandon uses the development of the *Drosophila* wing and its adult morphology as a model to test these models.
+
+**Amanda Neves:** completed their M.Sc. in December 2022. They used computational genomic approaches to investigate how variation in gene expression during development does (and does not) mediate phenotypic differences. Amanda also used RNAseq from developing wing tissues from *Drosophila*, investigating both natural variation among strains, and mutational effects.
 
 **Dr. Andrew Scott:** was a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew used a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours.
 
