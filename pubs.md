@@ -16,7 +16,7 @@ bigimg:
 
 ## Google scholar
 
-Probably best to check [google scholar](https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en) for most updated list of papers (from 2020 back to 2001).
+Probably best to check [google scholar](https://scholar.google.com/citations?user=Iium3AEAAAAJ&hl=en) for most updated list of papers (from the present back to 2001).
 
 ## Chronologically (reverse)
 
