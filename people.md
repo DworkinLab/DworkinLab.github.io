@@ -35,7 +35,7 @@ bigimg:
 
 **Ofure Itua:** is examining whether perturbing growth signaling and sex determination in the fat body of Drosophila can influence tissue and sex specific patterns of size and shape.
 
-**Binjal Pradhan:** Making some genetic tools for non-model Drosophila species.
+**Binjal Pradhan:** Making some genetic tools for non-model Drosophila species. Binjal is planning on being a kick-ass evolutionary biologist!
 
 **Irem Eksioglu:** The influences of splicing factors on sex specific patterns of size and shape in *Drosophila melanogaster*.
 
