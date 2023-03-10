@@ -10,6 +10,8 @@ bigimg:
 - "/img/fun/DSC_0140.jpg" : "Lab (circa 2007)"
 - "/img/fun/IMG_0502.JPG" : "Lab (circa 2010)"
 - "/img/fun/Photo1.jpg" : "Lab (circa 2011)"
+- "/img/coverphotos/Lab2023.jpg" : "Lab (circa 2023)"
+
 ---
 
 ## Current people in the lab
