@@ -21,7 +21,7 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### Relatively recent
 
-Baxter, C.M., Shams, I., Dworkin, I. & Dukas, R. (2023). Genetic correlation between aggressive signals and fighting. Biology Letters. In Press. 20220616.
+Baxter, C.M., Shams, I., Dworkin, I. & Dukas, R. (2023). Genetic correlation between aggressive signals and fighting. Biology Letters. In Press. [PDF](https://doi.org/10.1098/rsbl.2022.0616) \| [data/scripts](https://github.com/DworkinLab/CB_RD_Aggression2022) \| (data/scripts - static copy)[https://figshare.com/articles/dataset/CB_RD_Aggression2022/21565722]
 
 
 Rzezniczak, T.Z., Rzezniczak, M.T., Reed, B.H., Dworkin, I. & Merritt, T.J.S. (2023). Regulation at *Drosophila*’s *Malic Enzyme* highlights the complexity of transvection and its sensitivity to genetic background. Genetics. [paper]( https://doi.org/10.1093/genetics/iyac181) \|  [data/scripts](https://github.com/DworkinLab/TR2022_TransvectionDataScripts).  
