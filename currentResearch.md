@@ -10,7 +10,7 @@ bigimg:
 
 ## Overview
 
-At one level, evolution is remarkably simple, with just a few concepts – mutation, recombination, random drift and natural selection – that underlie the overall process.  Yet this description obscures many issues that make evolution a fascinating area for study.  Evolution typically involves many genes and often revolves around interactions between individuals and their environments.  Moreover, genes interact with one another and with the environment in a nonlinear fashion, resulting in complex phenotypes and evolutionary dynamics.  Our work aims to describe and analyze such interactions with experimental and quantitative rigour. Specifically work in my lab aims to address the fundamental question about the mechanistic basis of observed phenotypic variation. That is, how genetic (and environmental) variation modulate developmental processes and ultimately influence phenotypic outcomes. Our research employs genetic and genomic approaches to address these issues, largely using *Drosophila* (fruit flies) as a model system.  Most labs that work with Drosophila study either individual mutations of large effect (such as those that completely knock out a particular function) or subtle quantitative variation (rarely identifying specific genes).  We employ both of these empirical approaches in conjunction with our genomic analyses to help relate our understanding from developmental genetics with the natural variation observed in populations. In the sections that follow, I summarize our findings and future directions for several projects conducted in my laboratory.
+At one level, evolution is remarkably simple, with just a few concepts – mutation, recombination, random drift and natural selection – that underlie the overall process.  Yet this description obscures many issues that make evolution a fascinating area for study.  Evolution typically involves many genes and often revolves around interactions between individuals and their environments.  Moreover, genes interact with one another and with the environment in a nonlinear fashion, resulting in complex phenotypes and evolutionary dynamics.  Our work aims to describe and analyze such interactions with experimental and quantitative rigour. Specifically work in my lab aims to address the fundamental question about the mechanistic basis of observed phenotypic variation. That is, how genetic (and environmental) variation modulate developmental processes and ultimately influence phenotypic outcomes. Our research employs genetic and genomic approaches to address these issues, largely using *Drosophila* (fruit flies) as a model system.  Most labs that work with *Drosophila* study either individual mutations of large effect (such as those that completely knock out a particular function) or subtle quantitative variation (rarely identifying specific genes).  We employ both of these empirical approaches in conjunction with our genomic analyses to help relate our understanding from developmental genetics with the natural variation observed in populations. In the sections that follow, I summarize our findings and future directions for several projects conducted in my laboratory.
 
 
 ## Functional genetic and genomic approaches for the analyses of conditional effects of mutations.
@@ -25,8 +25,10 @@ Complementary to the studies described above, we are also “inverting the probl
 
 ## Dissecting the genetic architecture of wing shape in Drosophila.
 
-
 One of the goals of evolutionary genetics is to elucidate the genetic architecture that underlies complex phenotypes. Yet most work in the field still focuses on identifying variants that contribute to trait variation, without considering the proximate mechanism by which they achieve their effect. On the other hand, to be able to developmentally dissect the functional basis of genetic variants that modulate subtle phenotypic changes, requires a model system that can be accurately and sensitively quantified. Drosophila Wing shape represents an ideal model system to study questions about genetic architecture from both an evolutionary and functional perspective.
+
+
+![alt text](/img/research/Pelletier2023_Figure3.png "artificial selection for wing shape, and the genomic response")
 
 Wing shape is a complex multivariate phenotype, yet it is sufficiently straightforward to measure that we can perform large high throughput experiments in Drosophila.  Using a 58 dimensional representation of wing shape to assess variation for wing shape we utilize a combination of induced mutations (Sonnenschein et al. 2015, Testa and Dworkin 2016, Haber and Dworkin 2017), controlled environmental variation, and natural genetic variation (Pitchers et al. 2013, Pitchers et al. 2019, Pesevski and Dworkin 2020) to address our questions. For instance, we utilize induced mutations in highly controlled genetic backgrounds, to help elucidate the proximate mechanisms that shape trait expression as well as plasticity of genetic effects (i.e. Debat et al 2009; Haber and Dworkin 2017) and the relationship between subtle genetic perturbations on wing shape and how it co-varies with gene expression (Dworkin et al. 2011). Using these approaches we are now focused on understanding sex-limited effects of mutations on size and shape, and how these contribute to sexual dimorphism (Testa and Dworkin 2016).
 
@@ -36,14 +38,18 @@ In our work to identify and functionally characterize how naturally segregating 
 
 ![alt text](/img/research/ptc_three_views.png "genetic variants in the Patched gene influence Drosophila wing shape")
 
-In addition to this work, we are taking a broad genomics approach. Using a panel of Drosophila strains (derived from natural populations) that have been completely resequenced, we have performed genome-wide association mapping (GWAS) for wing shape. This has enabled us to identify alleles that contribute to wing shape. In collaboration with Dr. David Houle (Florida State University), we have used these findings as a resource to aid in the development of a model of wing development, and combining these with “evolve and resequence” approaches to verify the effects (Pitchers et al. 2019).
+In addition to this work, we are taking a broad genomics approach. Using a panel of Drosophila strains (derived from natural populations) that have been completely resequenced, we have performed genome-wide association mapping (GWAS) for wing shape. This has enabled us to identify alleles that contribute to wing shape. In collaboration with Dr. David Houle (Florida State University), we have used these findings as a resource to aid in the development of a model of wing development, and combining these with “evolve and resequence” approaches to verify the effects (Pitchers et al. 2019, Pelletier et al. 2023).
 
 ![alt text](/img/research/Pitchers2019_Fig2.png "Similar genetic effects of segregating and induced variants in the Egfr gene on wing shape, from Pitchers et al. 2019")
 
-## Evolution of sexual dimorphism
+## Sexual selection, and the evolution of sexual dimorphism
 ![alt text](/img/research/Beetle2.jpg "Variation in beetle horns, a sexually dimorphic trait")
 
 **Excuse the mess, renovating this section**
+
+
+## Evolutionary genomics of social behaviour
+
 
 ## Evolution of anti-predator behaviour and morphology
 
