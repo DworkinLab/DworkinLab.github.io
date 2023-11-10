@@ -20,35 +20,31 @@ bigimg:
 
 ### Current Graduate students
 
-**Katie Pelletier:** Is a Ph. D student interested in evolutionary genetics of complex phenotypes. Katie is identifying genetic variants influencing Drosophila wing size and shape within and between adaptively diverged populations. Katie plans to use this system to address questions about possible developmental and genetic biases that might influence the evolutionary process. Katie enjoys doing physical activities that inevitably lead to knee injuries.  
-
 **Tyler Audet:** Is a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler is using a variety of systems (artificial selection, experimental evolution and comparative approaches) within and among *Drosophila* species.
-  
-**Arteen Torabi-Marashi:** Arteen is using genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*. Arteen is jointly supervised by Dr. Reuven Dukas.
 
+**Sai Samhitha Vajja** Is a new PhD student interested broadly in evolutionary genomics.
+
+**Brett Van Bakel:** Is a MSc student examining the influence of natural genetic variaton in cell size on mutational sensitivity. 
 
 ### Current Undergraduate students (independent projects)
 
-**Mariam Abass:** Phylogenetic comparative analysis of sexual shape dimorphism.
+**Sanhavy Vadivel** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
 
-**Brett Van Bakel:** Does natural variation in cell size influence mutational sensitivity to mutations in the *miniature* gene?
+**Johnson Ku** Does strong selection for extreme body size changes influence developmental stability? A test in artificially selected populations of *Drosophila melanogaster*.
 
-**Veronica Du:** How do populations with divergent evolutionary histories respond to developmental temperature changes?
+**Marija Nenadovic** Genetic analysis of the blunt wing mutation in *Drosophila prolongata*
 
-**Ofure Itua:** is examining whether perturbing growth signaling and sex determination in the fat body of Drosophila can influence tissue and sex specific patterns of size and shape.
+**Binjal Pradhan:** Mutational analysis in *Drosophila prolongata*. Binjal is planning on being a kick-ass evolutionary biologist!
 
-**Binjal Pradhan:** Making some genetic tools for non-model Drosophila species. Binjal is planning on being a kick-ass evolutionary biologist!
-
-**Irem Eksioglu:** The influences of splicing factors on sex specific patterns of size and shape in *Drosophila melanogaster*.
-
-**Aaron Taylor:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
-
-**Noa Agid:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
 
 
 ## Lab alumni
 
 ### Graduate students and Post-Doctoral Associates
+
+**Arteen Torabi-Marashi:** Arteen completed his MSc in 2023, and used genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*.
+
+**Dr. Katie Pelletier:** Was a Ph.D student in the lab interested in evolutionary genetics of complex phenotypes. Katie identifying genetic variants influencing *Drosophila* wing size and shape within and between adaptively diverged populations. After graduating in 2023, Katie has moved to the lab of Dr. Marie-Anne Felix to study evolvability.
 
 **Brandon McIntyre:** Completed his MSc. in December 2022, testing models to explain and predict genetic background dependence. Brandon uses the development of the *Drosophila* wing and its adult morphology as a model to test these models.
 
@@ -61,12 +57,9 @@ bigimg:
 
 **Darcy Henderson:** Darcy completed her M.Sc. studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
-
 **Dr. Sarah Marzec:** Completed her Ph.D Student using Waddington's classic system studying genetic assimilation in *Drosophila melanogaster* to address questions about canalization, cryptic genetic variation and trait evolution by genetic assimilation. Sarah is secretly hoping for a small lab accident that will result in her getting superpowers.
 
-
 **Dr. Maria Pesevski:** As a Ph.D student studied the evolution of condition dependence and sexual dimorphism for size and shape using *Drosophila* wing morphology. When not thinking deeply about size, shape and sexual differences in flies, Maria spends her time salsa dancing.
-
 
 **Caitlyn Daley:** Caitlyn finished her M.Sc. in December 2019. Caitlyn studied the extent to which genetic background dependence of mutations were similar for mutations within and between genes throughout a gene regulatory network that influences *Drosophila* wing development. She really loves her cat.
 
@@ -94,11 +87,23 @@ Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 ### undergraduate researcher alumni
 
-**Richard Saint-Laurent:** Finishing co-op placements for Honours BSc.
+**Mariam Abass:** Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
+
+**Irem Eksioglu:** The influences of splicing factors on sex specific patterns of size and shape in *Drosophila melanogaster*.
+
+**Aaron Taylor:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
+
+**Noa Agid:** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
+
+**Veronica Du:** How do populations with divergent evolutionary histories respond to developmental temperature changes?
+
+**Ofure Itua:** is examining whether perturbing growth signaling and sex determination in the fat body of Drosophila can influence tissue and sex specific patterns of size and shape.
+
+**Richard Saint-Laurent:** co-op placements for Honours BSc.
 
 **Francesco Ruso:** Graduate student, University of Toronto.
 
-**Irene Grace Pender:** Graduate Student, Vienna School of Population Genetics.
+**Irene Grace Pender:** Graduate Student, McGill University.
 
 **Yun Bo Xi:** Dentistry school, University of Western Ontario.
 
@@ -106,7 +111,7 @@ Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 **Candaice Newell:** Graduate student, University of Toronto.
 
-**Meera Chopra:** Finishing Undergraduate.
+**Meera Chopra:** Medical school
 
 **Archana Thurairajah:**
 
