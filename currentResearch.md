@@ -27,20 +27,19 @@ Complementary to the studies described above, we are also “inverting the probl
 
 One of the goals of evolutionary genetics is to elucidate the genetic architecture that underlies complex phenotypes. Yet most work in the field still focuses on identifying variants that contribute to trait variation, without considering the proximate mechanism by which they achieve their effect. On the other hand, to be able to developmentally dissect the functional basis of genetic variants that modulate subtle phenotypic changes, requires a model system that can be accurately and sensitively quantified. Drosophila Wing shape represents an ideal model system to study questions about genetic architecture from both an evolutionary and functional perspective.
 
-
-![alt text](/img/research/Pelletier2023_Figure3.png "artificial selection for wing shape, and the genomic response")
+![alt text](/img/research/Pitchers2019_Fig1.png "Natural variation in Drosophila wing shape")
 
 Wing shape is a complex multivariate phenotype, yet it is sufficiently straightforward to measure that we can perform large high throughput experiments in Drosophila.  Using a 58 dimensional representation of wing shape to assess variation for wing shape we utilize a combination of induced mutations (Sonnenschein et al. 2015, Testa and Dworkin 2016, Haber and Dworkin 2017), controlled environmental variation, and natural genetic variation (Pitchers et al. 2013, Pitchers et al. 2019, Pesevski and Dworkin 2020) to address our questions. For instance, we utilize induced mutations in highly controlled genetic backgrounds, to help elucidate the proximate mechanisms that shape trait expression as well as plasticity of genetic effects (i.e. Debat et al 2009; Haber and Dworkin 2017) and the relationship between subtle genetic perturbations on wing shape and how it co-varies with gene expression (Dworkin et al. 2011). Using these approaches we are now focused on understanding sex-limited effects of mutations on size and shape, and how these contribute to sexual dimorphism (Testa and Dworkin 2016).
 
-![alt text](/img/research/Pitchers2019_Fig1.png "Natural variation in Drosophila wing shape")
+![alt text](/img/research/ptc_three_views.png "genetic variants in the Patched gene influence Drosophila wing shape")
 
 In our work to identify and functionally characterize how naturally segregating polymorphisms influence wing shape we keep our central question (how do such variants influence development which in turn mediate shape change?). For instance, we examined natural variation for the cis-regulatory (enhancer) of the cut gene, known to influence wing development. Variation in the enhancer is present as two alternative haplotypes differing in expression of cut, which we verified transgenically.  While the differences in gene expression are substantial, the effects on wing shape are subtle.
 
-![alt text](/img/research/ptc_three_views.png "genetic variants in the Patched gene influence Drosophila wing shape")
+![alt text](/img/research/Pitchers2019_Fig2.png "Similar genetic effects of segregating and induced variants in the Egfr gene on wing shape, from Pitchers et al. 2019")
 
 In addition to this work, we are taking a broad genomics approach. Using a panel of Drosophila strains (derived from natural populations) that have been completely resequenced, we have performed genome-wide association mapping (GWAS) for wing shape. This has enabled us to identify alleles that contribute to wing shape. In collaboration with Dr. David Houle (Florida State University), we have used these findings as a resource to aid in the development of a model of wing development, and combining these with “evolve and resequence” approaches to verify the effects (Pitchers et al. 2019, Pelletier et al. 2023).
 
-![alt text](/img/research/Pitchers2019_Fig2.png "Similar genetic effects of segregating and induced variants in the Egfr gene on wing shape, from Pitchers et al. 2019")
+![alt text](/img/research/Pelletier2023_Figure3.png "artificial selection for wing shape, and the genomic response")
 
 ## Sexual selection, and the evolution of sexual dimorphism
 ![alt text](/img/research/Beetle2.jpg "Variation in beetle horns, a sexually dimorphic trait")
