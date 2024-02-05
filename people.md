@@ -26,7 +26,11 @@ bigimg:
 
 **Brett Van Bakel:** Is a MSc student examining the influence of natural genetic variaton in cell size on mutational sensitivity. 
 
+**Mariam Abass:** Is a MSc student. Mariam is interested in the relationship between the extent of sexual size dimorphism and sex-biased gene expression. She is also finishing some of her work Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
+
 ### Current Undergraduate students (independent projects)
+
+**Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape.
 
 **Sanhavy Vadivel** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
 
@@ -35,7 +39,6 @@ bigimg:
 **Marija Nenadovic** Genetic analysis of the blunt wing mutation in *Drosophila prolongata*
 
 **Binjal Pradhan:** Mutational analysis in *Drosophila prolongata*. Binjal is planning on being a kick-ass evolutionary biologist!
-
 
 
 ## Lab alumni
