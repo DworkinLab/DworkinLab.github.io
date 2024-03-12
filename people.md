@@ -22,8 +22,6 @@ bigimg:
 
 **Tyler Audet:** Is a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler is using a variety of systems (artificial selection, experimental evolution and comparative approaches) within and among *Drosophila* species.
 
-**Sai Samhitha Vajja**: I'm Sai Samhitha Vajja, a creative soul who finds joy in crocheting, strumming the ukulele, and diving into digital art. Beyond my artistic endeavors, my academic passion revolves around the evolutionary genomics of phenotypes, with a keen focus on trait evolution. Currently, I'm working on compensatory evolution within *Drosophila melanogaster*. What sets my artistic side apart is my love for digital drawings, particularly those that bring scientific concepts to life.
-
 **Brett Van Bakel:** Is a MSc student examining the influence of natural genetic variaton in cell size on mutational sensitivity. 
 
 **Mariam Abass:** Is a MSc student. Mariam is interested in the relationship between the extent of sexual size dimorphism and sex-biased gene expression. She is also finishing some of her work Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
