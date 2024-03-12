@@ -26,6 +26,10 @@ bigimg:
 
 **Mariam Abass:** Is a MSc student. Mariam is interested in the relationship between the extent of sexual size dimorphism and sex-biased gene expression. She is also finishing some of her work Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
 
+
+**Dania Daanish** Is an MSc student (co-supervised with Dr. Reuven Dukas) interested in the genetic basis of sociability in *Drosophila melongaster*. She used the GAL4/UAS System and RNA interference (RNAi) constructs to knockdown the expression of candidate sociability genes and observe subsequent changes to sociability. Besides research, Dania’s interests include eating food (particularly shawarma), hanging out with her cats, and reading books. 
+
+
 ### Current Undergraduate students (independent projects)
 
 **Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape.
