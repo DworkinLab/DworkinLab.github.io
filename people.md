@@ -26,26 +26,31 @@ bigimg:
 
 **Mariam Abass:** Is a MSc student. Mariam is interested in the relationship between the extent of sexual size dimorphism and sex-biased gene expression. She is also finishing some of her work Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
 
+**Gabriella Sidhu** is a new (2024) PhD student in the lab, interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
-**Dania Daanish** Is an MSc student (co-supervised with Dr. Reuven Dukas) interested in the genetic basis of sociability in *Drosophila melongaster*. She used the GAL4/UAS System and RNA interference (RNAi) constructs to knockdown the expression of candidate sociability genes and observe subsequent changes to sociability. Besides research, Dania’s interests include eating food (particularly shawarma), hanging out with her cats, and reading books. 
+
 
 
 ### Current Undergraduate students (independent projects)
 
-**Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape.
+**Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape among natural strains of *Drosophila melanogaster*.
 
 **Sanhavy Vadivel** Quantitative genetic analysis of condition dependent sexual size dimorphism in *Drosophila prolongata*.
 
-**Johnson Ku** Does strong selection for extreme body size changes influence developmental stability? A test in artificially selected populations of *Drosophila melanogaster*.
+**Emily Morra** Does environmental stress influence Transposable element mobilization or contribute to genetic assimilation?
 
-**Marija Nenadovic** Genetic analysis of the blunt wing mutation in *Drosophila prolongata*
+**Jamie Turner-Patry** Genetic analysis of the blunt-wing phenotype in *Drosophila prolongata*.
 
-**Binjal Pradhan:** Mutational analysis in *Drosophila prolongata*. Binjal is planning on being a kick-ass evolutionary biologist!
+**Andrew Mallon** Direct and indirect consequences of cell size  variation on wing shape in *Drosophila melanogaster.*
+
+**Liya Monfopa Yenou** Mutational perturbation of cell size and its influence on variation and integration of wing morphology in *Drosophila melanogaster* 
 
 
 ## Lab alumni
 
 ### Graduate students and Post-Doctoral Associates
+
+**Dania Daanish** Completed her MSc research in 2024 (co-supervised with Dr. Reuven Dukas) on the genetic basis of sociability in *Drosophila melongaster*. She used the GAL4/UAS System and RNA interference (RNAi) constructs to knockdown the expression of candidate sociability genes and observe subsequent changes to sociability. Besides research, Dania’s interests include eating food (particularly shawarma), hanging out with her cats, and reading books. 
 
 **Arteen Torabi-Marashi:** Arteen completed his MSc in 2023, and used genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*.
 
@@ -91,6 +96,12 @@ Dr. Chris Chandler: Associate Professor, SUNY Oswego.
 Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 ### undergraduate researcher alumni
+
+**Johnson Ku** Does strong selection for extreme body size changes influence developmental stability? A test in artificially selected populations of *Drosophila melanogaster*.
+
+**Marija Nenadovic** Genetic analysis of the blunt wing mutation in *Drosophila prolongata*.
+
+**Binjal Pradhan:** Mutational analysis in *Drosophila prolongata*. 
 
 **Mariam Abass:** Phylogenetic comparative analysis of sexual shape dimorphism among species of *Drosophila*.
 
