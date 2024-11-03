@@ -45,12 +45,18 @@ In addition to this work, we are taking a broad genomics approach. Using a panel
 ## Sexual selection, and the evolution of sexual dimorphism
 ![alt text](/img/research/Beetle2.jpg "Variation in beetle horns, a sexually dimorphic trait")
 
-**Excuse the mess, renovating this section**
+### Evolution of sexual size and shape dimorphism in Drosophila melanogaster
+
+
+### Evolutionary Genomics of condition dependent sexual size dimorphism in the Drosophila rhopoloa clade
+
 
 
 ## Evolutionary genomics of social behaviour
 
 
+
+## older work (we don't really work on this any more)
 ## Evolution of anti-predator behaviour and morphology
 
 Before you read, how about some cool short videos of some of behaviours!!!
