@@ -21,7 +21,22 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### Relatively recent
 
-Ofodile, YL., Appenteng, J. Jaffri, M., Dworkin, I., and Stewart, AD. (2025).No degradation of temperature-mediated phenotypic plasticity in *Drosophila melanogaster* after more than 275 generations of artificial selection on body-size. [micropublication Biology](10.17912/micropub.biology.001468) \| [PDF](/pdf/micropub-biology-001468.pdf) \| [data/scripts - github](https://github.com/DworkinLab/Ofodile_etal_2025_ThermalPlasticity_microPub) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.28692473)
+Audet, T., Ferreira, J.P., Meena, A., Abass, M., Torabi-Marashi, A., Yeom, J., Zaghloul, F., Zaghloul, N., Mizrahi, A., Novikov, J.,Xi, E., Lüpold, S (co-senior author)., & Dworkin, I. Genetic architecture of the developing forelegs of *Drosophila prolongata*; an exaggerated weapon and ornament. [Biorxiv pre-print](https://doi.org/10.1101/2025.10.09.681446)
+
+
+Rosenbaum, J.R (co-first author)., Torabi-Marashi, A (co-first author).,  Abdullah, S., Audet, T., Scott, A.M., Dworkin, I (co-senior author)., &  Dukas, R. (2025). Evolution of sociability: genome scans and gene validation. [Evolution](https://doi.org/10.1093/evolut/qpaf230) \| [PDF](/pdf/JRR_ATM_etal_2025.pdf) \| [raw genomic data](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1311514/) \|[data/scripts - github](https://github.com/DworkinLab/DrosophilaSociabilityGenomeScan) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.30500915) 
+
+
+Torabi-Marashi, A (co-first author)., Daanish, D (co-first author)., Scott, A.M., Dukas, R (co-senior author)., & Dworkin, I. (2025). The genetic basis of natural variation in sociability. [Evolution 79 (10): 1977–1995](https://doi.org/10.1093/evolut/qpaf158) \| [PDF](/pdf/ATM_DD_etal_2025.pdf) \| [raw genomic data](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1311514/) \|[data/scripts - github](https://github.com/DworkinLab/DrosophilaSociabilityTranscriptomics) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.29657138) 
+
+
+Fraz, S., Thompson, W. A., Gallucci, M. S., Afridi, M., Easwaramoorthy, M., Hartenstein, P., Laframboise, L., Dworkin, I., Manzon, R., Somers, C. M., & Wilson, J. Y. (2025). The effect of early life thermal environment on morphology and growth of yellow perch (Perca flavescens). [Journal of Fish Biology, 107(3), 712–727](https://doi.org/10.1111/jfb.70066) \| [PDF](/pdf/Fraz_etal2025.pdf) \| [data/scripts](https://doi.org/10.20383/103.0852)
+
+
+Audet, T (Co-first author)., Wilson, A (Co-first author)., Dukas, R. & Dworkin, I. (2025). The role of resource defensibility in facilitating sexually selected weapon evolution: an experimental evolution test. [Evolution](https://doi.org/10.1093/evolut/qpaf073) \| [PDF](/pdf/AudetWilson_etal_Evolution2025.pdf) \| [data/scripts - github](https://github.com/DworkinLab/Audet_Wilson_etal_Evolution_2025) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.28687235) 
+
+
+Ofodile, Y.L., Appenteng, J. Jaffri, M., Dworkin, I., & Stewart, A.D. (2025).No degradation of temperature-mediated phenotypic plasticity in *Drosophila melanogaster* after more than 275 generations of artificial selection on body-size. [micropublication Biology](https://www.micropublication.org/journals/biology/micropub-biology-001468) \| [PDF](/pdf/micropub-biology-001468.pdf) \| [data/scripts - github](https://github.com/DworkinLab/Ofodile_etal_2025_ThermalPlasticity_microPub) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.28692473)
 
 
 Pelletier, K.,Bilodeau, M., Pellizzari-Delano,I., Siemon, M.D., Huang, Y., Pool, J.E. & Dworkin, I. Polygenic architecture of adaptation to a high-altitude environment for *Drosophila melanogaster* wing shape and size. [Preprint](https://www.biorxiv.org/content/10.1101/2024.02.08.579525v1.abstract)
