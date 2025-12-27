@@ -16,15 +16,15 @@ bigimg:
 
 ## Current people in the lab
 
-**Ian Dworkin:** Is a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. Ian was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back home to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
+**Ian Dworkin:** I am a professor in the Department of Biology <a href= "https://www.biology.mcmaster.ca/ "> at McMaster University </a>. I was previously a professor in the [Department of Integrative Biology](https://integrativebiology.natsci.msu.edu) at Michigan State University before moving back home to Canada. When not doing the science thing, I do the dad thing. In the few spare moments, I also do nerdy things (movies, video games, cooking, hiking). Favourite cheese is a really good Oka. Also old cheddar. And Jarslberg. Ok, I just really like cheese. Please contact me at dworkin "AT" mcmaster "DOT" ca.
 
 ### Current Graduate students
 
-**Brett Van Bakel:** Is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
+**Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
 
 **Gabriella Sidhu** is a PhD student in the lab, interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
-**Sajid Muslun:** Is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition contributes to adaptive evolution in a variety of different contexts.
+**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of Drosophila genetics.
 
 
 ### Current Undergraduate students (independent projects)
@@ -97,7 +97,7 @@ Dr. Chris Chandler: Associate Professor, SUNY Oswego.
 
 Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
-### undergraduate researcher alumni
+### Undergraduate researcher alumni
 
 **Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape among natural strains of *Drosophila melanogaster*.
 
