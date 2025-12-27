@@ -21,6 +21,8 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### Relatively recent
 
+Ofodile, YL., Appenteng, J. Jaffri, M., Dworkin, I., and Stewart, AD. (2025).No degradation of temperature-mediated phenotypic plasticity in *Drosophila melanogaster* after more than 275 generations of artificial selection on body-size. [micropublication Biology](10.17912/micropub.biology.001468) \| [PDF](/pdf/micropub-biology-001468.pdf) \| [data/scripts - github](https://github.com/DworkinLab/Ofodile_etal_2025_ThermalPlasticity_microPub) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.28692473)
+
 
 Pelletier, K.,Bilodeau, M., Pellizzari-Delano,I., Siemon, M.D., Huang, Y., Pool, J.E. & Dworkin, I. Polygenic architecture of adaptation to a high-altitude environment for *Drosophila melanogaster* wing shape and size. [Preprint](https://www.biorxiv.org/content/10.1101/2024.02.08.579525v1.abstract)
 
