@@ -20,11 +20,13 @@ bigimg:
 
 ### Current Graduate students
 
-**Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
+**Christine Lee**: is a new MSc student in the lab. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
+
+**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of Drosophila genetics.
 
 **Gabriella Sidhu** is a PhD student in the lab, interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
-**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of Drosophila genetics.
+**Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
 
 
 ### Current Undergraduate students (independent projects)
@@ -42,13 +44,13 @@ bigimg:
 **Arshia Mathur** Functional analysis of perturbations of the *grain* gene in *Drosophila melanogaster* in the developing imaginal discs and its effect on leg morphology.
 
 
-**Sophie Li** TBD!
+**Sophie Li** examined the influence of macronutrients on mutational sensitivity in naturally derived strains. 
 
 ## Lab alumni
 
 ### Graduate students and Post-Doctoral Associates
 
-**Mariam Abass:** Completed her MSc in December 2025. Mariam focused on the relationship between the extent of sexual size dimorphism (within and across traits), condition dependence and sex-biased gene expression within and among species of *Drosophila*.
+**Mariam Abass:** Completed her MSc in December 2025. Mariam focused on the relationship between the extent of sexual size dimorphism (within and across traits), condition dependence and sex-biased gene expression within and among species of *Drosophila*. Mariam is beginning her PhD in Germany in the fall of 2025.
 
 **Dr. Tyler Audet:** Was a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler used a variety of systems (artificial selection, experimental evolution, quantitative genetics and comparative approaches) within and among *Drosophila* species. He is now a post-doctoral researcher with Dr. Abdou Khila in Lyon, France studying the evolution of trait exaggeration in cool species of water striders.
 
