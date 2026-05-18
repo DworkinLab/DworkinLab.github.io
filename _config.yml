@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Dworkin Lab website
+title: 
 
 # Short description of your site
 description: Dworkin lab website
@@ -75,7 +75,7 @@ footer-links-active:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   google: false
   linkedin: false
