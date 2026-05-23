@@ -22,9 +22,9 @@ bigimg:
 
 **Christine Lee**: is a new MSc student in the lab. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
 
-**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of Drosophila genetics.
+**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
 
-**Gabriella Sidhu** is a PhD student in the lab, interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
+**Gabriella Sidhu** is a PhD student in the lab, having done her MSc at the University of Western Ontario using RNAseq to probe how transcription factor can have compensatory impacts in *Drosophila*. Gabriellla is interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
 **Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
 
@@ -67,7 +67,7 @@ bigimg:
 **Dr. Andrew Scott:** was a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew used a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours.
 
 
-**Audrey Wilson:** Audrey completed her M.Scc, studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she did, Audrey's work space looked a lot like a craft store, and spent a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
+**Audrey Wilson:** Audrey completed her MSc, studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she did, Audrey's work space looked a lot like a craft store, and spent a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
 
 **Darcy Henderson:** Darcy completed her M.Sc. studying the extent to which genetic interactions (epistasis) between pairs of mutations depends upon both how much the individual mutations perturb the phenotype (their magnitude) and the wild type genetic background in which the mutations are examined. When not setting up crosses, or hitting a puck, she likes watching controversial films and shows on netflix.
 
