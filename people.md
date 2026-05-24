@@ -24,7 +24,7 @@ bigimg:
 
 **Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
 
-**Gabriella Sidhu** is a PhD student in the lab, having done her MSc at the University of Western Ontario using RNAseq to probe how transcription factor can have compensatory impacts in *Drosophila*. Gabriellla is interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
+**Gabriella Sidhu** is a PhD student in the lab, having done her MSc at the University of Western Ontario using RNAseq to probe how [transcription factor can have compensatory impacts](https://doi.org/10.1093/g3journal/jkaf215) in *Drosophila*. Gabriella is interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
 **Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
 
