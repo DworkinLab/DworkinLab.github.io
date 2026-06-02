@@ -24,6 +24,9 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 Audet, T., Ferreira, J.P., Meena, A., Abass, M., Torabi-Marashi, A., Yeom, J., Zaghloul, F., Zaghloul, N., Mizrahi, A., Novikov, J.,Xi, E., Lüpold, S (co-senior author). & Dworkin, I. (2026). Genomic architecture of the developing forelegs of *Drosophila prolongata*; an exaggerated weapon and ornament. [Evolution](https://doi.org/10.1093/evolut/qpag096)  \| [Biorxiv pre-print](https://doi.org/10.1101/2025.10.09.681446) \| [data/scripts - github](https://github.com/DworkinLab/Audet_etal_2026_Evolution) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.32311218) \| [raw genomic data, NCBI GEO GSE330706](https://www.ncbi.nlm.nih.gov/geo/) \| [NCBI BioProject link](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1465287) 
 
 
+Kukoly, L.M.,  Porter, S.R., Jordan, D.C., Murphy, H.A, Knytl, M., Shaidani, N., Thomas, W.R., Anderson, C., Dworkin, I., Horb, M.E., & Evans, B.J. (2026) Sex-Specific Functional Evolution of *Dmrt1* in African Clawed Frogs (Xenopus), and the Importance of Genetic Tipping Points in Developmental Biology. [PLOS Genetics 22(1): e1011992](https://doi.org/10.1371/journal.pgen.1011992). 
+
+
 Rosenbaum, J.R (co-first author)., Torabi-Marashi, A (co-first author).,  Abdullah, S., Audet, T., Scott, A.M., Dworkin, I (co-senior author) ., & Dukas, R. (2025). Evolution of sociability: genome scans and gene validation. [Evolution](https://doi.org/10.1093/evolut/qpaf230) \| [PDF](/pdf/JRR_ATM_etal_2025.pdf) \| [raw genomic data](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1311514/) \| [data/scripts - github](https://github.com/DworkinLab/DrosophilaSociabilityGenomeScan) \|  [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.30500915) 
 
 
