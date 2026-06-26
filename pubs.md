@@ -21,6 +21,9 @@ Probably best to check [google scholar](https://scholar.google.com/citations?use
 
 ### Relatively recent
 
+Audet, T., Vadivel, S. (co-first author), Taylor, A., Ammendolia, D., Daanish, N., Beghin, O., Yang, R., Yogaraajah, S. & Dworkin, I. Condition manipulation reveals an increase in sex-specific additive genetic variance, and reduced intersex genetic covariances in *Drosophila prolongata*, a species with sexual trait exaggeration. (2026). [Pre-print](https://doi.org/10.64898/2026.06.18.733205)
+
+
 Audet, T., Ferreira, J.P., Meena, A., Abass, M., Torabi-Marashi, A., Yeom, J., Zaghloul, F., Zaghloul, N., Mizrahi, A., Novikov, J.,Xi, E., Lüpold, S (co-senior author). & Dworkin, I. (2026). Genomic architecture of the developing forelegs of *Drosophila prolongata*; an exaggerated weapon and ornament. [Evolution](https://doi.org/10.1093/evolut/qpag096)  \| [Biorxiv pre-print](https://doi.org/10.1101/2025.10.09.681446) \| [data/scripts - github](https://github.com/DworkinLab/Audet_etal_2026_Evolution) \| [data/scripts - static copy](https://doi.org/10.6084/m9.figshare.32311218) \| [raw genomic data, NCBI GEO GSE330706](https://www.ncbi.nlm.nih.gov/geo/) \| [NCBI BioProject link](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1465287) 
 
 
