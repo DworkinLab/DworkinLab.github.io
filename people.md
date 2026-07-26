@@ -20,9 +20,9 @@ bigimg:
 
 ### Current Graduate students
 
-**Christine Lee**: is a new MSc student in the lab. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
+**Christine Lee**: is a new MSc student in the lab (summer 20260. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
 
-**Sajid Muslun:** is a new PhD student in the lab, having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
+**Sajid Muslun:** is a new PhD student in the lab (fall 2025), having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
 
 **Gabriella Sidhu** is a PhD student in the lab, having done her MSc at the University of Western Ontario using RNAseq to probe how [transcription factor can have compensatory impacts](https://doi.org/10.1093/g3journal/jkaf215) in *Drosophila*. Gabriella is interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
@@ -50,7 +50,7 @@ bigimg:
 
 ### Graduate students and Post-Doctoral Associates
 
-**Mariam Abass:** Completed her MSc in December 2025. Mariam focused on the relationship between the extent of sexual size dimorphism (within and across traits), condition dependence and sex-biased gene expression within and among species of *Drosophila*. Mariam is beginning her PhD in Germany in the fall of 2025.
+**Mariam Abass:** Completed her MSc in December 2025. Mariam focused on the relationship between the extent of sexual size dimorphism (within and across traits), condition dependence and sex-biased gene expression within and among species of *Drosophila*. Mariam is beginning her PhD (summer 2026) in the lab of Dr. Nico Posnien in Göttingen, Germany, asking questions regarding the evolutionary developmental biology of phenotypic plasticity and/or sexual dimorphism in beetles.
 
 **Dr. Tyler Audet:** Was a Ph.D student interested in the evolution of sexual size dimorphism and sexual conflict, using genomic approaches to address several fundamental questions. Tyler used a variety of systems (artificial selection, experimental evolution, quantitative genetics and comparative approaches) within and among *Drosophila* species. He is now a post-doctoral researcher with Dr. Abdou Khila in Lyon, France studying the evolution of trait exaggeration in cool species of water striders.
 
@@ -58,7 +58,7 @@ bigimg:
 
 **Arteen Torabi-Marashi:** Arteen completed his MSc in 2023, and used genomic approaches (RNAseq and population genomics) to investigate how natural variation in gene expression and genetic variants under selection influencing Social Behaviour in *Drosophila*.
 
-**Dr. Katie Pelletier:** Was a Ph.D student in the lab interested in evolutionary genetics of complex phenotypes. Katie identifying genetic variants influencing *Drosophila* wing size and shape within and between adaptively diverged populations. After graduating in 2023, Katie has moved to the lab of Dr. Marie-Anne Felix to study evolvability.
+**Dr. Katie Pelletier:** Was a Ph.D student in the lab interested in evolutionary genetics of complex phenotypes. Katie identifying genetic variants influencing *Drosophila* wing size and shape within and between adaptively diverged populations. After graduating in 2023, Katie  moved to the lab of Dr. Marie-Anne Felix to study evolvability using the development of the nematode vulva as her model system.
 
 **Brandon McIntyre:** Completed his MSc. in December 2022, testing models to explain and predict genetic background dependence. Brandon uses the development of the *Drosophila* wing and its adult morphology as a model to test these models.
 
