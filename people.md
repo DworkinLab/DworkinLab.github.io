@@ -20,7 +20,7 @@ bigimg:
 
 ### Current Graduate students
 
-**Christine Lee**: is a new MSc student in the lab (summer 20260. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
+**Christine Lee**: is a new MSc student in the lab (summer 2026). Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
 
 **Sajid Muslun:** is a new PhD student in the lab (fall 2025), having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
 
