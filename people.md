@@ -23,10 +23,10 @@ bigimg:
 
 ### Current Graduate students
 
-**Navjeet Kaur**: MSc (Fall 2026) - Just started! Navjeet recently graduated with her BSc from the University of Guelph. More to come soon.
+**Navjeet Kaur**: MSc - Just started! Navjeet recently graduated with her BSc from the University of Guelph. More to come soon.
 
 
-**Clarisse White**: MSc (Fall 2026) - Just started! Clarisse recently graduated with her BSc from the University of Toronto, doing her research in the lab of Dr. Asher Cutter. More to come soon.
+**Clarisse White**: MSc - Just started! Clarisse recently graduated with her BSc from the University of Toronto, doing her research in the lab of Dr. Asher Cutter. More to come soon.
 
 
 **Christine Lee**: is a new MSc student in the lab. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
@@ -199,7 +199,7 @@ Folasade Ologundudu:
 
 Jeremy Cooney: Law school.
 
-Cristina Abbataangelo: PhD student, University of Toronto.
+Dr. Cristina Abbataangelo: Teaching Professor, Department of Biology, McMaster University.
 
 Daniel Sutanto:
 
@@ -213,7 +213,7 @@ Julie Holms:
 
 Denise Rebello: Ph.D student, University of Toronto.
 
-Dr.Ieta Shams: Medical Student
+Dr. Ieta Shams: Medical Doctor
 
 Ravina Dhami:
 
@@ -221,7 +221,7 @@ Mamun Patwary:
 
 Dr. Lianna Wat: Post-Doctoral Researcher. Stanford University.
 
-Samiksha Kaul: Ph.D Student, Georgia Tech.
+Dr. Samiksha Kaul: Georgia Tech.
 
 Braedan Huras:
 
