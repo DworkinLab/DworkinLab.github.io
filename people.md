@@ -95,19 +95,19 @@ bigimg:
 
 **Dr. William Pitchers**: Data-wiz.: Microbiological Diagnostic Unit Public Health Laboratory. The Peter Doherty Institute for Infection and Immunity, University of Melbourne.
 
-Dr.Amanda Charbanneau:
+**Dr. Amanda Charbanneau**:
 
-Dr. Anne Sonnenschein: Data-wiz.
+**Dr. Anne Sonnenschein**: Data-wiz.
 
-Dr. Abhijna Parigi: Post-Doctoral researcher, University of California Davis.
+**Dr. Abhijna Parigi**: Post-Doctoral researcher, University of California Davis.
 
-Dr. Sudarshan Chari: Data-wiz.
+**Dr. Sudarshan Chari**: Data-wiz.
 
-Dr. Michael DeNieu: Post-Doctoral researcher, George Washington University.
+**Dr. Michael DeNieu**: Post-Doctoral researcher, George Washington University.
 
-Dr. Chris Chandler: Associate Professor, SUNY Oswego.
+**Dr. Chris Chandler**: Associate Professor, SUNY Oswego.
 
-Dr. Megan Fritz: Assistant Professor, University of Maryland.
+**Dr. Megan Fritz**: Professor, University of Maryland.
 
 ### Undergraduate researcher alumni
 
@@ -185,29 +185,29 @@ Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 **Dr. Lin Choi:** Dentist
 
-Dr. Heather McGovern: MD
+**Dr. Heather McGovern: MD**
 
-Dr. Emma Northrup: Finished her Ph. D at South Dakota State University. Works at the Mayo Clinic
+**Dr. Emma Northrup**: Finished her Ph. D at South Dakota State University. Works at the Mayo Clinic
 
-Willam Bell: M.Sc.
+**Willam Bell**: M.Sc.
 
-Genevieve Dietrich: Medical School.
+**Genevieve Dietrich**: Medical School.
 
-Amy Chang: M.S. student at the University of Toronto.
+**Amy Chang**: M.S. student at the University of Toronto.
 
-Folasade Ologundudu:
+**Folasade Ologundudu**:
 
-Jeremy Cooney: Law school.
+**Jeremy Cooney**: Law school.
 
-Dr. Cristina Abbataangelo: Teaching Professor, Department of Biology, McMaster University.
+**Dr. Cristina Abbatangelo**: Teaching Professor, Department of Biology, McMaster University.
 
-Daniel Sutanto:
+**Daniel Sutanto**:
 
-Amy Calovini:
+**Amy Calovini**:
 
-Abood Abubakr:
+**Abood Abubakr**:
 
-Ana Vera Cruz: M.Sc. student, University of Ottawa.
+**Ana Vera Cruz**: M.Sc. student, University of Ottawa.
 
 Julie Holms:
 
