@@ -23,31 +23,39 @@ bigimg:
 
 ### Current Graduate students
 
-**Christine Lee**: is a new MSc student in the lab (summer 2026). Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
+**Navjeet Kaur**: MSc (Fall 2026) - Just started! Navjeet recently graduated with her BSc from the University of Guelph. More to come soon.
 
-**Sajid Muslun:** is a new PhD student in the lab (fall 2025), having recently completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics.
+
+**Clarisse White**: MSc (Fall 2026) - Just started! Clarisse recently graduated with her BSc from the University of Toronto, doing her research in the lab of Dr. Asher Cutter. More to come soon.
+
+
+**Christine Lee**: is a new MSc student in the lab. Christine did her undergraduate research in the lab of Dr. Bruce Reed at the University of Waterloo and really enjoys *Drosophila* genetics. Christine's work will examine how natural variation in cell size influences the penetrance and expressivity of mutations influencing various cellular processes.
+
+**Sajid Muslun:** is a PhD student in the lab, having completed his MSc at the University of Guelph studying functional consequences of ribosome heterogeneity. He is eager to explore if and how variation in ribosome composition can contribute to adaptive evolution in a variety of different contexts. Currently learning the joys of *Drosophila* genetics, geometric morphometrics and some bioinformatics.
 
 **Gabriella Sidhu** is a PhD student in the lab, having done her MSc at the University of Western Ontario using RNAseq to probe how [transcription factor can have compensatory impacts](https://doi.org/10.1093/g3journal/jkaf215) in *Drosophila*. Gabriella is interested in the developmental and genomic consequences of natural variation in cell size, and how it may influence mutational robustness for wing morphology in *Drosophila melanogaster*.
 
 **Brett Van Bakel** is a MSc student examining the influence of natural genetic variaton in cell size on mutational robustness (to randomly induced mutations). 
 
 
-### Current Undergraduate students (independent projects)
+### Current Undergraduate students (independent projects) - 2026/2027
 
-**Nour Zaghloul** Nour has been involved with several projects in the lab! Organism-wide perturbation of the *grain* gene in *Drosophila melanogaster*, and its impacts on viability and leg development. Currently Nour is examining how variation in diet composition influences body size and sexual dimorphism in lineages of *Drosophila melanogaster* selected for increasing and decreasing body size (the Stewart lineages).
-
-**Arie Mizrahi** Arie is functionally validating the effects of gene perturbations (via RNAi) for candidate genes identified by QTL mapping from lineages of *Drosophila melanogaster* artificially selected for increasing and decreasing body size (Stewart Lineages). He is specifically examining tissue specific (developing tissues that develop into fly adult wings) perturbations and will be examining wing size, shape and cell size of these candidate genes.
-
-**Richard Yang** Richard is functionally validating the effects of gene perturbations (via RNAi) for candidate genes identified by QTL mapping from lineages of *Drosophila melanogaster* artificially selected for increasing and decreasing body size (Stewart Lineages). Richard is specifically examining organism-wide and fat-body (a source of some hormonal growth signals) perturbations of the candidate genes, examining overall body size.
-
-**John Yeom** Is conducting a quantitative genetic analysis using the long-term lineages of *Drosophila melanogaster* artificial selection for size (Stewart Lineages) to test some evolutionary theory regarding the evolution of dominance and epistasis under persistent directional selection. 
-
-**Maheswary Ketheeswaran** Is conducting a quantitative genetic analysis using strains of *Drosophila melanogaster* derived from adaptively diverged populations (in particular for wing size and cell size), to examine aggregate changes in patterns of dominance and epistasis.
-
-**Arshia Mathur** Functional analysis of perturbations of the *grain* gene in *Drosophila melanogaster* in the developing imaginal discs and its effect on leg morphology.
-
+*More to come soon*
 
 **Sophie Li** examined the influence of macronutrients on mutational sensitivity in naturally derived strains. 
+
+**Chantel Ngan**
+
+**Joanne D'Souza**
+
+**Nicole Olszewski** 
+
+**Julia Novikov**
+
+**Michael Frlan**
+
+**Malika Sinnarajah**
+
 
 ## Lab alumni
 
@@ -68,7 +76,6 @@ bigimg:
 **Amanda Neves:** completed their M.Sc. in December 2022. They used computational genomic approaches to investigate how variation in gene expression during development does (and does not) mediate phenotypic differences. Amanda also used RNAseq from developing wing tissues from *Drosophila*, investigating both natural variation among strains, and mutational effects.
 
 **Dr. Andrew Scott:** was a Ph. D student (jointly supervised by Reuven Dukas and Ian Dworkin) studying the evolution of complex social behaviours including aggregation behaviour. Andrew used a combination of genetics, artificial selection and genomics to identify genes that contribute to variation for these social behaviours.
-
 
 **Audrey Wilson:** Audrey completed her MSc, studying a potential mechanism that may contribute to the early evolution of sexually selected weapons, using experimental evolution in *Drosophila melanogaster*. By manipulating the spatial environment in specific ways, Audrey is determining the degree to which this can contribute to increased one-on-one contests for access to mates, and whether this in turn will increase sexual dimorphism of key traits. Because of the experiments that she did, Audrey's work space looked a lot like a craft store, and spent a considerable amount of time in the dollar store to find just the right materials to be converted to usable scientific "equipment".
 
@@ -103,6 +110,18 @@ Dr. Chris Chandler: Associate Professor, SUNY Oswego.
 Dr. Megan Fritz: Assistant Professor, University of Maryland.
 
 ### Undergraduate researcher alumni
+
+**Nour Zaghloul** Nour has been involved with several projects in the lab! Organism-wide perturbation of the *grain* gene in *Drosophila melanogaster*, and its impacts on viability and leg development. Currently Nour is examining how variation in diet composition influences body size and sexual dimorphism in lineages of *Drosophila melanogaster* selected for increasing and decreasing body size (the Stewart lineages).
+
+**Arie Mizrahi** Arie is functionally validating the effects of gene perturbations (via RNAi) for candidate genes identified by QTL mapping from lineages of *Drosophila melanogaster* artificially selected for increasing and decreasing body size (Stewart Lineages). He is specifically examining tissue specific (developing tissues that develop into fly adult wings) perturbations and will be examining wing size, shape and cell size of these candidate genes.
+
+**Richard Yang** Richard is functionally validating the effects of gene perturbations (via RNAi) for candidate genes identified by QTL mapping from lineages of *Drosophila melanogaster* artificially selected for increasing and decreasing body size (Stewart Lineages). Richard is specifically examining organism-wide and fat-body (a source of some hormonal growth signals) perturbations of the candidate genes, examining overall body size. 
+
+**John Yeom** Is conducting a quantitative genetic analysis using the long-term lineages of *Drosophila melanogaster* artificial selection for size (Stewart Lineages) to test some evolutionary theory regarding the evolution of dominance and epistasis under persistent directional selection. 
+
+**Maheswary Ketheeswaran** Is conducting a quantitative genetic analysis using strains of *Drosophila melanogaster* derived from adaptively diverged populations (in particular for wing size and cell size), to examine aggregate changes in patterns of dominance and epistasis.
+
+**Arshia Mathur** Functional analysis of perturbations of the *grain* gene in *Drosophila melanogaster* in the developing imaginal discs and its effect on leg morphology.
 
 **Victoria Lyn** The contribution of stability in morphogen gradients on variation in wing shape among natural strains of *Drosophila melanogaster*.
 
